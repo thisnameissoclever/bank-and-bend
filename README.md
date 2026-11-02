@@ -12,7 +12,7 @@ cp .env.example .env.local
 pnpm dev
 ```
 
-The public map needs no account. Configure Neon Auth and PostgreSQL for account sync. Use a development database branch and a separate cookie secret locally. Never copy production journals into fixtures or public source.
+The public map needs no account. Configure Supabase Auth and PostgreSQL for account sync. Use an isolated development database locally. Never copy production journals into fixtures or public source.
 
 ```sh
 pnpm test

@@ -28,3 +28,5 @@ ALTER TABLE availability_overrides ENABLE ROW LEVEL SECURITY;
 ALTER TABLE availability_audit ENABLE ROW LEVEL SECURITY;
 ALTER TABLE scoring_settings ENABLE ROW LEVEL SECURITY;
 ALTER TABLE account_links ENABLE ROW LEVEL SECURITY;
+REVOKE ALL ON personal_records, preferences, availability_overrides,
+ availability_audit, scoring_settings, account_links FROM anon, authenticated;

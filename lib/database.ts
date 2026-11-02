@@ -1,4 +1,4 @@
-import {neon} from '@neondatabase/serverless';
+import postgres from 'postgres';
 
 export type DatabaseResult={results:Record<string,unknown>[];meta:{changes:number};success:boolean};
 export interface Statement {
@@ -14,7 +14,7 @@ export interface Database {
 
 /** Run parameterized PostgreSQL statements and preserve transaction boundaries. */
 export function createDatabase(url:string):Database {
- const client=neon(url);
+ const client=postgres(url,{prepare:false,max:5,idle_timeout:20,connect_timeout:10,ssl:'verify-full'});
  class Query implements Statement {
   values:unknown[]=[];
   sql:string;
@@ -22,14 +22,20 @@ export function createDatabase(url:string):Database {
   bind(...values:unknown[]){this.values=values;return this;}
   async first<T>(){const result=await this.all<T>();return result.results[0]??null;}
   async all<T>(){return {results:(await this.run()).results as T[]};}
-  async run(){const result=await client.query(this.sql,this.values,{fullResults:true});return {results:result.rows,meta:{changes:result.rowCount??0},success:true};}
+  async run(){const result=await client.unsafe(this.sql,this.values as never[]);return {results:Array.from(result),meta:{changes:result.count??0},success:true};}
  }
  return {
   prepare(sql){return new Query(sql);},
   async batch(statements){
-   const queries=statements.map(s=>{if(!(s instanceof Query))throw new Error('Statement belongs to another database.');return client.query(s.sql,s.values);});
-   const results=await client.transaction(queries,{fullResults:true});
-   return results.map(result=>({results:result.rows,meta:{changes:result.rowCount??0},success:true}));
+   const queries=statements.map(s=>{if(!(s instanceof Query))throw new Error('Statement belongs to another database.');return s;});
+   return client.begin(async transaction=>{
+    const results:DatabaseResult[]=[];
+    for(const query of queries){
+     const result=await transaction.unsafe(query.sql,query.values as never[]);
+     results.push({results:Array.from(result),meta:{changes:result.count??0},success:true});
+    }
+    return results;
+   });
   },
  };
 }

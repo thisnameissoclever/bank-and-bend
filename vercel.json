@@ -1,5 +1,10 @@
 {
   "regions": [
     "pdx1"
-  ]
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "migrate-supabase": false
+    }
+  }
 }

@@ -13,6 +13,7 @@ import {safeReturnPath} from '../lib/auth/return-path.ts';
 
 async function database(){
  const pg=new PGlite();
+ await pg.exec('CREATE ROLE anon; CREATE ROLE authenticated;');
  await pg.exec(readFileSync(new URL('../db/001-initial.sql',import.meta.url),'utf8'));
  let rejectAudit=false;
  class Query implements Statement {
@@ -84,6 +85,9 @@ test('PostgreSQL availability writes retain audit history and roll back together
 });
 test('new tables deny direct public reads unless the server role is used',async()=>{
  const {pg}=await database();try{
+ const grants=await pg.query<{tablename:string;anon_read:boolean;authenticated_read:boolean}>("SELECT tablename,has_table_privilege('anon','public.'||tablename,'SELECT') AS anon_read,has_table_privilege('authenticated','public.'||tablename,'SELECT') AS authenticated_read FROM pg_tables WHERE schemaname='public'");
+ assert.equal(grants.rows.length,6);
+ assert.ok(grants.rows.every(row=>!row.anon_read&&!row.authenticated_read));
  await pg.exec('CREATE ROLE anonymous');
  await pg.exec('GRANT USAGE ON SCHEMA public TO anonymous; GRANT SELECT ON ALL TABLES IN SCHEMA public TO anonymous;');
  await pg.query('INSERT INTO preferences VALUES($1,$2,$3)',['owner','{}','2026-11-02']);

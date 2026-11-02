@@ -1,6 +1,6 @@
 # Application architecture
 
-Next.js serves the public map and authenticated APIs on Vercel. Neon PostgreSQL stores private journals and preferences, shared scoring settings, availability overrides, and the availability audit trail. Neon Auth verifies account sessions through same-origin Next.js routes. No request header may supply a trusted user identity.
+Next.js serves the public map and authenticated APIs on Vercel. Supabase PostgreSQL stores private journals and preferences, shared scoring settings, availability overrides, and the availability audit trail. Supabase Auth verifies Google sign-in. The same-origin OAuth callback exchanges a single-use code using PKCE; protected APIs call getUser before resolving account ownership. No request header may supply a trusted user identity.
 
 ## Data boundaries
 
@@ -13,11 +13,11 @@ Next.js serves the public map and authenticated APIs on Vercel. Neon PostgreSQL 
 
 ## Environment
 
-`DATABASE_URL` connects the server to PostgreSQL. `NEON_AUTH_BASE_URL` identifies the project's managed authentication endpoint. `NEON_AUTH_COOKIE_SECRET` signs session cache cookies and must have at least 32 characters. `AVAILABILITY_EDITOR_ID` selects the resolved owner identity. `GOOGLE_MAPS_BROWSER_KEY` is a domain-restricted browser API key served at runtime.
+`DATABASE_URL` connects the server to PostgreSQL. `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` are intentionally public client configuration. Never put a secret or service-role key in either variable. Use the transaction pooler with prepared statements disabled and verified TLS for server PostgreSQL connections. `AVAILABILITY_EDITOR_ID` selects the resolved owner identity. `GOOGLE_MAPS_BROWSER_KEY` is a domain-restricted browser API key served at runtime.
 
 Optional private research-redaction values can remove an old name or travel origin from migrated shared records. Do not store those values in source. Historical private data and database connection snippets must never enter the public repository, build output or logs.
 
-Preview deployments use separate Neon branches. Database branches can contain copies of production data, so keep preview protection enabled and restrict project access. Tests use synthetic data in PGlite. Production credentials are unnecessary for CI.
+Preview deployments must use an isolated development database or remain disconnected. Supabase database branching is not included in the Free plan. Do not give every preview production database credentials. Tests use synthetic data in PGlite. Production credentials are unnecessary for CI.
 
 ## Migration and rollback
 
