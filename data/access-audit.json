@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-10-28",
+  "scope": "Individual review of legal parking, continuous land access and a usable fishing bank for every maintained record.",
+  "baselineCommit": "2e48a68eeb593261b51207f158795edebefb72c4",
+  "reviewed": 322,
+  "statusCounts": {
+    "supported": 274,
+    "unresolved": 35,
+    "blocked": 13
+  },
+  "coordinateChanges": {
+    "total": 385,
+    "corrected": 229,
+    "withheld": 153,
+    "newlySupported": 3
+  },
+  "regionCounts": {
+    "wa-clark": 59,
+    "wa-north": 53,
+    "wa-east": 32,
+    "or-west": 71,
+    "or-south": 70,
+    "or-east": 37
+  },
+  "method": "Manager sources and public land or access maps were checked against individually inspected aerial imagery. ArcGIS coordinates use actual returned extents. A public facility point alone cannot establish access to an adjoining bank.",
+  "limitations": "Evidence supports the mapped legal route under stated access conditions. Tree cover, changing water levels, active works and conflicting access records are documented individually. Unsupported precise coordinates are withheld; unresolved or blocked routes remain inactive.",
+  "reports": [
+    "docs/research/2026-10-28-access-wa-clark.md",
+    "docs/research/2026-10-28-access-wa-north.md",
+    "docs/research/2026-10-28-access-wa-east.md",
+    "docs/research/2026-10-28-access-or-west.md",
+    "docs/research/2026-10-28-access-or-south.md",
+    "docs/research/2026-10-28-access-or-east.md"
+  ],
+  "originalStatusCounts": {
+    "supported": 275,
+    "unresolved": 34,
+    "blocked": 13
+  },
+  "latestCorrectionAt": "2026-11-01",
+  "corrections": [
+    {
+      "checkedAt": "2026-10-30",
+      "spotId": "or-walling-bank",
+      "from": "supported",
+      "to": "unresolved",
+      "reason": "Parking barriers and stopped trout stocking were missed; the earlier agency citation concerned Walter Wirth. Both unsupported coordinate pins are withheld. No new imagery inspection was performed.",
+      "report": "docs/research/2026-10-30-access-review.md"
+    }
+  ],
+  "latestPinReview": {
+    "checkedAt": "2026-11-01",
+    "scope": "Fresh area imagery for all 105 records missing coordinates or requiring an access explanation, plus centered checks of recovered points. Earlier full-route and advisory dates remain separate.",
+    "recordedVisualReviews": 323,
+    "freshAreaReviews": 105,
+    "missingParking": 66,
+    "missingFishing": 81,
+    "allMissingPinsExplained": true,
+    "report": "docs/research/2026-11-01-access-and-score-update.md"
+  }
+}

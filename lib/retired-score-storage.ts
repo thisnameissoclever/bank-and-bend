@@ -1,0 +1,3 @@
+// Idempotent cleanup preserves every active custom weight and filter.
+export const RETIRE_SPECIES_PREFERENCES=`UPDATE preferences SET payload=(CASE WHEN payload::jsonb->>'sort'='score:speciesFit' THEN jsonb_set(payload::jsonb #- '{weights,speciesFit}' #- '{filters,minScores,speciesFit}','{sort}','"overall"') ELSE payload::jsonb #- '{weights,speciesFit}' #- '{filters,minScores,speciesFit}' END)::text WHERE user_id=$1 AND (payload::jsonb #> '{weights,speciesFit}' IS NOT NULL OR payload::jsonb #> '{filters,minScores,speciesFit}' IS NOT NULL OR payload::jsonb->>'sort'='score:speciesFit')`;
+export const RETIRE_SPECIES_WEIGHTS=`UPDATE scoring_settings SET payload=(payload::jsonb - 'speciesFit')::text,revision=revision+1 WHERE id='site' AND payload::jsonb ? 'speciesFit'`;

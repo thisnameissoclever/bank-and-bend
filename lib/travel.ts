@@ -1,0 +1,10 @@
+import {supportedPin} from './model.ts';
+import type {Spot} from './model.ts';
+export type Origin={lat:number;lng:number};
+export type TravelEstimate={minutes:number|null;miles:number|null;approximate:boolean};
+export type RouteTable={code:string;durations:(number|null)[][];distances:(number|null)[][];sources:{distance:number}[];destinations:{distance:number}[]};
+export function destination(spot:Spot){const pin=supportedPin(spot,'parking');return {lat:pin?.lat??spot.lat,lng:pin?.lng??spot.lng,approximate:!pin||/approx|area|entry|entrance/i.test(pin.confidence)};}
+export function directMiles(a:Origin,b:Origin){const rad=Math.PI/180,dlat=(b.lat-a.lat)*rad,dlng=(b.lng-a.lng)*rad;const h=Math.sin(dlat/2)**2+Math.cos(a.lat*rad)*Math.cos(b.lat*rad)*Math.sin(dlng/2)**2;return 3958.7613*2*Math.asin(Math.sqrt(Math.min(1,h)));}
+export function routeUrl(origin:Origin,spots:Spot[]){const coords=[origin,...spots.map(destination)].map(p=>p.lng.toFixed(5)+','+p.lat.toFixed(5)).join(';');return 'https://routing.openstreetmap.de/routed-car/table/v1/driving/'+coords+'?sources=0&destinations='+spots.map((_,i)=>i+1).join(';')+'&annotations=duration,distance';}
+export function readRoutes(table:RouteTable,spots:Spot[]):Record<string,TravelEstimate>{if(table.code!=='Ok'||!table.durations?.[0]||!table.distances?.[0])throw new Error('Road routing returned no estimates.');return Object.fromEntries(spots.map((spot,i)=>{const seconds=table.durations[0][i],meters=table.distances[0][i],sourceSnap=table.sources?.[0]?.distance,destSnap=table.destinations?.[i]?.distance;const usable=typeof seconds==='number'&&Number.isFinite(seconds)&&seconds>=0&&typeof meters==='number'&&Number.isFinite(meters)&&meters>=0&&Number.isFinite(sourceSnap)&&sourceSnap<=2000&&Number.isFinite(destSnap)&&destSnap<=1500;return [spot.id,{minutes:usable?Math.max(1,Math.round(seconds!/60)):null,miles:usable?meters!/1609.344:null,approximate:destination(spot).approximate}]}));}
+export function travelMinutes(spot:Spot,origin:Origin|null,routes:Record<string,TravelEstimate>){return origin?routes[spot.id]?.minutes??null:null;}

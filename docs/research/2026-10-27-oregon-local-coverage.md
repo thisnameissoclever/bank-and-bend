@@ -1,0 +1,60 @@
+# Oregon local access inventory
+
+Reviewed October 27, 2026. Each included access has dated sources, a monthly fishing assessment, separate parking and shore-entry positions, and explicit practical limits in the research corpus.
+
+## Included inventory
+
+| Access | Principal dinner targets | Material limitation |
+| --- | --- | --- |
+| Kelley Point west bank | Salmon, crappie | Lower Willamette no-bass meal advice; entrance canoe parking affected by 2026 work |
+| Cathedral downstream bank | Salmon, crappie | Resident-fish meal limits; bridge and urban noise |
+| Sellwood Riverfront north bank | Salmon, crappie | North of Sellwood advisory boundary; dogs and swimmers share beach |
+| Powers Marine south bank | Smallmouth, salmon, crappie | Broader Willamette mercury advice; long supported walk from Sellwood parking |
+| Cedaroak upstream bank | Smallmouth, salmon, crappie, perch | Resident-fish meal limits; launch operation nearby |
+| Meldrum Bar south bank | Smallmouth, salmon, crappie | Peak salmon lanes busy; resident-fish meal limits |
+| Clackamette Willamette bank | Smallmouth, salmon | Avoid ramp-project fencing; selected bank differs from fast Clackamas mouth |
+| George Rogers beach | Smallmouth, salmon | Compact shared beach; resident-fish meal limits |
+| Haldeman south bank | Trout, crappie | Inactive October 1-April 15; no fresh stocking delivery claimed |
+| Gilbert ramp Channel bank | Smallmouth, salmon, crappie, perch | Short approximate bank adjacent to launch; upper Gilbert closure is separate |
+| Walton Beach | Salmon | Exposed Columbia water; summer beach use; dated regulations |
+| Willow Bar Beach | Salmon | Tree-lined narrow sections; wind and ship wakes |
+| Prescott Beach | Salmon | Peak salmon crowding, tides and wakes |
+| Dibblee Beach | Salmon | Sand-road parking is approximate; firm ground and gate conditions require arrival check |
+| Chinook Landing north beach | Salmon | Launch activity and vessel noise |
+| Rooster Rock Slough | Crappie, perch | Few brush openings; extremely low basin-water notice currently lowers prospects |
+| Lewis and Clark lower Sandy | Salmon | Highway noise and shared access; rain changes water control |
+| Mirror Pond north entry | Crappie, perch | Lower-fit inclusion: dense brush, few casting spots and highway noise |
+| Sturgeon Lake Oak Island bank | Crappie, perch | Inactive October 1-April 15; sturgeon angling prohibited |
+| Willamette Park, West Linn | Crappie, perch | Resident-fish meal limits; distinct from unresolved Portland park |
+
+## Considered and deferred
+
+| Candidate | Outcome and reason | Evidence |
+| --- | --- | --- |
+| Willamette Park, Portland | Deferred conflicting legal-access evidence. Older ODFW inventory lists bank fishing, while current city page lists only four parks allowing ordinary bank fishing and omits this one. | [ODFW inventory](https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland), [current city policy](https://www.portland.gov/parks/fishing-portland-parks) |
+| Tom McCall Waterfront ordinary bank | Deferred the same current-policy conflict. A generic waterfront promenade does not establish permission. | [City policy](https://www.portland.gov/parks/fishing-portland-parks) |
+| Broad Springwater riverbanks | Deferred. Specific Sellwood access is included; city trail proximity does not authorize every adjacent bank. | [City policy](https://www.portland.gov/parks/fishing-portland-parks) |
+| Eastbank Esplanade floating section | City permits designated fishing structure. Deferred for exact public fishing position, usable room and ordinary conflict with trail traffic. This is a potential lower-fit follow-up, not a legal rejection. | [City policy](https://www.portland.gov/parks/fishing-portland-parks) |
+| Duckworth Dock designated south end | City permits designated structure. Deferred exact position and ordinary available fishing room. | [City policy](https://www.portland.gov/parks/fishing-portland-parks) |
+| Cathedral upstream pier | Distinct allowed Willamette fishing structure; not needed to duplicate the researched adjacent park-bank record. Could add if its physical fit differs materially. | [City policy](https://www.portland.gov/parks/fishing-portland-parks) |
+| Scappoose Bay marina bank | Deferred until a legal bank outside operational and leased areas is identified. Manager rules prohibit fishing in moorage, launch ramp, docks and tenant property. ODFW inventory mainly establishes boat access; independent local guidance describes limited muddy banks. | [Manager](https://portofcolumbiacounty.org/1220/Scappoose-Bay-Marine-Park), [rules PDF](https://portofcolumbiacounty.org/DocumentCenter/View/538/Marina-Rules-and-Regulations), [local bank description](https://oregonbass.org/where/) |
+| Mud Lake, Sauvie Island | Valid public crappie-bank candidate, seasonally inactive. Deferred because the old inventory pin and inspected wetland aerial did not resolve a dependable legal parking approach. Do not reject for low fit. | [ODFW inventory](https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland), [seasonal rules](https://www.eregulations.com/oregon/fishing/willamette-zone) |
+| Smith and Bybee Lakes | Valid panfish-bank inventory candidate. Deferred exact reachable shore from current Metro access: the old ODFW map point is near a different Slough access, while summer/fall water can be very low. Columbia Slough meal limits apply. | [Metro manager](https://www.oregonmetro.gov/places/smith-and-bybee-wetlands-natural-area), [ODFW inventory](https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland), [OHA](https://www.oregon.gov/oha/ph/healthyenvironments/recreation/fishconsumption/pages/fishadvisories.aspx) |
+| Sand Island, St. Helens | Excluded for present no-boat access scope; island access requires a vessel or separately arranged boat service. | [Columbia County area inventory](https://wildcolumbia.org/2023/06/30/beaches-of-columbia-county/) |
+| JJ Collins Marine Park, Coon Island | Excluded for boat-dependent island access. | [Columbia County area inventory](https://wildcolumbia.org/2023/06/30/beaches-of-columbia-county/) |
+| Columbia piers | Excluded by user scope. Included Columbia records are beaches or banks. | User requirement |
+| Roehr Park | ODFW identifies public crappie/perch access. Follow up on exact accessible fishing edge, public permission and pins. | [ODFW inventory](https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland) |
+| Swiftshore, Elk Rock and additional West Linn small parks | Not completed in this bounded pass. Verify a legally fishable public edge and actual parking, then include lower-fit records if supported. | Municipal inventories remain follow-up |
+| Rainier Riverfront, Mayger Beach, Jones Beach, Beaver Boat Ramp | Named public-access leads from the county-area inventory. Not researched deeply enough for merge-ready records; retain as follow-up, including possible longer drives. | [Columbia County beaches inventory](https://wildcolumbia.org/2023/06/30/beaches-of-columbia-county/) |
+| Chapman Landing, Columbia View, Grey Cliffs, Dalton Lake | Inventory leads awaiting actual legal bank and accepted-species verification. A river view or boat launch alone is insufficient evidence. | [County-area inventory](https://wildcolumbia.org/2023/06/30/beaches-of-columbia-county/) |
+| Existing Oregon records | Hagg, Vernonia, Trojan, St. Louis, Commonwealth, Blue, Dorman, Bethany, Progress, Faraday, North Fork, Benson, Hartman, Trillium, High Rocks, Riverside, McIver, Dabney, Oxbow, West Salish and Sheridan were checked for duplication and not recreated. | Current `data/spots.json` |
+
+## Evidence and scoring notes
+
+The four explicitly permitted Portland park banks came from [current city permission](https://www.portland.gov/parks/fishing-portland-parks), cross-checked against the [ODFW local inventory](https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland). Broad county and Sauvie inventories were used to retain lower-fit and unresolved candidates rather than present the shortlist as exhaustive. Current [Willamette rules](https://www.eregulations.com/oregon/fishing/willamette-zone) make Sauvie access exceptions important. Columbia beaches and the Gilbert launch remain open year-round, while Haldeman and the researched Oak Island lake bank are closed October 1-April 15. Upper Gilbert also has its own seasonal angling and bait restrictions. Sturgeon Lake prohibits sturgeon angling. This does not prohibit its legal panfish opportunity during open access. The [Lower Willamette advisory](https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/RECREATION/FISHCONSUMPTION/Pages/Lower-Willamette-Fish-Advisory.aspx) excludes bass dinners north of Sellwood Bridge, so those records list salmon and advisory-limited crappie. South-bank Willamette records retain smallmouth but explicitly carry mercury meal limits. [Channel/Bay guidance](https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/RECREATION/FISHCONSUMPTION/Documents/Meal%20recommendations%20for%20resident%20fish%20in%20the%20Channel%20and%20Bay.pdf) is a separate resident-fish table, with statewide bass limits also relevant. These advisories are not blanket claims that all Columbia salmon are unsuitable.
+
+[October 22 Columbia reporting](https://myodfw.com/recreation-report/fishing-report/columbia-zone) supports regional coho season, but most reported catches were from boats and the tiny bank sample does not establish any exact-beach catch rate. Calendar estimates use the established fishery and seasonal pattern. [October retention updates](https://myodfw.com/articles/regulation-updates) are dated separately from the research retrieval and require a November 1 revisit. USGS NAIP imagery was fetched directly from the public `USGSNAIPImagery/ImageServer/exportImage` service at exact Web Mercator bounding boxes. Each record carries its own export URL. Images were visually inspected for the bank, parking and routes; all capture dates remain unknown. Coordinates were converted from inspected image positions. These are layout checks, not field visits or evidence of current gates and waterlines. Supporting local JPGs and coordinate metadata remain in `oregon-imagery/`; no imagery needs to be copied into the public repo. Walton's displayed monitoring sample is September 10, 2026; Willow's latest displayed passing sample is August 26, posted August 27. Retrieval today does not refresh those samples. OHA index and targeted named-water searches found no matching active cyanobacteria notice for the new non-advisory waters. Most exact banks lack recent testing, so their status is `none-found` with an explicit limitation. Physical room, quietness, casting, water control and confidence were scored independently. Stillwater can earn 9-10 for presentation control even where vegetation limits bank quantity. Mirror Pond retains low personal-space and casting scores because its few openings are a physical limitation, not because the recent catch evidence is thin. No travel-fit score is stored, and no generic largemouth claim supports inclusion. Validation completed: 20 unique new IDs, 240 valid monthly values, one primary current class per record, valid pin bounds, all source references resolved, score/reason key agreement, no travel-fit values and no duplicate existing IDs.
+
+## Final retention correction
+
+Rechecked the official 2026 Willamette Zone table and mainstem exception on October 27. The mouth-to-falls reach, including Multnomah Channel, permits hatchery salmon and hatchery steelhead year-round with a combined two-adult daily limit plus five hatchery jack salmon; bait is allowed. The emergency page listed no changed adult limit for this lower-mainstem reach. Nine applicable records now state that rule directly. The West Linn Willamette Park record now correctly describes mainstem river crappie/perch rules, with no daily bag or size limit and bait allowed, instead of referring to lake/pond limits. Source IDs and all monthly profiles remain valid.
