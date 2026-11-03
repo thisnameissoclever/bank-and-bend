@@ -13,7 +13,7 @@ Next.js serves the public map and authenticated APIs on Vercel. Supabase Postgre
 
 ## Environment
 
-`DATABASE_URL` connects the server to PostgreSQL. `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` are intentionally public client configuration. Never put a secret or service-role key in either variable. Use the transaction pooler with prepared statements disabled and verified TLS for server PostgreSQL connections. `AVAILABILITY_EDITOR_ID` selects the resolved owner identity. `GOOGLE_MAPS_BROWSER_KEY` is a domain-restricted browser API key served at runtime.
+`DATABASE_URL` connects the server to PostgreSQL. `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` are intentionally public client configuration. Never put a secret or service-role key in either variable. Use the transaction pooler with prepared statements disabled and verified TLS for server PostgreSQL connections. The public Supabase CA in lib/database-ca.ts is scoped to this client, with certificate-chain and hostname validation enabled. Obtain certificate updates from the project Database Settings page; never disable validation to fix a connection failure. `AVAILABILITY_EDITOR_ID` selects the resolved owner identity. `GOOGLE_MAPS_BROWSER_KEY` is a domain-restricted browser API key served at runtime.
 
 Optional private research-redaction values can remove an old name or travel origin from migrated shared records. Do not store those values in source. Historical private data and database connection snippets must never enter the public repository, build output or logs.
 

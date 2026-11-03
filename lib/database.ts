@@ -1,4 +1,5 @@
 import postgres from 'postgres';
+import {SUPABASE_DATABASE_CA} from './database-ca';
 
 export type DatabaseResult={results:Record<string,unknown>[];meta:{changes:number};success:boolean};
 export interface Statement {
@@ -14,7 +15,7 @@ export interface Database {
 
 /** Run parameterized PostgreSQL statements and preserve transaction boundaries. */
 export function createDatabase(url:string):Database {
- const client=postgres(url,{prepare:false,max:5,idle_timeout:20,connect_timeout:10,ssl:'verify-full'});
+ const client=postgres(url,{prepare:false,max:5,idle_timeout:20,connect_timeout:10,ssl:{ca:SUPABASE_DATABASE_CA,rejectUnauthorized:true}});
  class Query implements Statement {
   values:unknown[]=[];
   sql:string;
