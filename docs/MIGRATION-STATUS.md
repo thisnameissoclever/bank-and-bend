@@ -1,6 +1,6 @@
 # Supabase migration status
 
-Updated 2026-11-02. This branch is preparation, not a completed production cutover.
+Updated 2026-11-03. This branch is preparation, not a completed production cutover.
 
 - A dedicated Bank & Bend Free organization and healthy Oregon project have been created. Automatic RLS is enabled and automatic Data API table grants are disabled.
 - Google is the initial sign-in provider. Apple is deferred. Production site and exact callback URLs are saved in Supabase.
@@ -12,6 +12,14 @@ Updated 2026-11-02. This branch is preparation, not a completed production cutov
 - Automatic deployments are disabled for this preparation branch in vercel.json. Do not enable its preview until it has isolated test data and its own environment configuration. Existing preview variables still belong to the previous provider.
 - Original Sites data remains authoritative. Preserve all records and reconcile new changes before cutover. Do not delete the earlier migration copy until retention and cleanup are explicitly resolved.
 - Keep the existing research schedules on Sites until their authenticated replacement is verified.
+
+## November 3 checkpoint
+
+- GitHub Actions passed for commit 9e6e7ac61d1022dc10cb912e5f9ce1f61f0dbe2e. Draft PR #1 contains the migration.
+- Squarespace sign-in and DNS-management access are verified. The domain currently forwards to the existing Sites app, using four Squarespace A records. Domain Connect and email-security records must be preserved. No DNS changes were made.
+- Supabase dashboard access was restored through the existing GitHub login. The project remains healthy on the Free plan.
+- The public Supabase URL and publishable key are saved in Vercel's Production environment and their metadata was read back. The database connection still points to the previous provider; replace it only for a verified Supabase release. Preview credentials remain unsuitable for this branch.
+- Google Cloud Console still returns Site Unavailable. Google OAuth configuration and a complete signed-in test remain blocked. The Supabase connector also still lacks permission for the new organization.
 
 ## Google setup
 
