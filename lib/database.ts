@@ -1,5 +1,6 @@
 import postgres from 'postgres';
 import {SUPABASE_DATABASE_CA} from './database-ca';
+import {databaseConnectionUrl} from './database-configuration';
 
 export type DatabaseResult={results:Record<string,unknown>[];meta:{changes:number};success:boolean};
 export interface Statement {
@@ -15,7 +16,7 @@ export interface Database {
 
 /** Run parameterized PostgreSQL statements and preserve transaction boundaries. */
 export function createDatabase(url:string):Database {
- const client=postgres(url,{prepare:false,max:5,idle_timeout:20,connect_timeout:10,ssl:{ca:SUPABASE_DATABASE_CA,rejectUnauthorized:true}});
+ const client=postgres(databaseConnectionUrl(url),{prepare:false,max:5,idle_timeout:20,connect_timeout:10,ssl:{ca:SUPABASE_DATABASE_CA,rejectUnauthorized:true}});
  class Query implements Statement {
   values:unknown[]=[];
   sql:string;
@@ -42,7 +43,7 @@ export function createDatabase(url:string):Database {
 }
 let database:Database|undefined;
 export function getDatabase():Database {
- const url=process.env.DATABASE_URL;
+ const url=process.env.SUPABASE_DATABASE_URL;
  if(!url)throw new Error('Database is not configured.');
  return database??=createDatabase(url);
 }

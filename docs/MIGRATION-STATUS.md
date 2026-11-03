@@ -1,30 +1,22 @@
 # Supabase migration status
 
-Updated 2026-11-03. This branch is preparation, not a completed production cutover.
+Updated 2026-11-03. The Vercel migration is deployed for verification. Domain cutover is still pending.
 
-- A dedicated Bank & Bend Free organization and healthy Oregon project have been created. Automatic RLS is enabled and automatic Data API table grants are disabled.
-- Google is the initial sign-in provider. Apple is deferred. Production site and exact callback URLs are saved in Supabase.
-- The application uses Supabase SSR authentication, server-verified user identity, PKCE code exchange, and PostgreSQL transaction pooling. The previous database provider SDKs have been removed from this branch.
-- Google OAuth credentials remain pending because Cloud Console displays Site Unavailable in the cloud browser. Google sign-in is not enabled or verified.
-- The connected Supabase tool is scoped to an older organization and cannot access the new one. Dashboard access works.
-- The initial export has been copied into the new database: 144 audit rows, 87 availability overrides, nine personal records, one preferences record and one scoring-settings record. The transaction verified every column against the export before committing. All six tables have RLS enabled and direct browser roles have no table grants.
-- Owner identity linking, end-to-end login and sync verification, deployment promotion, and domain DNS cutover remain pending. The local runtime could not resolve the database pooler hostname, so the database import used the authenticated dashboard SQL editor. Deployed connection verification remains required.
-- Automatic deployments are disabled for this preparation branch in vercel.json. Do not enable its preview until it has isolated test data and its own environment configuration. Existing preview variables still belong to the previous provider.
-- Original Sites data remains authoritative. Preserve all records and reconcile new changes before cutover. Do not delete the earlier migration copy until retention and cleanup are explicitly resolved.
-- Keep the existing research schedules on Sites until their authenticated replacement is verified.
+- The dedicated Bank & Bend Supabase organization and Oregon project remain on Free. Automatic RLS is enabled and automatic Data API table grants are disabled.
+- Google OAuth is enabled. A live browser round trip created a confirmed Google account and reached the application callback. The verified owner account has been linked to the legacy journal. Apple remains deferred.
+- The application uses Supabase SSR authentication, server-verified identity, PKCE, and PostgreSQL transaction pooling. The former database-provider SDKs have been removed from this branch.
+- All imported fields were verified against the initial export. A November 3 reread of the five Sites tables matched the export exactly: 144 audit rows, 87 availability overrides, nine personal records, one preferences record and one scoring-settings record. The account-link table contains the verified owner mapping. All six tables have RLS and no direct browser-role table grants.
+- The initial production DATABASE_URL was changed to target Supabase. The first live request exposed a missing trusted CA. The public Supabase CA is now configured with certificate and hostname validation intact. The following live request reached PostgreSQL and failed password authentication: the stored migration connection string contains a redacted placeholder. A valid database credential is required before sync can pass. Code now rejects placeholder credentials before connecting.
+- The local runtime cannot resolve the pooler hostname. Database import and the guarded owner link used the authenticated Supabase dashboard. The Supabase connector still lacks access to the new organization.
+- Vercel's production build is ready, but signed-in journal sync and shared-settings reads have not passed. Do not route the custom domain to this deployment yet.
+- The existing Sites app remains authoritative, and bankandbend.com still forwards there. Squarespace DNS management is available. Preserve Domain Connect, email-security records and the current forwarding until cutover checks pass.
+- Automatic deployments are disabled for the migration branch. Preview must remain disconnected or use isolated test data. The application now reads a dedicated SUPABASE_DATABASE_URL secret to avoid sharing the Neon integration-managed variable. That dedicated secret must be populated before the next deploy. Supabase public configuration is production-only; unused old provider variables still require cleanup after successful migration.
+- The draft pull request remains unmerged. Keep research schedules and the existing connector on Sites until replacement authentication is verified. Do not delete earlier migration copies without an explicit retention decision.
 
-## November 3 checkpoint
+## Remaining verification
 
-- GitHub Actions passed for commit 9e6e7ac61d1022dc10cb912e5f9ce1f61f0dbe2e. Draft PR #1 contains the migration.
-- Squarespace sign-in and DNS-management access are verified. The domain currently forwards to the existing Sites app, using four Squarespace A records. Domain Connect and email-security records must be preserved. No DNS changes were made.
-- Supabase dashboard access was restored through the existing GitHub login. The project remains healthy on the Free plan.
-- The public Supabase URL and publishable key are saved in Vercel's Production environment and their metadata was read back. The database connection still points to the previous provider; replace it only for a verified Supabase release. Preview credentials remain unsuitable for this branch.
-- Google Cloud Console still returns Site Unavailable. Google OAuth configuration and a complete signed-in test remain blocked. The Supabase connector also still lacks permission for the new organization.
+Provide the real database password through the hosting settings, redeploy, and verify private journal reads and writes, favorites, filters, custom weights, availability revisions, and account isolation. Complete desktop/mobile checks. Reconcile any newer Sites writes immediately before cutover. Obtain fresh Vercel DNS targets, replace only the forwarding records, and verify both HTTPS hosts plus Google sign-in on the custom domain. Keep the prior service and rollback deployment available.
 
-## Google setup
+## Credential handling
 
-Create a Web application OAuth client in the existing Google Cloud account. Use only openid, email, and profile scopes. Register the exact callback shown in Supabase Authentication > Providers > Google. Store the client secret only in that provider configuration. Configure the application origins and audience; verify a complete round trip before announcing sign-in works.
-
-## Domain cutover
-
-Inspect current Squarespace DNS and obtain fresh Vercel DNS targets. Preserve unrelated records. Change DNS only after the production deployment, account ownership mapping, private data isolation, desktop/mobile behavior, and rollback path have passed verification.
+The Google client secret belongs only in Supabase's Google provider configuration. The database password belongs only in the server SUPABASE_DATABASE_URL secret. Do not commit either to GitHub or put private data in logs. Reject redacted or placeholder values as incomplete configuration. Certificate-verification failures must be fixed with the provider CA, never by disabling verification.

@@ -24,7 +24,7 @@ Tests use an isolated PostgreSQL runtime and do not require production credentia
 
 ## Deployment
 
-Vercel deploys the `main` branch. Set server environment variables from `.env.example` in Vercel. Run `node scripts/migrate.mjs` against the target database before serving authenticated requests. Schema changes are additive and must preserve records and revisions.
+Vercel deploys the `main` branch. Set server environment variables from `.env.example` in Vercel. Run `node --experimental-strip-types scripts/migrate.mjs` against the target database before serving authenticated requests. Schema changes are additive and must preserve records and revisions.
 
 Google Maps loads in the browser. Its browser key is supplied at runtime by `/api/maps-config`, so it is visible to visitors using the map. Restrict it in Google Cloud to the permitted web origins and Maps JavaScript API. Keep the value out of this repository.
 
