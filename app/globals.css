@@ -118,3 +118,46 @@ input::placeholder,textarea::placeholder{color:#8da497;opacity:1}
 .google-provider-error{bottom:90px}
 
 .location-settings-actions{display:flex;flex-wrap:wrap;gap:8px}
+
+/* Stocking keeps the established scroll, resizing and mobile panel behavior. */
+.stocking-view .sidebar-heading{padding-bottom:18px}
+.stocking-controls{display:flex;flex-wrap:wrap;gap:8px;margin:0 22px 12px;align-items:start}
+.stocking-controls>label,.stocking-choice{flex:1 1 130px;font-size:12px}
+.stocking-controls>label{display:flex;align-items:center;gap:6px;white-space:nowrap;background:#17251f;border:1px solid var(--line);border-radius:7px;padding:8px 10px}
+.stocking-controls select{min-width:0;width:100%;background:transparent;border:0;font-size:12px;color:var(--ink)}
+.stocking-choice summary{cursor:pointer;border:1px solid var(--line);background:#17251f;border-radius:7px;padding:10px;text-transform:capitalize}
+.stocking-choice[open]{flex-basis:100%}
+.stocking-choice fieldset{margin:5px 0 0;padding:10px;display:flex;flex-wrap:wrap;gap:10px;border:1px solid var(--line);border-radius:7px}
+.stocking-choice legend{font-size:11px;color:var(--muted)}
+.stocking-choice label{display:flex;align-items:center;gap:5px;text-transform:capitalize;cursor:pointer}
+.stocking-choice input,.stocking-open-only input{accent-color:var(--green)}
+.stocking-choice fieldset>button{color:var(--accent);text-decoration:underline}
+.stocking-open-only{margin:0 22px 12px;display:flex;align-items:center;gap:7px;font-size:12px;cursor:pointer}
+.stocking-view .share-filter-row{padding-top:0;padding-bottom:14px}
+.stocking-view .results-toolbar select{max-width:180px}
+.stocking-card .card-main h2{font-size:16px;line-height:1.3;margin:0 25px 5px 0}
+.stocking-card .card-open{padding-bottom:4px}
+.stocking-card-body{padding-left:52px;margin-top:12px}
+.stocking-recency{display:flex;align-items:center;flex-wrap:wrap;gap:7px;font-size:12px}
+.stocking-recency>b{font-size:15px;color:var(--ink)}
+.stocking-recency time{color:var(--muted);font-size:11px}
+.delivery-confirmed{display:inline-flex;align-items:center;gap:4px;color:#a9d49a;font-size:11px}
+.stocking-delivery{display:flex;flex-direction:column;gap:4px;margin:7px 0}
+.stocking-delivery strong{font-size:17px;color:#aed29d;line-height:1.35}
+.stocking-delivery span,.stocking-card-body>small{font-size:12px;color:var(--muted);line-height:1.5}
+.stocking-travel{display:block;margin-top:8px}
+.stocking-plan{margin-top:10px;color:#e0be81;font-size:12px;line-height:1.5}
+.stocking-plan b{display:flex;gap:5px;align-items:baseline}.stocking-plan svg{flex-shrink:0}
+.stocking-plan span{display:block;font-size:11px;color:var(--muted);margin-top:3px}
+.stocking-card-actions{display:flex;gap:15px;padding:6px 0 14px 52px;font-size:12px}
+.stocking-card-actions button{display:flex;gap:5px;align-items:center;color:var(--ink);padding:5px 0}
+.stocking-card-actions button:hover{text-decoration:underline;color:var(--accent)}
+.fit-marker.has-stocking{overflow:visible!important}
+.fit-marker.has-stocking>.stocking-flag{position:absolute;left:35px;top:9px;min-width:32px;height:24px;padding:3px 9px 3px 11px;box-sizing:border-box;border-radius:0 16px 16px 0;background:#d0e8b5;color:#152718;font-size:12px;font-weight:800;line-height:18px;white-space:nowrap;z-index:-1;box-shadow:0 1px 4px #0005}
+.fit-marker.has-stocking>span{position:relative;z-index:1}
+.stocking-legend-example{display:flex;align-items:center;margin:10px 0;color:#12281d;font-size:12px}
+.stocking-legend-example>b{background:#96af4b;border-radius:50%;padding:7px 5px;z-index:1}
+.stocking-legend-example>span{background:#d0e8b5;border-radius:0 12px 12px 0;padding:3px 6px;margin-left:-2px;font-weight:700}
+.stocking-legend-example>small{margin-left:8px!important;color:var(--muted);max-width:90px;font-size:10px;line-height:1.5}
+@media(min-width:1000px){.stocking-view .topbar{gap:14px}.stocking-view .brand{min-width:235px}.stocking-view .nav-item{padding:10px 12px}.stocking-view .header-right{gap:10px}}
+@media(max-width:760px){.topbar nav .nav-item{min-width:36px;padding:9px}.stocking-view .stocking-controls{margin-inline:18px}.stocking-card-body{padding-left:48px}.stocking-card-actions{padding-left:48px}.detail-tabs{overflow-x:auto;flex-shrink:0}.stocking-view .map-legend{display:none}}

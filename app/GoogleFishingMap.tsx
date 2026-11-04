@@ -4,6 +4,7 @@ import {useEffect,useRef,useState} from 'react';
 import type {FishingMapProps} from './FishingMap';
 import {REGION_CENTER,overall,color,scoreInk,recordFor,availabilityFor,supportedPin,formatScore} from '../lib/model';
 import {MAP_STATE_KEY,readMapState,mergeMapState,shouldCenterSelection,type MapState} from '../lib/map-state';
+import {stockingFlag,stockingSummary,stockingRecency} from '../lib/stocking-view';
 import {loadGoogleMaps} from '../lib/google-maps-loader';
 
 type Pin={element:HTMLButtonElement;setPosition:(point:google.maps.LatLngLiteral)=>void;setMap:(map:google.maps.Map|null)=>void};
@@ -27,7 +28,7 @@ function createPin(map:google.maps.Map,point:google.maps.LatLngLiteral,className
 }
 const latLng=([lat,lng]:[number,number])=>({lat,lng});
 export default function GoogleFishingMap(props:FishingMapProps&{browserKey:string;onError:(message:string)=>void}){
- const {origin,spots,selected,onSelect,layer,action,journal,weights,browserKey,onError}=props;
+ const {origin,spots,selected,onSelect,layer,action,journal,weights,browserKey,onError,stocking,stockingDay}=props;
  const el=useRef<HTMLDivElement>(null),map=useRef<google.maps.Map|null>(null);
  const markers=useRef(new Map<string,Pin>()),pins=useRef<Pin[]>([]),location=useRef<Pin|null>(null),accuracy=useRef<google.maps.Circle|null>(null);
  const callback=useRef(onSelect),latest=useRef(props),saved=useRef<MapState>({}),lastSelection=useRef<string|null|undefined>(undefined),positioned=useRef(false);
@@ -63,17 +64,18 @@ export default function GoogleFishingMap(props:FishingMapProps&{browserKey:strin
   const ids=new Set(spots.map(s=>s.id));for(const [id,p]of markers.current)if(!ids.has(id)){p.setMap(null);markers.current.delete(id)}
   for(const s of spots){
    const score=overall(s,weights),visited=recordFor(s,journal).visited;
-   const name=`${s.name}${availabilityFor(s).active?'':' (inactive)'}, fit ${formatScore(score)} out of 10`;
+   const name=`${s.name}${availabilityFor(s).active?'':' (inactive)'}, fit ${formatScore(score)} out of 10${stocking&&stockingDay?", "+stockingRecency(stockingSummary(s.stocking,stocking,stockingDay).days):""}`;
    let pin=markers.current.get(s.id);
    if(!pin){pin=createPin(m,{lat:s.lat,lng:s.lng},'fit-marker',name,()=>callback.current(s.id));markers.current.set(s.id,pin)}
    else pin.setPosition({lat:s.lat,lng:s.lng});
    const button=pin.element;button.title=name;button.setAttribute('aria-label',name);button.setAttribute('aria-pressed',String(s.id===selected?.id));
-   button.className='google-pin fit-marker'+(s.id===selected?.id?' is-selected':'')+(!availabilityFor(s).active?' inactive-marker':'');
+   button.className='google-pin fit-marker'+(stocking?' has-stocking':'')+(s.id===selected?.id?' is-selected':'')+(!availabilityFor(s).active?' inactive-marker':'');
    button.style.zIndex=s.id===selected?.id?'1000':'1';
    const badge=document.createElement('span');badge.style.setProperty('--score',color(score));badge.style.color=scoreInk(score);badge.textContent=formatScore(score);
    if(visited){const tick=document.createElement('i');tick.textContent='✓';badge.appendChild(tick)}button.replaceChildren(badge);
+   if(stocking&&stockingDay){const flag=document.createElement('b');flag.className='stocking-flag';flag.textContent=stockingFlag(s.stocking,stocking,stockingDay);button.appendChild(flag)}
   }
- },[ready,spots,selected?.id,journal,weights]);
+ },[ready,spots,selected?.id,journal,weights,stocking,stockingDay]);
  useEffect(()=>{
   const m=map.current;if(!ready||!m)return;
   pins.current.forEach(p=>p.setMap(null));pins.current=[];

@@ -6,7 +6,7 @@ export function readMapState(raw:string|null):MapState{
   const v=JSON.parse(raw||'{}'),state:MapState={};if(!v||typeof v!=='object')return state;
   if(Array.isArray(v.center)&&v.center.length===2&&v.center.every((n:unknown)=>typeof n==='number'&&Number.isFinite(n))&&Math.abs(v.center[0])<=85&&Math.abs(v.center[1])<=180&&typeof v.zoom==='number'&&Number.isFinite(v.zoom)&&v.zoom>=6&&v.zoom<=30){state.center=v.center;state.zoom=v.zoom;}
   if(v.spotId===null||typeof v.spotId==='string'&&/^[a-z0-9-]{1,150}$/.test(v.spotId))state.spotId=v.spotId;
-  if(['overview','scores','journal','sources'].includes(v.tab))state.tab=v.tab;
+  if(['overview','stocking','scores','journal','sources'].includes(v.tab))state.tab=v.tab;
   if(typeof v.detailHidden==='boolean')state.detailHidden=v.detailHidden;
   return state;
  }catch{return {};}
