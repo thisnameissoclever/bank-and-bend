@@ -161,3 +161,24 @@ input::placeholder,textarea::placeholder{color:#8da497;opacity:1}
 .stocking-legend-example>small{margin-left:8px!important;color:var(--muted);max-width:90px;font-size:10px;line-height:1.5}
 @media(min-width:1000px){.stocking-view .topbar{gap:14px}.stocking-view .brand{min-width:235px}.stocking-view .nav-item{padding:10px 12px}.stocking-view .header-right{gap:10px}}
 @media(max-width:760px){.topbar nav .nav-item{min-width:36px;padding:9px}.stocking-view .stocking-controls{margin-inline:18px}.stocking-card-body{padding-left:48px}.stocking-card-actions{padding-left:48px}.detail-tabs{overflow-x:auto;flex-shrink:0}.stocking-view .map-legend{display:none}}
+/* Keep stocking results close to the controls, including on narrow panels. */
+.stocking-view .sidebar-heading{padding:20px 22px 14px}
+.stocking-view .filter-row{display:flex;flex-wrap:nowrap;gap:6px;margin:10px 22px}
+.stocking-view .filter-row .filter-button{padding:8px;min-height:36px}
+.stocking-view .drive-chip{padding:6px;min-width:0;font-size:10px;flex:1}
+.stocking-view .clear-filters-button{width:auto;min-height:36px;padding:5px;font-size:10px;white-space:nowrap;flex:0 0 auto;border:none;background:none}
+.stocking-view .clear-filters-button svg{display:none}
+.stocking-view .state-row{padding:0 22px 10px;min-height:32px}
+.stocking-view .share-filter-row{padding:0;margin:0 22px 8px;min-height:24px;height:auto}
+.stocking-view .share-filter-row small{display:none}
+.stocking-view .results-toolbar{height:40px;min-height:40px;padding:0 22px}
+.stocking-view .stocking-controls{gap:6px;margin-bottom:8px}
+.stocking-view .stocking-open-only{margin-bottom:8px}
+.stocking-card .card-open{padding:14px 12px 8px}
+.stocking-card .stocking-card-body{line-height:1.4;gap:6px}
+.stocking-card .stocking-card-body>small{font-size:11px;line-height:1.45}
+.stocking-card .stocking-plan{gap:3px;padding-top:6px;margin-top:2px}
+.stocking-card .stocking-plan span{font-size:10px}
+.stocking-card .stocking-card-actions{padding-bottom:12px}
+.stocking-view .results-toolbar select{max-width:180px;font-size:11px}
+@media(max-width:760px){.stocking-view .sidebar-heading{padding-top:14px}.stocking-view .filter-row,.stocking-view .share-filter-row{margin-left:18px;margin-right:18px}.stocking-view .state-row{padding-left:18px;padding-right:18px}}
