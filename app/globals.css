@@ -182,3 +182,5 @@ input::placeholder,textarea::placeholder{color:#8da497;opacity:1}
 .stocking-card .stocking-card-actions{padding-bottom:12px}
 .stocking-view .results-toolbar select{max-width:180px;font-size:11px}
 @media(max-width:760px){.stocking-view .sidebar-heading{padding-top:14px}.stocking-view .filter-row,.stocking-view .share-filter-row{margin-left:18px;margin-right:18px}.stocking-view .state-row{padding-left:18px;padding-right:18px}}
+.account-compact{display:none}
+@media(max-width:760px){.account-full{display:none}.account-compact{display:inline}.topbar .account-link{white-space:nowrap;font-size:10px}.topbar{gap:6px}.topbar nav{gap:0}.topbar nav .nav-item{min-width:32px;width:32px}}
