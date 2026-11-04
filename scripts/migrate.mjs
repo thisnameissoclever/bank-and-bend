@@ -1,7 +1,9 @@
 import {readFile} from 'node:fs/promises';
-import {neon} from '@neondatabase/serverless';
-if(!process.env.DATABASE_URL)throw new Error('DATABASE_URL is required for migrations.');
-const sql=neon(process.env.DATABASE_URL);
+import postgres from 'postgres';
+import {SUPABASE_DATABASE_CA} from '../lib/database-ca.ts';
+import {databaseConnectionUrl} from '../lib/database-configuration.ts';
+const url=databaseConnectionUrl(process.env.SUPABASE_DATABASE_URL);
+const sql=postgres(url,{prepare:false,max:1,ssl:{ca:SUPABASE_DATABASE_CA,rejectUnauthorized:true}});
 const source=await readFile(new URL('../db/001-initial.sql',import.meta.url),'utf8');
-await sql.transaction(source.split(';').map(s=>s.trim()).filter(Boolean).map(s=>sql.query(s)));
+try{await sql.begin(async tx=>{await tx.unsafe(source).simple();});}finally{await sql.end();}
 console.log('Database schema is ready.');
