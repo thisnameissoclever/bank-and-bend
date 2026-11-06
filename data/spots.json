@@ -1727,6 +1727,30 @@
         "checkedAt": "2026-11-05",
         "kind": "agency",
         "supports": "Upcoming monthly allocations are plans and may change. Exact delivery dates are not published. 2,000 jumbos are allocated across May and November; the November share is unspecified."
+      },
+      {
+        "id": "wallace-pond-toledo-conditions-20261106-40",
+        "title": "South County Pond lake-specific toxin records",
+        "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=91",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "supports": "November 6 direct retrieval still ends July 20, 2010: anatoxin-a 0.060 and microcystin 0.211 micrograms/L. These historical samples do not establish current clearance."
+      },
+      {
+        "id": "wallace-pond-toledo-conditions-20261106-41",
+        "title": "Lewis County park listing",
+        "url": "https://lewiscountywa.gov/departments/parks-recreation/parks-venues/",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "supports": "November 6 park listing describes year-round South County Regional Park access, fishing piers and paved trail. No pond-specific algae closure appears."
+      },
+      {
+        "id": "wallace-pond-toledo-conditions-20261106-42",
+        "title": "Lewis County health notices",
+        "url": "https://lewiscountywa.gov/departments/public-health/news/",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "supports": "November 6 retrieval of the visible health-news index found no current South County/Wallace Pond advisory. This is a notice-search result, not a no-advisory determination."
       }
     ],
     "parking": {
@@ -1802,7 +1826,8 @@
       "2026-11-01: Reviewed current stocking records and plans for Wallace Pond / South Lewis County Park Pond. Latest recorded delivery: 2026-05-28, 1,080 rainbow (2.7 fish per pound, approximately 0.37 lb each; legals). The 2026 annual plan includes an upcoming stocking window; delivery remains unconfirmed. Stocking does not clear an algae advisory or establish current public access. Current seasonal scores and override expiries are unchanged because this review found no new delivered keeper-size fish that changes the existing assessment. See stocking source links and docs/research/2026-11-01-stocking.md.",
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
-      "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance."
+      "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
+      "2026-11-06: Rechecked lake-specific state results, county park listing and health notices. Latest published pond sample remains July 20, 2010. No current named advisory was found, and no clearance or fresh test is claimed."
     ],
     "generalAreaName": "Wallace Pond",
     "seasonalCheckedAt": "2026-10-26",
@@ -1835,14 +1860,13 @@
       "status": "none-found",
       "summary": "No current pond-specific algae advisory or closure was found in Lewis County health news or the park listing. The county still lists South County Regional Park as open year-round.",
       "limitation": "The lake-specific state record still ends July 20, 2010. Current toxin levels and notices posted only at the pond remain unknown.",
-      "checkedAt": "2026-11-05",
-      "nextReviewAt": "2026-11-12",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-11-13",
       "nextReviewAction": "Recheck the pond-specific state results and Lewis County health and park notices, including newer Ecology preliminary-result bulletins. Do not substitute another Wallace Pond or the Lewis County-wide sample date.",
       "sourceIds": [
-        "wallace-toxin-query-20261031",
-        "wallace-county-park-20261031",
-        "lewis-health-news-20261031",
-        "toledo-manager-scope-20261031"
+        "wallace-pond-toledo-conditions-20261106-40",
+        "wallace-pond-toledo-conditions-20261106-41",
+        "wallace-pond-toledo-conditions-20261106-42"
       ],
       "lastSampleDate": "2010-07-20"
     },
@@ -6594,6 +6618,22 @@
         "checkedAt": "2026-11-05",
         "kind": "agency",
         "supports": "Upcoming monthly allocations are plans and may change. Exact delivery dates are not published. The annual plan allocates 2,100 jumbos to November-December. 30,800 catchables are allocated across January-May and November-December; the remaining share is unspecified."
+      },
+      {
+        "id": "battle-ground-lake-conditions-20261106-31",
+        "title": "Clark County regional water-advisory record",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Regional_Water_Alerts_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "supports": "November 6 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed."
+      },
+      {
+        "id": "battle-ground-lake-conditions-20261106-32",
+        "title": "Clark County bacteria-advisory record",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Ecoli_Beach_Monitoring_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "supports": "November 6 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed."
       }
     ],
     "parking": {
@@ -6670,7 +6710,8 @@
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route."
+      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
+      "2026-11-06: County regional and E. coli data explicitly continue to report no advisory. September 25 remains the posting date, not a new sample. Water-quality status and fishing scores are unchanged."
     ],
     "generalAreaName": "Battle Ground Lake",
     "seasonalCheckedAt": "2026-10-27",
@@ -6703,13 +6744,12 @@
       "status": "none-reported",
       "summary": "Clark County explicitly reports no current water advisory. Its regional and bacteria records agree; routine E. coli monitoring resumes in May 2027.",
       "limitation": "Routine sampling has ended for the season. September 25 is the posting update date; current water conditions have no fresh sample in these records.",
-      "checkedAt": "2026-11-05",
-      "nextReviewAt": "2026-11-12",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-11-13",
       "nextReviewAction": "Read the county regional and E. coli records and check the park manager for a new restriction. Retain the September 25 posting date unless the source changes.",
       "sourceIds": [
-        "clark-regional-water-20261031",
-        "clark-ecoli-water-20261031",
-        "clark-water-protocol-20261031"
+        "battle-ground-lake-conditions-20261106-31",
+        "battle-ground-lake-conditions-20261106-32"
       ],
       "sourceUpdatedAt": "2026-09-25"
     },
@@ -7885,6 +7925,22 @@
         "checkedAt": "2026-11-01",
         "kind": "agency",
         "supports": "The May 5 table repeats two identical 2,000-fish entries at 2.2 fish per pound. The repetition is preserved in raw evidence, while the display avoids asserting a combined total."
+      },
+      {
+        "id": "klineline-pond-conditions-20261106-30",
+        "title": "Clark County regional water-advisory record",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Regional_Water_Alerts_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "supports": "November 6 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed."
+      },
+      {
+        "id": "klineline-pond-conditions-20261106-31",
+        "title": "Clark County bacteria-advisory record",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Ecoli_Beach_Monitoring_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "supports": "November 6 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed."
       }
     ],
     "parking": {
@@ -7964,7 +8020,8 @@
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route."
+      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
+      "2026-11-06: County regional and E. coli data explicitly continue to report no advisory. September 25 remains the posting date, not a new sample. Water-quality status and fishing scores are unchanged."
     ],
     "generalAreaName": "Klineline Pond",
     "seasonalCheckedAt": "2026-10-27",
@@ -7997,13 +8054,12 @@
       "status": "none-reported",
       "summary": "Clark County explicitly reports no current water advisory. Its regional and bacteria records agree; routine E. coli monitoring resumes in May 2027.",
       "limitation": "Routine sampling has ended for the season. September 25 is the posting update date; current water conditions have no fresh sample in these records.",
-      "checkedAt": "2026-11-05",
-      "nextReviewAt": "2026-11-12",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-11-13",
       "nextReviewAction": "Read the county regional and E. coli records and check the park manager for a new restriction. Retain the September 25 posting date unless the source changes.",
       "sourceIds": [
-        "clark-regional-water-20261031",
-        "clark-ecoli-water-20261031",
-        "clark-water-protocol-20261031"
+        "klineline-pond-conditions-20261106-30",
+        "klineline-pond-conditions-20261106-31"
       ],
       "sourceUpdatedAt": "2026-09-25"
     },
@@ -9010,6 +9066,30 @@
         "checkedAt": "2026-11-05",
         "kind": "agency",
         "supports": "Checked the relevant county plan. No additional November-December allocation is listed for this water. The annual plan excludes high-lake fry and fingerling plants and is not proof that an unlisted fishery has no fish."
+      },
+      {
+        "id": "horsethief-lake-day-use-bank-conditions-20261106-28",
+        "title": "Horsethief Lake toxin records",
+        "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=266",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "supports": "November 6 retrieval still lists September 22 as the latest sample: anatoxin-a below detection and microcystin 0.400 micrograms/L, both below recreational guidance. No advisory-lifting decision is supplied."
+      },
+      {
+        "id": "horsethief-lake-day-use-bank-conditions-20261106-29",
+        "title": "Klickitat County algae monitoring",
+        "url": "https://www.klickitatcounty.gov/840/Algae-Blooms",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "supports": "November 6 review found monitoring information but no dated active Horsethief advisory or formal clearance."
+      },
+      {
+        "id": "horsethief-lake-day-use-bank-conditions-20261106-30",
+        "title": "Columbia Hills park notices",
+        "url": "https://parks.wa.gov/find-parks/state-parks/columbia-hills-historical-state-park",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "supports": "November 6 review retains the November-March lake day-use closure. No new algae clearance was established."
       }
     ],
     "parking": {
@@ -9085,7 +9165,8 @@
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: The park’s lake day-use area and lake fishery are closed November-March. The September toxin results do not override the seasonal closure."
+      "2026-11-05: The park’s lake day-use area and lake fishery are closed November-March. The September toxin results do not override the seasonal closure.",
+      "2026-11-06: Lake-specific toxin table, county monitoring page and park notices rechecked. September 22 remains the newest sample. Seasonal closure remains separate and unchanged; below-guideline samples are not a formal reopening notice."
     ],
     "overallReason": "Spring rainbow stocking and broad usable park banks support good seasonal keeper prospects. Warmwater targets offer additional possibilities during the lake's open season. The day-use peninsula offers multiple separated bank positions. Busy recreation periods and wind can reduce usable choices.",
     "availability": {
@@ -9130,13 +9211,13 @@
       "status": "none-found",
       "summary": "No active algae advisory was found in the current park and Klickitat County notices. Published samples from September 1, 8 and 22 were below recreational guidelines.",
       "limitation": "September 22 remains the latest published sample. Current shoreline conditions and a formal advisory-lifting decision remain unconfirmed. The November 1 seasonal closure still applies.",
-      "checkedAt": "2026-11-05",
-      "nextReviewAt": "2026-11-12",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-11-13",
       "nextReviewAction": "Recheck lake-specific toxin records, Klickitat County health notices and the State Parks alert listing. Preserve the separate November 1 seasonal closure.",
       "sourceIds": [
-        "horsethief-toxins-20261031",
-        "horsethief-manager-20261031",
-        "klickitat-algae-20261031"
+        "horsethief-lake-day-use-bank-conditions-20261106-28",
+        "horsethief-lake-day-use-bank-conditions-20261106-29",
+        "horsethief-lake-day-use-bank-conditions-20261106-30"
       ],
       "lastSampleDate": "2026-09-22"
     },
@@ -29593,6 +29674,15 @@
         "checkedAt": "2026-11-05",
         "kind": "agency",
         "supports": "Checked the relevant county plan. No additional November-December allocation is listed for this water. The annual plan excludes high-lake fry and fingerling plants and is not proof that an unlisted fishery has no fish."
+      },
+      {
+        "id": "stevenson-pros-2024-indexed-20261106",
+        "title": "Stevenson 2024 parks plan, indexed capital-project excerpt",
+        "url": "https://www.ci.stevenson.wa.us/sites/default/files/fileattachments/planning/project/3775/2024_stevensonpros_plan.pdf",
+        "kind": "agency",
+        "checkedAt": "2026-11-06",
+        "publishedAt": "2024",
+        "supports": "Newly considered source: page 74 describes future private-land easements and future Rock Cove/Rock Creek waterfront access. These proposals do not establish current public rights outside the audited county fairgrounds route. Indexed excerpt was available; direct old and new document URLs failed to retrieve."
       }
     ],
     "parking": {
@@ -29664,7 +29754,8 @@
       "2026-11-01: Reviewed current stocking records and plans for Rock Cove. No matching 2026 stocking delivery found in the state records reviewed. No matching Rock Cove release appears in the six-county historical location inventory or 2026 plan. This does not establish that fish are absent or that stocking never occurred. Do not borrow Ashes Lake records. Current seasonal scores and override expiries are unchanged because this review found no new delivered keeper-size fish that changes the existing assessment. See stocking source links and docs/research/2026-11-01-stocking.md.",
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
-      "2026-11-05: Retried Skamania County notice sources and checked additional OHA/state sources. County HTTP 403 prevents resolving the August 27 notice; no clearance or access-status change is inferred."
+      "2026-11-05: Retried Skamania County notice sources and checked additional OHA/state sources. County HTTP 403 prevents resolving the August 27 notice; no clearance or access-status change is inferred.",
+      "2026-11-06: Stevenson still describes public paths along Rock Cove. Newly considered 2024 parks-plan excerpt distinguishes proposed easements from existing access. Retained the county-fairgrounds route; did not extend access into proposed private-land trail segments. The county facility page returned 403, and full plan retrieval failed. No fresh visual or current ground-condition verification is claimed."
     ],
     "overallReason": "A sheltered warmwater cove with county park access and smallmouth records. Its slower water is attractive for ordinary bait and lures, while shoreline plants and fairground events constrain some positions.",
     "availability": {

@@ -1,0 +1,1724 @@
+{
+  "checkedAt": "2026-11-06",
+  "target": "https://bankandbend.com",
+  "baseGlobalRevision": 305,
+  "applied": false,
+  "blocker": "The public availability endpoint reports canEdit=false. The Browser connector requires an originating connected browser context, which this run does not have. No verified owner session is available. The legacy Sites connector was not used.",
+  "applicationInstructions": "Re-read current production revisions, reconcile later changes, revalidate time-sensitive findings, and use the authorized owner endpoint with expectedRevision. Verify every accepted write. These proposals do not change live availability.",
+  "records": [
+    {
+      "spotId": "horsethief-lake-day-use-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The park’s lake day-use area and lake fishery are closed November-March. The September toxin results do not override the seasonal closure.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://parks.wa.gov/find-parks/state-parks/columbia-hills-historical-state-park",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The park’s lake day-use area and lake fishery are closed November-March. The September toxin results do not override the seasonal closure."
+    },
+    {
+      "spotId": "lacamas-lake-heritage-park",
+      "expectedRevision": 6,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Public parking and the established shore approach remain documented. The city’s drawdown notice ties refill to completed repairs and rainfall; it does not establish the present waterline or firm footing within casting reach. No whole-park closure is claimed. The selected fishing position remains paused pending current ground/waterline evidence.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.cityofcamas.us/publicworks/page/lacamas-lake-drawdown-scheduled-sept-21",
+          "https://clark.wa.gov/public-works/trail-and-access-closures-begin-soon-lacamas-regional-park-bridge-replacement-project",
+          "https://clark.wa.gov/sites/all/files/environmental-services/legacy-lands/lacamasheritagetrail.pdf",
+          "https://engagecamas.com/lacamas-lake-management-plan"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Public parking and the established shore approach remain documented. The city’s drawdown notice ties refill to completed repairs and rainfall; it does not establish the present waterline or firm footing within casting reach. No whole-park closure is claimed. The selected fishing position remains paused pending current ground/waterline evidence."
+    },
+    {
+      "spotId": "north-fork-reservoir-lower-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. PGE and the Marine Board list seasonal lower-reservoir access. The trout season ended October 31; this public bank candidate is inactive for the winter.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+          "https://portlandgeneral.com/about/parks-campgrounds/promontory-park",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: PGE and the Marine Board list seasonal lower-reservoir access. The trout season ended October 31; this public bank candidate is inactive for the winter."
+    },
+    {
+      "spotId": "trillium-lake-dam-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": true,
+        "reason": "2026-11-06: Forest Service currently lists the day-use site open. Retain the audited day-use-lot-to-dam path and existing December 2 seasonal deactivation. The removed Still Creek alert URL returned 404, which does not prove that road reopened. Winter road closure changes this into a longer Sno-Park walk.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "inactiveFrom": "2026-12-02",
+        "sourceUrls": [
+          "https://www.fs.usda.gov/r06/mthood/recreation/trillium-lake-day-use",
+          "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.fs.usda.gov/r06/mthood/alerts/still-creek-road-closed-oct-29",
+          "status": 404,
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "previousReason": "2026-10-30: Forest Service lists day use open through December 1, sunrise to sunset. The public day-use lot connects to the dam path. Preserve the December 2 seasonal deactivation; winter road access needs a separate review."
+    },
+    {
+      "spotId": "sandy-dabney-riverfront-bank",
+      "expectedRevision": 0,
+      "availability": {
+        "active": true,
+        "reason": "2026-11-06: Oregon State Parks continues to describe public day use and river fishing. The mapped lot-to-beach path remains the supported approach. Current beach width and footing can change with river flows; no new ground inspection is claimed.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=110",
+          "https://stateparks.oregon.gov/index.cfm?do=main.loadFile&load=_siteFiles/publications//dabney-web.105740.pdf"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "Dabney's public lot and beach paths reach the selected open sand bank. Paid park parking. The beach can shrink during high river flows."
+    },
+    {
+      "spotId": "sandy-oxbow-coho-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Metro still closes the entire park, including the boat launch and equestrian path, for water-system construction. Expected reopening is early 2027.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.oregonmetro.gov/places/oxbow-regional-park",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Metro still closes the entire park, including the boat launch and equestrian path, for water-system construction. Expected reopening is early 2027."
+    },
+    {
+      "spotId": "haldeman-pond-south-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Interior wildlife-area fishing remains seasonally closed. Recheck the applicable unit opening in spring; Eastside land access opens later than other units.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://myodfw.com/sauvie-island-wildlife-area-visitors-guide",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+          "https://www.sauvieisland.org/hunting-fishing",
+          "https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Interior wildlife-area fishing remains seasonally closed. Recheck the applicable unit opening in spring; Eastside land access opens later than other units."
+    },
+    {
+      "spotId": "sturgeon-lake-oak-island-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Interior wildlife-area fishing remains seasonally closed. Recheck the applicable unit opening in spring; Eastside land access opens later than other units.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://myodfw.com/sauvie-island-wildlife-area-visitors-guide",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+          "https://www.sauvieisland.org/hunting-fishing",
+          "https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Interior wildlife-area fishing remains seasonally closed. Recheck the applicable unit opening in spring; Eastside land access opens later than other units."
+    },
+    {
+      "spotId": "washougal-river-sandy-swimming-hole",
+      "expectedRevision": 1,
+      "availability": {
+        "active": true,
+        "reason": "2026-11-06: The city still lists fishing, parking and 8 a.m.-to-dusk hours. Retain the audited small-lot-to-gravel-beach route and lower Washougal fishing rules. No new closure was found; current gravel exposure has not been freshly photographed.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.cityofwashougal.us/Facilities/Facility/Details/Sandy-Swimming-Hole-Park-18",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-10-30: The city continues to list fishing and parking, open 8 a.m. to dusk. The October 28 public lot-to-gravel-beach route remains supported. The lower Washougal season permits hatchery Chinook and coho retention, with night and anti-snagging restrictions applicable today."
+    },
+    {
+      "spotId": "washougal-river-greenway-bridge-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": true,
+        "reason": "2026-11-06: Camas continues to identify the public greenway trail. Retain the audited parking-to-footbridge-to-north-bank route and lower Washougal fishing rules. No new closure was found; the final gravel margin still varies with river level.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.cityofcamas.us/parksrec/page/washougal-river-greenway-trail",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-10-30: The city continues to identify the public greenway trail. The October 28 parking-to-footbridge-to-north-bank route remains supported. The lower Washougal season permits hatchery Chinook and coho retention, with night and anti-snagging restrictions applicable today."
+    },
+    {
+      "spotId": "round-lake-west-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Drawdown and dam-area construction affect this approach. A dry bank position reached on an open public trail has not been established. The former normal-water pin remains removed.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://clark.wa.gov/public-works/lacamas-regional-park",
+          "https://www.cityofcamas.us/publicworks/page/lacamas-lake-drawdown-scheduled-sept-21",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Drawdown and dam-area construction affect this approach. A dry bank position reached on an open public trail has not been established. The former normal-water pin remains removed."
+    },
+    {
+      "spotId": "beacon-rock-moorage-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The current park page still says fishing for the listed species is prohibited below Bonneville. The current fishing code provides an open hatchery-coho season in this reach. This official conflict remains unresolved, so the access stays paused.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://parks.wa.gov/find-parks/state-parks/beacon-rock-state-park",
+          "https://app.leg.wa.gov/wac/default.aspx?cite=220-312-060",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules/lower-columbia-river-salmon-and-steelhead-fishery-update-2026-09-0",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The current park page still says fishing for the listed species is prohibited below Bonneville. The current fishing code provides an open hatchery-coho season in this reach. This official conflict remains unresolved, so the access stays paused."
+    },
+    {
+      "spotId": "rock-cove-fairgrounds-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": true,
+        "reason": "2026-11-06: Stevenson continues to describe public paths along Rock Cove. The prior county-parcel audit supports the fairgrounds lot-to-lawn-to-cove path. The county facility page still returns 403. The newly considered parks plan discusses future easements elsewhere; it does not extend current access rights.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.ci.stevenson.wa.us/publicworks/page/parks-department",
+          "https://ecode360.com/46464778",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-10-30: The October 28 county-parcel and aerial audit supports the fairgrounds lot, paved approach and dry cove bank. Stevenson continues to describe public paths along Rock Cove. The county facility page returned HTTP 403 today; no new closure was established."
+    },
+    {
+      "spotId": "salmon-creek-felida-greenway-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. County access information supports street parking along NW 36th Avenue and the paved greenway trail. The old position still lacks a demonstrated route through the wooded wetland to a usable creek bank. Navigation remains paused.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://clark.wa.gov/public-works/legacy-lands-properties",
+          "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: County access information supports street parking along NW 36th Avenue and the paved greenway trail. The old position still lacks a demonstrated route through the wooded wetland to a usable creek bank. Navigation remains paused."
+    },
+    {
+      "spotId": "merwin-speelyai-bay-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. PacifiCorp’s November 5 notice keeps the entire park closed to public use. Seawall work closes the picnic shoreline through April 2027; low water also closes the boat launch.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: PacifiCorp’s November 5 notice keeps the entire park closed to public use. Seawall work closes the picnic shoreline through April 2027; low water also closes the boat launch."
+    },
+    {
+      "spotId": "merwin-cresap-bay-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. PacifiCorp lists the park season as ending September 30. The selected day-use parking and bank are inside the seasonal closure.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: PacifiCorp lists the park season as ending September 30. The selected day-use parking and bank are inside the seasonal closure."
+    },
+    {
+      "spotId": "yale-saddle-dam-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The lakeside park closed on Labor Day. The equestrian trailhead remains open year-round, but that does not establish a winter route to this shore.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The lakeside park closed on Labor Day. The equestrian trailhead remains open year-round, but that does not establish a winter route to this shore."
+    },
+    {
+      "spotId": "yale-cougar-park-peninsula-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The park season ended on Labor Day. The separate low-water ramp closure remains posted; the selected park bank is seasonally unavailable.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The park season ended on Labor Day. The separate low-water ramp closure remains posted; the selected park bank is seasonally unavailable."
+    },
+    {
+      "spotId": "yale-beaver-bay-day-use-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Beaver Bay closed September 30. The renovated day-use parking and shore layout still needs precise pin verification before next season.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Beaver Bay closed September 30. The renovated day-use parking and shore layout still needs precise pin verification before next season."
+    },
+    {
+      "spotId": "swift-eagle-cliff-bridge-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Eagle Cliff Park is open year-round, but fishing in this selected bridge-to-Muddy-River reach ended July 15. The November review found no applicable reopening.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Eagle Cliff Park is open year-round, but fishing in this selected bridge-to-Muddy-River reach ended July 15. The November review found no applicable reopening."
+    },
+    {
+      "spotId": "lewis-merwin-hatchery-launch-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The selected North Fork Lewis reach is closed November 1-December 15 under the southwest freshwater rules. Preserve the December 16 reopening review and the supported public lot-to-bank route.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The selected North Fork Lewis reach is closed November 1-December 15 under the southwest freshwater rules. Preserve the December 16 reopening review and the supported public lot-to-bank route."
+    },
+    {
+      "spotId": "swift-power-canal-pier-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The Swift Power Canal fishing season ended October 31. The public platform does not provide a legal November fishing opportunity.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.bestfishinginamerica.com/washington-swift-reservoir-and-swift-power-canal-fishing.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The Swift Power Canal fishing season ended October 31. The public platform does not provide a legal November fishing opportunity."
+    },
+    {
+      "spotId": "lake-river-felida-moorage-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The water-trail guide still identifies a privately owned public-use boat ramp with parking and launch fees. Permission to fish from the bank or moorage docks remains unresolved. Additional marina listings describe boat facilities without resolving shore-fishing permission.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.estuarypartnership.org/locations/launch-point/felida-moorage-boat-ramp-nw-122nd-street",
+          "https://explore.predictwind.com/marinas/united-states/washington/felida-moorage",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The water-trail guide still identifies a privately owned public-use boat ramp with parking and launch fees. Permission to fish from the bank or moorage docks remains unresolved. Additional marina listings describe boat facilities without resolving shore-fishing permission."
+    },
+    {
+      "spotId": "lacamas-leadbetter-launch-bank",
+      "expectedRevision": 4,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Public parking and the established shore approach remain documented. The city’s drawdown notice ties refill to completed repairs and rainfall; it does not establish the present waterline or firm footing within casting reach. No whole-park closure is claimed. The selected fishing position remains paused pending current ground/waterline evidence.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.cityofcamas.us/publicworks/page/lacamas-lake-drawdown-scheduled-sept-21",
+          "https://clark.wa.gov/public-works/trail-and-access-closures-begin-soon-lacamas-regional-park-bridge-replacement-project",
+          "https://clark.wa.gov/sites/all/files/environmental-services/legacy-lands/lacamasheritagetrail.pdf",
+          "https://engagecamas.com/lacamas-lake-management-plan"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Public parking and the established shore approach remain documented. The city’s drawdown notice ties refill to completed repairs and rainfall; it does not establish the present waterline or firm footing within casting reach. No whole-park closure is claimed. The selected fishing position remains paused pending current ground/waterline evidence."
+    },
+    {
+      "spotId": "east-fork-lucia-upstream-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The county park and trail remain established. The fishing code closes the reach from lower Big Eddy markers through 100 feet above Lucia Falls. A dry standable bank beyond that boundary is still unresolved at this entry.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://clark.wa.gov/public-works/lucia-falls-regional-park",
+          "https://clark.wa.gov/public-works/fishing",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The county park and trail remain established. The fishing code closes the reach from lower Big Eddy markers through 100 feet above Lucia Falls. A dry standable bank beyond that boundary is still unresolved at this entry."
+    },
+    {
+      "spotId": "east-fork-moulton-upstream-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The county still provides park parking and trails. The fishing code closes 400 feet above and below Moulton Falls. A lawful dry-bank descent outside that reach remains unresolved for the old steep wooded position.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://clark.wa.gov/public-works/moulton-falls-regional-park",
+          "https://clark.wa.gov/public-works/fishing",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The county still provides park parking and trails. The fishing code closes 400 feet above and below Moulton Falls. A lawful dry-bank descent outside that reach remains unresolved for the old steep wooded position."
+    },
+    {
+      "spotId": "merwin-yale-bridge-stairs-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The earlier guide documents public stairs to a hand-carry landing. Current PacifiCorp information does not resolve a dry casting position clear of paddlers at that landing. Both American Whitewater pages returned HTTP 403 in the prior review. The unsupported fishing pin stays withheld.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-merwin",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The earlier guide documents public stairs to a hand-carry landing. Current PacifiCorp information does not resolve a dry casting position clear of paddlers at that landing. Both American Whitewater pages returned HTTP 403 today. The unsupported fishing pin stays withheld."
+    },
+    {
+      "spotId": "kalama-prichard-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. WDFW provides a riverside hand-launch strip but lists no parking lot. The former parking pin was on private land. A lawful parking place and connected walking route have not been established.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://wdfw.wa.gov/places-to-go/water-access-sites/prichard-421",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_Projects/MajorFishingArea/MapServer/0",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: WDFW provides a riverside hand-launch strip but lists no parking lot. The former parking pin was on private land. A lawful parking place and connected walking route have not been established."
+    },
+    {
+      "spotId": "kalama-red-barn-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. This historical fishing access crosses privately held land. Current public permission to park and reach the bank has not been established.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://hatcherytrackpnw.com/rivers/kalama/",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: This historical fishing access crosses privately held land. Current public permission to park and reach the bank has not been established."
+    },
+    {
+      "spotId": "cowlitz-olequa-crossing-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The former parking and bank route lie on residential property. Agency directions still point there, but no current public easement or other permission has been established.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_Projects/MajorFishingArea/MapServer/0",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The former parking and bank route lie on residential property. Agency directions still point there, but no current public easement or other permission has been established."
+    },
+    {
+      "spotId": "cowlitz-toledo-first-street-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The agency still lists year-round Toledo access and parking, with directions south along First Street. Those directions leave the final dry bank approach unresolved. The separate city boat-ramp entry remains a different access point.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://wdfw.wa.gov/places-to-go/water-access-sites/toledo-324",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_Projects/MajorFishingArea/MapServer/0",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The agency still lists year-round Toledo access and parking, with directions south along First Street. Those directions leave the final dry bank approach unresolved. The separate city boat-ramp entry remains a different access point."
+    },
+    {
+      "spotId": "coal-creek-slough-launch-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. County parking and launch access remain established. Ecology reports the spill contamination concern ended and emergency response ended July 1, while retaining earlier district advice against fishing in the slough and ditch system. Its exact application at this public launch remains unresolved.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.co.cowlitz.wa.us/2277/Coal-Creek-Boat-Launch",
+          "https://www.ecology.wa.gov/spills-cleanup/spills/spill-preparedness-response/responding-to-spill-incidents/spill-incidents/nippon-dynawave-industrial-incident",
+          "https://www.cdid1.org/m/faq",
+          "https://www.estuarypartnership.org/locations/launch-point/coal-creek-boat-launch",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: County parking and launch access remain established. Ecology reports the spill contamination concern ended and emergency response ended July 1, while retaining earlier district advice against fishing in the slough and ditch system. Its exact application at this public launch remains unresolved."
+    },
+    {
+      "spotId": "abernathy-creek-walk-in-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The November 1 creek season has opened for selective artificial-lure fishing. WDFW confirms gate-side parking and walk-in fishing access, but the precise public gate-to-dry-bank navigation remains unlocated under canopy. This access stays paused for that route/pin gap, not for the expired September-October fishing closure.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://wdfw.wa.gov/places-to-go/wildlife-areas/abernathy-creek-wildlife-area-unit",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The November 1 creek season has opened for selective artificial-lure fishing. WDFW confirms gate-side parking and walk-in fishing access, but the precise public gate-to-dry-bank navigation remains unlocated under canopy. This access stays paused for that route/pin gap, not for the expired September-October fishing closure."
+    },
+    {
+      "spotId": "riffe-mossyrock-park-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Tacoma Power has closed the swimming beach used by this bank approach. The park day-use area remains open, but that does not reopen the selected shore route.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.mytpu.org/community-environment-parks/parks-recreation/mossyrock-park/",
+          "https://www.mytpu.org/community-environment-parks/parks-recreation/river-flows-lake-levels/",
+          "https://wdfw.wa.gov/places-to-go/alerts/low-water-levels-may-affect-boat-launch-access-riffe-lake",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Tacoma Power has closed the swimming beach used by this bank approach. The park day-use area remains open, but that does not reopen the selected shore route."
+    },
+    {
+      "spotId": "grays-satterlund-walk-in-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The agency confirms a year-round walk-in site with limited parking. Its direction layer ends at a no-unauthorized-vehicles sign on Satterland Road. The lawful parking position and continuous entrance-to-bank route remain unresolved against the earlier parcel audit.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://wdfw.wa.gov/places-to-go/water-access-sites/satterlund-384",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_Projects/MajorFishingArea/MapServer/0",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The agency confirms a year-round walk-in site with limited parking. Its direction layer ends at a no-unauthorized-vehicles sign on Satterland Road. The lawful parking position and continuous entrance-to-bank route remain unresolved against the earlier parcel audit."
+    },
+    {
+      "spotId": "wind-river-county-launch-bank",
+      "expectedRevision": 5,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. County rules restrict ordinary single-car parking at the launch. A signed legal space and a connected bank position have not been located. The previous fishing pin was on the parking apron.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://ecode360.com/46464778",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.skamaniacounty.gov/departments-offices/public-works/boat-launches",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.skamaniacounty.gov/Home/Components/News/News/1366/256",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: County rules restrict ordinary single-car parking at the launch. A signed legal space and a connected bank position have not been located. The previous fishing pin was on the parking apron. Current follow-up could not retrieve 2 linked sources; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "drano-county-launch-shore",
+      "expectedRevision": 5,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Ordinary single cars cannot use the launch lot without an applicable exception. The identified carpool lots have no established safe walking route to this shore. The hatchery-road bank is a separate listing.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://ecode360.com/46464778",
+          "https://wdfw.wa.gov/places-to-go/alerts/drano-lake-parking-and-access-information",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.skamaniacounty.gov/Home/Components/News/News/2428/15",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.skamaniacounty.gov/departments-offices/public-works/boat-launches",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: Ordinary single cars cannot use the launch lot without an applicable exception. The identified carpool lots have no established safe walking route to this shore. The hatchery-road bank is a separate listing. Current follow-up could not retrieve 2 linked sources; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "bingen-marina-park-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The Port still supports the public Marina Park lot. The selected harbor edge remains vegetation-bound in the October 28 audit, and permitted fishing from the active ramp remains unresolved. The Port also explicitly excludes public access to the eastern natural shore.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.portofklickitat.com/marina-park",
+          "https://www.portofklickitat.com/boat-launch-parks",
+          "https://www.portofklickitat.com/conservation",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The Port still supports the public Marina Park lot. The selected harbor edge remains vegetation-bound in the October 28 audit, and permitted fishing from the active ramp remains unresolved. The Port also explicitly excludes public access to the eastern natural shore."
+    },
+    {
+      "spotId": "white-salmon-northwestern-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Fishing at this upper White Salmon reach ended October 31. Public Northwestern Park access does not extend the fishing season.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Fishing at this upper White Salmon reach ended October 31. Public Northwestern Park access does not extend the fishing season."
+    },
+    {
+      "spotId": "little-white-big-cedars-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The county confirms park parking, trails and river access. Its booking provider, updated October 19, lists a May-September operating season. Lawful off-season day-use parking, gate access and the exact dry bank position remain unresolved.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.roverpass.com/c/big-cedars-campground-willard-wa/",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.skamaniacounty.gov/Home/Components/FacilityDirectory/FacilityDirectory/52/258",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: The county confirms park parking, trails and river access. Its booking provider, updated October 19, lists a May-September operating season. Lawful off-season day-use parking, gate access and the exact dry bank position remain unresolved. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "wind-river-high-bridge-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Fishing in this upper Wind reach requires releasing every fish from September 16 through November 30. The ordinary keeper season returns in May and June.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Fishing in this upper Wind reach requires releasing every fish from September 16 through November 30. The ordinary keeper season returns in May and June."
+    },
+    {
+      "spotId": "little-white-moss-creek-bank",
+      "expectedRevision": 5,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The Forest Service lists Moss Creek Campground temporarily closed. No separate lawful off-season parking and river approach has been established.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.fs.usda.gov/r06/giffordpinchot/recreation/moss-creek-campground",
+          "https://www.recreation.gov/camping/campgrounds/232799",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The Forest Service lists Moss Creek Campground temporarily closed. No separate lawful off-season parking and river approach has been established."
+    },
+    {
+      "spotId": "smith-bybee-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The public canoe-access trail ends above a usually muddy seasonal waterline. A firm dry bank where an angler can stand and cast has not been identified at this access.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.oregonmetro.gov/places/smith-and-bybee-wetlands-natural-area",
+          "https://www.accesstrails.org/overview/smith-bybee/",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The public canoe-access trail ends above a usually muddy seasonal waterline. A firm dry bank where an angler can stand and cast has not been identified at this access."
+    },
+    {
+      "spotId": "slough-airport",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The original lot is gated, and the longer approach from 185th Drive remains unresolved at the trail and dock. Controlled event access at the pumping station does not establish unrestricted parking.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.portland.gov/parks/columbia-slough-natural-area",
+          "https://www.columbiaslough.org/events-list/spring-birding-paddle-1",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The original lot is gated, and the longer approach from 185th Drive remains unresolved at the trail and dock. Controlled event access at the pumping station does not establish unrestricted parking."
+    },
+    {
+      "spotId": "sauvie-little-mcnary",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Interior wildlife-area fishing remains seasonally closed. Recheck the applicable unit opening in spring; Eastside land access opens later than other units.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://myodfw.com/sauvie-island-wildlife-area-visitors-guide",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+          "https://www.sauvieisland.org/hunting-fishing",
+          "https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Interior wildlife-area fishing remains seasonally closed. Recheck the applicable unit opening in spring; Eastside land access opens later than other units."
+    },
+    {
+      "spotId": "sauvie-steelman-west",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Interior wildlife-area fishing remains seasonally closed. Recheck the applicable unit opening in spring; Eastside land access opens later than other units. The receded waterline also leaves the exact casting stance unresolved.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://myodfw.com/sauvie-island-wildlife-area-visitors-guide",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+          "https://www.sauvieisland.org/hunting-fishing",
+          "https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Interior wildlife-area fishing remains seasonally closed. Recheck the applicable unit opening in spring; Eastside land access opens later than other units. The receded waterline also leaves the exact casting stance unresolved."
+    },
+    {
+      "spotId": "nehalem-anderson",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Angling remains closed through November 30 under the Upper Nehalem or Rock Creek exception.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.eregulations.com/oregon/fishing/northwest-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.vernonia-or.gov/departments/parks/"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.americanwhitewater.org/content/River/view/river-detail/3690/main",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: Angling remains closed through November 30 under the Upper Nehalem or Rock Creek exception. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "nehalem-pittsburg",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Live Marine Board inventory still lists no parking. A lawful parking place and continuous land approach remain unresolved, and the Upper Nehalem angling closure continues through November 30.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+          "https://www.columbiacountyor.gov/maps/layer/Boatlaunch",
+          "https://www.eregulations.com/oregon/fishing/northwest-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.oregon.gov/dsl/waterways/pages/public-use.aspx"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.americanwhitewater.org/content/River/view/river-detail/3690/main",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: Live Marine Board inventory still lists no parking. A lawful parking place and continuous land approach remain unresolved, and the Upper Nehalem angling closure continues through November 30. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "nehalem-big-eddy",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Angling remains closed through November 30 under the Upper Nehalem or Rock Creek exception.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.eregulations.com/oregon/fishing/northwest-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.vernonia-or.gov/departments/parks/",
+          "https://www.columbiacountyor.gov/departments/ParksForestsRecreation/big-eddy"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.americanwhitewater.org/content/River/view/river-detail/3690/main",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: Angling remains closed through November 30 under the Upper Nehalem or Rock Creek exception. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "nehalem-nehalem-park",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Angling remains closed through November 30 under the Upper Nehalem or Rock Creek exception. The city also closes Nehalem River Park and Campground December 1-April 1, so the winter fishery opening does not restore this approach.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://www.eregulations.com/oregon/fishing/northwest-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.vernonia-or.gov/departments/parks/"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.americanwhitewater.org/content/River/view/river-detail/3690/main",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: Angling remains closed through November 30 under the Upper Nehalem or Rock Creek exception. The city also closes Nehalem River Park and Campground December 1-April 1, so the winter fishery opening does not restore this approach. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "scaponia-creek-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The creek trout-harvest season ended October 31. The public park is accessible, but this is not a legal November keeper-trout outing.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2027-05-15",
+        "sourceUrls": [
+          "https://www.eregulations.com/oregon/fishing/northwest-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.columbiacountyor.gov/departments/ParksForestsRecreation/scaponia-park",
+          "https://www.oregonhikers.org/field_guide/Scaponia_Park_Trailhead",
+          "https://www.columbiacountyor.gov/park-guidelines-1"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The creek trout-harvest season ended October 31. The public park is accessible, but this is not a legal November keeper-trout outing."
+    },
+    {
+      "spotId": "gales-creek-day-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The live forestry record still closes the campground, trailhead and day-use area for forest operations, with a September 18 modification date. The old pins remain unresolved under canopy.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.oregon.gov/odf/recreation/_api/web/GetList('/odf/recreation/Lists/guides')/items(27)?$select=Title,COVID_x002d_19_x0020_Updates,Modified&$format=json",
+          "https://www.newsinthegrove.com/most-seasonal-state-forest-campgrounds-close-some-camping-stays-open/",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The live forestry record still closes the campground, trailhead and day-use area for forest operations, with a September 18 modification date. The old pins remain unresolved under canopy."
+    },
+    {
+      "spotId": "hornings-hideout-trout",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The operator still closes conventional keeper-trout fishing until May 2027. The separate winter fly-only release fishery does not meet this record's keeper-fishing purpose.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://horningshideout.squarespace.com/fishing",
+          "https://www.horningshideout.com/"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The operator still closes conventional keeper-trout fishing until May 2027. The separate winter fly-only release fishery does not meet this record's keeper-fishing purpose."
+    },
+    {
+      "spotId": "yamhill-wennerberg",
+      "expectedRevision": 1,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Trout fishing remains open for catch-and-release, but trout harvest ended October 31. This North Fork site has no November coho exception. The park remains public; it is inactive for a keeper-focused trip.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2027-05-15",
+        "sourceUrls": [
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.ci.carlton.or.us/parksrec",
+          "https://www.oregon.gov/oha/ph/healthyenvironments/recreation/fishconsumption/pages/fishadvisories.aspx"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Trout fishing remains open for catch-and-release, but trout harvest ended October 31. This North Fork site has no November coho exception. The park remains public; it is inactive for a keeper-focused trip."
+    },
+    {
+      "spotId": "yamhill-joe-dancer",
+      "expectedRevision": 5,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The former launch is fenced and the riverbank is eroded. A usable public descent from Joe Dancer Park to a dry fishing stance has not been identified. The old opposite-bank pin was withdrawn.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.mcminnvilleoregon.gov/parksrec/page/joe-dancer-park",
+          "https://www.oregonhikers.org/field_guide/South_Yamhill_River_Bend",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The former launch is fenced and the riverbank is eroded. A usable public descent from Joe Dancer Park to a dry fishing stance has not been identified. The old opposite-bank pin was withdrawn."
+    },
+    {
+      "spotId": "sauvie-mud-lake-trail-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Interior wildlife-area fishing remains seasonally closed. Recheck the applicable unit opening in spring; Eastside land access opens later than other units. The seasonal mudflat also leaves the exact casting stance unresolved.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://myodfw.com/sauvie-island-wildlife-area-visitors-guide",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+          "https://www.sauvieisland.org/hunting-fishing",
+          "https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Interior wildlife-area fishing remains seasonally closed. Recheck the applicable unit opening in spring; Eastside land access opens later than other units. The seasonal mudflat also leaves the exact casting stance unresolved."
+    },
+    {
+      "spotId": "nehalem-timber-bridge",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The exact public parking and bank limits remain unresolved beside private land. The Upper Nehalem fishery also remains closed through November 30.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.eregulations.com/oregon/fishing/northwest-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.oregon.gov/dsl/waterways/pages/public-use.aspx"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.americanwhitewater.org/content/River/view/river-detail/3648/main",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: The exact public parking and bank limits remain unresolved beside private land. The Upper Nehalem fishery also remains closed through November 30. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "hawkins-rock-creek-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Angling remains closed through November 30 under the Upper Nehalem or Rock Creek exception.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.eregulations.com/oregon/fishing/northwest-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.vernonia-or.gov/departments/parks/"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.americanwhitewater.org/content/River/view/river-detail/3690/main",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: Angling remains closed through November 30 under the Upper Nehalem or Rock Creek exception. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "or-bonnie-bank",
+      "expectedRevision": 4,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. ODFW’s October 1 notice closes lower Eagle Creek through December 31, while the temporary-rule listing describes an October 31 end date and the linked adopted receipt now returns HTTP 404. The contradictory official dates and missing precise creek-bank stance prevent reopening this entry.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.dfw.state.or.us/OARs/rulemaking_temporary.html",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://myodfw.com/news/angling-closed-eagle-creek-oct-2-dec-31",
+          "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=100"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://secure.sos.state.or.us/oard/viewReceipt.action?filingRsn=63629",
+          "status": 404,
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "previousReason": "2026-11-05: ODFW’s October 1 notice closes lower Eagle Creek through December 31, while the temporary-rule listing describes an October 31 end date and the linked adopted receipt now returns HTTP 404. The contradictory official dates and missing precise creek-bank stance prevent reopening this entry."
+    },
+    {
+      "spotId": "or-timber-bank",
+      "expectedRevision": 4,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. PGE confirms shoreline and water access closed October 16-April 30. The park's inland facilities remain open. A correct fishing-bank point still needs to be established.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-12-03",
+        "sourceUrls": [
+          "https://portlandgeneral.com/about/parks-campgrounds/timber-park",
+          "https://portlandgeneral.com/about/parks-campgrounds/promontory-park",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: PGE confirms shoreline and water access closed October 16-April 30. The park's inland facilities remain open. A correct fishing-bank point still needs to be established."
+    },
+    {
+      "spotId": "or-promontory-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. PGE confirms Promontory Park is seasonally closed and North Fork boating access closes by the end of October. The reservoir trout season ended October 31. A public winter approach to the campground-side fishing dock has not been established.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://portlandgeneral.com/about/parks-campgrounds/promontory-park",
+          "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: PGE confirms Promontory Park is seasonally closed and North Fork boating access closes by the end of October. The reservoir trout season ended October 31. A public winter approach to the campground-side fishing dock has not been established."
+    },
+    {
+      "spotId": "or-goods-bank",
+      "expectedRevision": 5,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. ODFW ownership and parking are listed, but the legal parking boundary and continuous public path to the bank have not been identified. The November 2-13 boating closure also brings restoration work and changing flows.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+          "https://www.flashalert.net/news.html?id=4139",
+          "https://www.oregon.gov/dsl/waterways/pages/public-use.aspx",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: ODFW ownership and parking are listed, but the legal parking boundary and continuous public path to the bank have not been identified. The November 2-13 boating closure also brings restoration work and changing flows."
+    },
+    {
+      "spotId": "or-boones-marina-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Public parking and the boat ramp are established. The reviewed shore position overlaps private slips or launch operations, and a usable public casting stance has not been identified. Winter park hours are 6 a.m. to 6 p.m. beginning November 1.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.clackamas.us/parks/boonesferry",
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+          "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.boonesferrylanding.com/marina-map-parking",
+          "status": 503,
+          "error": "HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "previousReason": "2026-11-05: Public parking and the boat ramp are established. The reviewed shore position overlaps private slips or launch operations, and a usable public casting stance has not been identified. Winter park hours are 6 a.m. to 6 p.m. beginning November 1. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "or-westbridge-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The current ODOT project page still carries the week-of-October-26 West Bridge Trail closure and ongoing construction restrictions. It does not give a dated reopening of the continuous route to this bank. The expired calendar window alone does not establish passage.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://westlinnoregon.gov/parksrec/west-bridge-park",
+          "https://www.i205corridor.org/updates",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The current ODOT project page still carries the week-of-October-26 West Bridge Trail closure and ongoing construction restrictions. It does not give a dated reopening of the continuous route to this bank. The expired calendar window alone does not establish passage."
+    },
+    {
+      "spotId": "or-oak-grove-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The Marine Board lists no parking at this narrow public ramp. A legal place to leave the car and a usable casting position at the ramp have not been identified.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+          "https://willamettewatertrail.org/map/oak-grove-boat-ramp/",
+          "https://www.oregon.gov/dsl/waterways/pages/public-use.aspx",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The Marine Board lists no parking at this narrow public ramp. A legal place to leave the car and a usable casting position at the ramp have not been identified."
+    },
+    {
+      "spotId": "or-walling-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Concrete barriers block the former fishing parking entrances. A replacement lawful parking place and continuous permitted route to the selected bank remain unresolved. Informal fishing continues, so this pause concerns the specified access route.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.aol.com/articles/residents-push-save-historic-salem-163841000.html",
+          "https://myodfw.com/articles/easy-angling-willamette-zone",
+          "https://www.loopnet.com/Listing/Lot-200-300-16th-St-Salem-OR/32735626/",
+          "https://www.oregonfishreports.com/fish_reports/221381/odfw-will-no-longer-be-stocking-walling-pond.php",
+          "https://www.bestfishinginamerica.com/or-walter-wirth-lake-walling-pond-fishing-salem-oregon.html"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.cityofsalem.net/Home/Components/Calendar/Event/13938/17?backlist=%2Fhome",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: Concrete barriers block the former fishing parking entrances. A replacement lawful parking place and continuous permitted route to the selected bank remain unresolved. Informal fishing continues, so this pause concerns the specified access route. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "or-sportcraft-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Sportcraft boat launching remains open. A separate usable fishing bank remains unresolved; nearby Jon Storm Dock prohibits fishing and its under-bridge parking is closed for construction.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://orcity.org/Facilities/Facility/Details/Sportcraft-Boat-Ramp-24",
+          "https://orcity.org/Facilities/Facility/Details/Jon-Storm-Dock-15",
+          "https://www.i205corridor.org/updates",
+          "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: Sportcraft boat launching remains open. A separate usable fishing bank remains unresolved; nearby Jon Storm Dock prohibits fishing and its under-bridge parking is closed for construction."
+    },
+    {
+      "spotId": "or-culvert-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The North Fork Reservoir trout season and named ramp season ended October 31. Retain the seasonal closure until the 2027 opening is verified.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2027-05-15",
+        "sourceUrls": [
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The North Fork Reservoir trout season and named ramp season ended October 31. Retain the seasonal closure until the 2027 opening is verified."
+    },
+    {
+      "spotId": "or-elk-rock-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The public Spring Park trail reaches a seasonal land bridge. A currently dry crossing to the island fishing position remains unestablished, so the island candidate stays paused.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://ncprd.org/parks-and-trails/spring-park",
+          "https://www.accesstrails.org/overview/spring-park/",
+          "https://www.clackamaspartnership.org/Project/Detail/17027",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The public Spring Park trail reaches a seasonal land bridge. A currently dry crossing to the island fishing position remains unestablished, so the island candidate stays paused."
+    },
+    {
+      "spotId": "sandy-hatchery-cedar-mouth",
+      "expectedRevision": 4,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The latest dated fence observation found is October 3 at Cedar Creek Park. Current access and the September bear-closure boundary for the documented hatchery trail remain unconfirmed after checking city operational reports, manager guidance, news and trail reports. The old submerged fishing pin and non-stall parking pin remain withdrawn.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://myodfw.com/sandy-hatchery-visitors-guide",
+          "https://www.theguidesforecast.com/free/coho-and-trout-lead-fall-action/286831/",
+          "https://reports.cityofsandy.com/communityservices/",
+          "https://www.onxmaps.com/backcountry/trails/hiking/us/oregon/sandy-river-park-trail-k36n93e2wz9j"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.kxl.com/sandy-river-park-to-remain-closed-after-bear-sighting/",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: The latest dated fence observation found is October 3 at Cedar Creek Park. Current access and the September bear-closure boundary for the documented hatchery trail remain unconfirmed after checking city operational reports, manager guidance, news and trail reports. The old submerged fishing pin and non-stall parking pin remain withdrawn. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "sandy-revenue-bridge-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. Exact lawful parking at Kubitz/Ten Eyck and the dry fishing ledge within the bridge right of way remain unresolved. Do not use roadside private entrances or the withdrawn river pin.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://hatcherytrackpnw.com/rivers/sandy/",
+          "https://www.oregon.gov/dsl/waterways/pages/public-use.aspx",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [
+        {
+          "url": "https://www.americanwhitewater.org/content/River/view/river-detail/point-of-interest/access/qvLBXmsxillBwNyR40swA",
+          "status": 403,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "previousReason": "2026-11-05: Exact lawful parking at Kubitz/Ten Eyck and the dry fishing ledge within the bridge right of way remain unresolved. Do not use roadside private entrances or the withdrawn river pin. Current follow-up could not retrieve 1 linked source; the existing obstacle remains unaddressed."
+    },
+    {
+      "spotId": "clear-lake-hood-day-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The Forest Service marks the campground closed, and the October 28 Marine Board report also closes day use. This parking-to-shore approach remains unavailable.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.fs.usda.gov/r06/mthood/recreation/clear-lake-campground",
+          "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.eregulations.com/oregon/fishing/central-zone"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The Forest Service marks the campground closed, and the October 28 Marine Board report also closes day use. This parking-to-shore approach remains unavailable."
+    },
+    {
+      "spotId": "east-fork-county-yard-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. River access reopened October 15, but the old lower-yard parking was removed during restoration. Current visitor parking and the route from it to the reopened bank have not been located.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.estuarypartnership.org/our-work/habitat-restoration/east-fork-lewis-river-reconnection-project",
+          "https://flashalert.net/id/cc",
+          "https://clark.wa.gov/public-works/daybreak-regional-park",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: River access reopened October 15, but the old lower-yard parking was removed during restoration. Current visitor parking and the route from it to the reopened bank have not been located."
+    },
+    {
+      "spotId": "east-fork-bjur-road",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The documented parking and shuttle arrangement was for a restoration event. Ordinary public parking and a walkable route through the altered channels have not been established.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.estuarypartnership.org/our-work/habitat-restoration/east-fork-lewis-river-reconnection-project",
+          "https://flashalert.net/id/cc",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The documented parking and shuttle arrangement was for a restoration event. Ordinary public parking and a walkable route through the altered channels have not been established."
+    },
+    {
+      "spotId": "east-fork-danger-park",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The restoration partner keeps Danger Park river and greenway access restricted through winter 2027.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "sourceUrls": [
+          "https://www.estuarypartnership.org/our-work/habitat-restoration/east-fork-lewis-river-reconnection-project",
+          "https://flashalert.net/id/cc",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The restoration partner keeps Danger Park river and greenway access restricted through winter 2027."
+    },
+    {
+      "spotId": "east-pond-klineline",
+      "expectedRevision": 0,
+      "availability": {
+        "active": true,
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2026-11-13",
+        "reason": "2026-11-06: Clark County still lists the public park, parking, trails and 7 a.m.-to-dusk hours. Retain the previously mapped under-I-5 approach, second footbridge and south dike. No new closure was found. Main Klineline water monitoring and stocking do not establish East Pond-specific conditions.",
+        "sourceUrls": [
+          "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+          "https://clark.wa.gov/sites/default/files/dept/files/public-works/Parks/Salmon_Creek_Greenway_Trail.pdf",
+          "https://gis.clark.wa.gov/arcgisfed/rest/services/ClarkView_Public/CountyLandsbyOwner/MapServer/0/query?geometry=-122.6516964%2C45.7059878&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=SN%2COwnerName%2CDescription%2CPropertyUse%2CRestrictions%2CPublishDt&returnGeometry=false&f=pjson"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "County park ownership, mapped trail and inspected south-bank access support an open exploratory location. Current-season prospects for preferred species remain unknown. No present park closure was found."
+    },
+    {
+      "spotId": "upper-clackamas-moore-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The public access is open, but the stream-trout season ended October 31 and salmon/steelhead angling above Cazadero Dam is closed year-round. This is a scenic future trout outing, with catch-and-release rules for native trout during the open season. It does not currently meet a keeper-fishing trip.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2027-05-15",
+        "sourceUrls": [
+          "https://portlandgeneral.com/about/parks-campgrounds/clackamas-river-access-sites",
+          "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The public access is open, but the stream-trout season ended October 31 and salmon/steelhead angling above Cazadero Dam is closed year-round. This is a scenic future trout outing, with catch-and-release rules for native trout during the open season. It does not currently meet a keeper-fishing trip."
+    },
+    {
+      "spotId": "upper-clackamas-hole-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The public access is open, but the stream-trout season ended October 31 and salmon/steelhead angling above Cazadero Dam is closed year-round. This is a scenic future trout outing, with catch-and-release rules for native trout during the open season. It does not currently meet a keeper-fishing trip.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2027-05-15",
+        "sourceUrls": [
+          "https://portlandgeneral.com/about/parks-campgrounds/clackamas-river-access-sites",
+          "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The public access is open, but the stream-trout season ended October 31 and salmon/steelhead angling above Cazadero Dam is closed year-round. This is a scenic future trout outing, with catch-and-release rules for native trout during the open season. It does not currently meet a keeper-fishing trip."
+    },
+    {
+      "spotId": "upper-clackamas-sandstone-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-06: No new evidence found that resolves the existing obstacle. The public access is open, but the stream-trout season ended October 31 and salmon/steelhead angling above Cazadero Dam is closed year-round. This is a scenic future trout outing, with catch-and-release rules for native trout during the open season. It does not currently meet a keeper-fishing trip.",
+        "checkedAt": "2026-11-06",
+        "nextReviewAt": "2027-05-15",
+        "sourceUrls": [
+          "https://portlandgeneral.com/about/parks-campgrounds/clackamas-river-access-sites",
+          "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false,
+      "reviewScope": "Current notice/rule comparison and review of the stored parking-to-bank route. Prior imagery dates are retained; no new visual inspection or current on-foot verification is claimed.",
+      "sourceFailures": [],
+      "previousReason": "2026-11-05: The public access is open, but the stream-trout season ended October 31 and salmon/steelhead angling above Cazadero Dam is closed year-round. This is a scenic future trout outing, with catch-and-release rules for native trout during the open season. It does not currently meet a keeper-fishing trip."
+    }
+  ]
+}

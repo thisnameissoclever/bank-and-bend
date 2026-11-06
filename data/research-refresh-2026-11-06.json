@@ -1,0 +1,1829 @@
+{
+  "checkedAt": "2026-11-06",
+  "scope": "Weekly conditions delta review after November 5 full refresh",
+  "selectedSpotIds": [
+    "horsethief-lake-day-use-bank",
+    "lacamas-lake-heritage-park",
+    "north-fork-reservoir-lower-bank",
+    "trillium-lake-dam-bank",
+    "sandy-dabney-riverfront-bank",
+    "sandy-oxbow-coho-bank",
+    "haldeman-pond-south-bank",
+    "sturgeon-lake-oak-island-bank",
+    "washougal-river-sandy-swimming-hole",
+    "washougal-river-greenway-bridge-bank",
+    "round-lake-west-bank",
+    "beacon-rock-moorage-bank",
+    "rock-cove-fairgrounds-bank",
+    "salmon-creek-felida-greenway-bank",
+    "merwin-speelyai-bay-bank",
+    "merwin-cresap-bay-bank",
+    "yale-saddle-dam-bank",
+    "yale-cougar-park-peninsula-bank",
+    "yale-beaver-bay-day-use-bank",
+    "swift-eagle-cliff-bridge-bank",
+    "lewis-merwin-hatchery-launch-bank",
+    "swift-power-canal-pier-bank",
+    "lake-river-felida-moorage-bank",
+    "lacamas-leadbetter-launch-bank",
+    "east-fork-lucia-upstream-bank",
+    "east-fork-moulton-upstream-bank",
+    "merwin-yale-bridge-stairs-bank",
+    "kalama-prichard-bank",
+    "kalama-red-barn-bank",
+    "cowlitz-olequa-crossing-bank",
+    "cowlitz-toledo-first-street-bank",
+    "coal-creek-slough-launch-bank",
+    "abernathy-creek-walk-in-bank",
+    "riffe-mossyrock-park-bank",
+    "grays-satterlund-walk-in-bank",
+    "wind-river-county-launch-bank",
+    "drano-county-launch-shore",
+    "bingen-marina-park-bank",
+    "white-salmon-northwestern-bank",
+    "little-white-big-cedars-bank",
+    "wind-river-high-bridge-bank",
+    "little-white-moss-creek-bank",
+    "smith-bybee-bank",
+    "slough-airport",
+    "sauvie-little-mcnary",
+    "sauvie-steelman-west",
+    "nehalem-anderson",
+    "nehalem-pittsburg",
+    "nehalem-big-eddy",
+    "nehalem-nehalem-park",
+    "scaponia-creek-bank",
+    "gales-creek-day-bank",
+    "hornings-hideout-trout",
+    "yamhill-wennerberg",
+    "yamhill-joe-dancer",
+    "sauvie-mud-lake-trail-bank",
+    "nehalem-timber-bridge",
+    "hawkins-rock-creek-bank",
+    "or-bonnie-bank",
+    "or-timber-bank",
+    "or-promontory-bank",
+    "or-goods-bank",
+    "or-boones-marina-bank",
+    "or-westbridge-bank",
+    "or-oak-grove-bank",
+    "or-walling-bank",
+    "or-sportcraft-bank",
+    "or-culvert-bank",
+    "or-elk-rock-bank",
+    "sandy-hatchery-cedar-mouth",
+    "sandy-revenue-bridge-bank",
+    "clear-lake-hood-day-bank",
+    "east-fork-county-yard-bank",
+    "east-fork-bjur-road",
+    "east-fork-danger-park",
+    "east-pond-klineline",
+    "upper-clackamas-moore-bank",
+    "upper-clackamas-hole-bank",
+    "upper-clackamas-sandstone-bank"
+  ],
+  "sourceFetches": [
+    {
+      "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+      "key": "e15cf7cf829737ef",
+      "retrievedAt": "2026-11-06T16:27:45.240561+00:00",
+      "status": 200,
+      "bytes": 223993
+    },
+    {
+      "url": "https://app.leg.wa.gov/wac/default.aspx?cite=220-312-060",
+      "key": "f5238957d1d6a7a3",
+      "retrievedAt": "2026-11-06T16:27:45.242255+00:00",
+      "status": 200,
+      "bytes": 206402
+    },
+    {
+      "url": "https://assets.ctfassets.net/416ywc1laqmd/206UaCMOMTelzuXbXyoLn6/e94c183f4fca0d4fa059eef45b18efd4/clackamas-river-daily-fish-counts-2026.xlsx",
+      "key": "d127d0ef918eaa53",
+      "retrievedAt": "2026-11-06T16:27:45.242773+00:00",
+      "status": 200,
+      "bytes": 57663
+    },
+    {
+      "url": "https://clark.wa.gov/public-health/advisory-protocol",
+      "key": "fa2a438768a05e6e",
+      "retrievedAt": "2026-11-06T16:27:45.244979+00:00",
+      "status": 200,
+      "bytes": 194108
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/daybreak-regional-park",
+      "key": "bc7c034836d3aadd",
+      "retrievedAt": "2026-11-06T16:27:45.248116+00:00",
+      "status": 200,
+      "bytes": 182171
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/fishing",
+      "key": "b724799dde721ff8",
+      "retrievedAt": "2026-11-06T16:27:45.250972+00:00",
+      "status": 200,
+      "bytes": 178568
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/lacamas-regional-park",
+      "key": "06c7aa8a470917ec",
+      "retrievedAt": "2026-11-06T16:27:45.251630+00:00",
+      "status": 200,
+      "bytes": 183402
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/legacy-lands-properties",
+      "key": "013bf8826e6fb9dd",
+      "retrievedAt": "2026-11-06T16:27:45.257380+00:00",
+      "status": 200,
+      "bytes": 191595
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/lucia-falls-regional-park",
+      "key": "83aee1f6bec260b3",
+      "retrievedAt": "2026-11-06T16:27:45.260524+00:00",
+      "status": 200,
+      "bytes": 180014
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/moulton-falls-regional-park",
+      "key": "ea2ab97c38d410ae",
+      "retrievedAt": "2026-11-06T16:27:45.264583+00:00",
+      "status": 200,
+      "bytes": 181711
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+      "key": "452b8c0d9a62685a",
+      "retrievedAt": "2026-11-06T16:27:45.266531+00:00",
+      "status": 200,
+      "bytes": 195924
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/trail-and-access-closures-begin-soon-lacamas-regional-park-bridge-replacement-project",
+      "key": "8416d283c2152d5b",
+      "retrievedAt": "2026-11-06T16:27:45.267280+00:00",
+      "status": 200,
+      "bytes": 183243
+    },
+    {
+      "url": "https://clark.wa.gov/sites/all/files/environmental-services/legacy-lands/lacamasheritagetrail.pdf",
+      "key": "75f4e065cd53e09d",
+      "retrievedAt": "2026-11-06T16:27:45.268981+00:00",
+      "status": 200,
+      "bytes": 4258555
+    },
+    {
+      "url": "https://clark.wa.gov/sites/default/files/dept/files/public-works/Parks/Salmon_Creek_Greenway_Trail.pdf",
+      "key": "cef599584540c2f0",
+      "retrievedAt": "2026-11-06T16:27:45.269403+00:00",
+      "status": 200,
+      "bytes": 3510791
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=%28county+like+%27Clark%25%27+OR+county+like+%27Cowlitz%25%27+OR+county+like+%27Lewis%25%27+OR+county+like+%27Skamania%25%27+OR+county+like+%27Klickitat%25%27+OR+county+like+%27Thurston%25%27%29&%24select=release_location%2Ccounty%2Cmax%28release_start_date%29+as+latest%2Ccount%28%2A%29+as+records&%24group=release_location%2Ccounty&%24limit=50000",
+      "key": "66ca37df62e59b90",
+      "retrievedAt": "2026-11-06T16:27:50.897342+00:00",
+      "status": 200,
+      "bytes": 35612
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27ASHES+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "2ef2e9df728b603e",
+      "retrievedAt": "2026-11-06T16:27:51.136235+00:00",
+      "status": 200,
+      "bytes": 9818
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27BATTLE+GROUND+LK+%28CLAR%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "1b9b27d4f5a23d09",
+      "retrievedAt": "2026-11-06T16:27:51.139762+00:00",
+      "status": 200,
+      "bytes": 362883
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27CARLISLE+LK+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "97835aaa2f42e77e",
+      "retrievedAt": "2026-11-06T16:27:51.208066+00:00",
+      "status": 200,
+      "bytes": 118483
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27DEEP+LK+%28THUR%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "63e1ab53082b7e8a",
+      "retrievedAt": "2026-11-06T16:27:51.231215+00:00",
+      "status": 200,
+      "bytes": 62802
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27DRANO+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "1762756121cfa3a0",
+      "retrievedAt": "2026-11-06T16:27:51.243928+00:00",
+      "status": 200,
+      "bytes": 5197
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27FORT+BORST+PRK+LK+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "bacd694aeb1c91be",
+      "retrievedAt": "2026-11-06T16:27:51.259412+00:00",
+      "status": 200,
+      "bytes": 86148
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27GILLETTE+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "32f15762ab1f8d66",
+      "retrievedAt": "2026-11-06T16:27:51.320725+00:00",
+      "status": 200,
+      "bytes": 7924
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27HORSESHOE+LK+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "833292386804e78b",
+      "retrievedAt": "2026-11-06T16:27:51.321139+00:00",
+      "status": 200,
+      "bytes": 229696
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27HORSETHIEF+LK+%28KLIC%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "e6510dcb177bbc40",
+      "retrievedAt": "2026-11-06T16:27:51.350233+00:00",
+      "status": 200,
+      "bytes": 131663
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27ICE+HOUSE+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "b2c059d005e98f6c",
+      "retrievedAt": "2026-11-06T16:27:51.364294+00:00",
+      "status": 200,
+      "bytes": 126263
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27KLINELINE+PD+%28CLAR%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "36399e83e8dc40eb",
+      "retrievedAt": "2026-11-06T16:27:51.368021+00:00",
+      "status": 200,
+      "bytes": 369939
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27KRESS+LK+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "7e6633ef1af39df9",
+      "retrievedAt": "2026-11-06T16:27:51.368596+00:00",
+      "status": 200,
+      "bytes": 194445
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27LACAMAS+LK+%28CLAR%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "44954683dda5f50d",
+      "retrievedAt": "2026-11-06T16:27:57.162019+00:00",
+      "status": 200,
+      "bytes": 129239
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27LEWIS+CO+PRK+PD-S+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "67be28e7ac44aa63",
+      "retrievedAt": "2026-11-06T16:27:57.182833+00:00",
+      "status": 200,
+      "bytes": 115449
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27LK+MERWIN+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "86054d08a1826dd0",
+      "retrievedAt": "2026-11-06T16:27:57.372789+00:00",
+      "status": 200,
+      "bytes": 164711
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27LK+SACAJAWEA+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "0f56d840ba39bce9",
+      "retrievedAt": "2026-11-06T16:27:57.373054+00:00",
+      "status": 200,
+      "bytes": 221871
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27LTL+ASH+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "2871b2a96bcd4e2a",
+      "retrievedAt": "2026-11-06T16:27:57.497317+00:00",
+      "status": 200,
+      "bytes": 88483
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27MAYFIELD+RES+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "5c334f3ef3ad8938",
+      "retrievedAt": "2026-11-06T16:27:57.587747+00:00",
+      "status": 200,
+      "bytes": 280262
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27PLUMMER+LK+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "6a27df278b8fcad9",
+      "retrievedAt": "2026-11-06T16:27:57.681328+00:00",
+      "status": 200,
+      "bytes": 28269
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27RIFFE+LK+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "767f62f233309f69",
+      "retrievedAt": "2026-11-06T16:27:57.718293+00:00",
+      "status": 200,
+      "bytes": 151841
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27ROUND+LK+%28CLAR%29+T03%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "5af2a6530f6e4bf3",
+      "retrievedAt": "2026-11-06T16:27:57.903795+00:00",
+      "status": 200,
+      "bytes": 1311
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27ROWLAND+LK+%28KLIC%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "e7e8cfc2919b4838",
+      "retrievedAt": "2026-11-06T16:27:57.931349+00:00",
+      "status": 200,
+      "bytes": 245757
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27SILVER+LK+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "5192d921abc6150c",
+      "retrievedAt": "2026-11-06T16:27:57.991914+00:00",
+      "status": 200,
+      "bytes": 66845
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27SPEARFISH+LK+%28KLIC%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "874975a3c8674a3e",
+      "retrievedAt": "2026-11-06T16:27:58.305402+00:00",
+      "status": 200,
+      "bytes": 179282
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27SWIFT+POWER+CANAL+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "d1ba8466dcf4442f",
+      "retrievedAt": "2026-11-06T16:27:58.386762+00:00",
+      "status": 200,
+      "bytes": 35112
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27SWIFT+RES+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "4c15dff870fd1a61",
+      "retrievedAt": "2026-11-06T16:28:01.104902+00:00",
+      "status": 200,
+      "bytes": 96145
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27SWOFFORD+PD+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "f17093ec8ca65122",
+      "retrievedAt": "2026-11-06T16:28:01.145842+00:00",
+      "status": 200,
+      "bytes": 126136
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27TUNNEL+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "90c222e546075f7a",
+      "retrievedAt": "2026-11-06T16:28:01.170218+00:00",
+      "status": 200,
+      "bytes": 56634
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27YALE+LK+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "key": "48bb68326feb17ac",
+      "retrievedAt": "2026-11-06T16:28:01.198664+00:00",
+      "status": 200,
+      "bytes": 4574
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location+in+%28%27TUNNEL+LK+%28SKAM%29%27%2C%27YALE+LK+%28COWL%29%27%2C%27DRANO+LK+%28SKAM%29%27%2C%27ASHES+LK+%28SKAM%29%27%2C%27KLINELINE+PD+E+%28CLAR%29%27%2C%27GILLETTE+LK+%28SKAM%29%27%2C%27ROUND+LK+%28CLAR%29+T03%27%29&%24limit=50000&%24order=release_start_date+DESC",
+      "key": "0a7a075b7240c897",
+      "retrievedAt": "2026-11-06T16:28:01.222843+00:00",
+      "status": 200,
+      "bytes": 89403
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_year%3D%272026%27+AND+release_start_date+%3E%3D+%272026-10-01T00%3A00%3A00%27+AND+%28county+like+%27Clark%25%27+OR+county+like+%27Cowlitz%25%27+OR+county+like+%27Lewis%25%27%29&%24limit=1000",
+      "key": "75cf9a625531c4af",
+      "retrievedAt": "2026-11-06T16:28:01.295369+00:00",
+      "status": 200,
+      "bytes": 7234
+    },
+    {
+      "url": "https://doh.wa.gov/community-and-environment/food/fish/advisories",
+      "key": "fb2cf4f1a8ee1568",
+      "retrievedAt": "2026-11-06T16:28:01.351173+00:00",
+      "status": 200,
+      "bytes": 112369
+    },
+    {
+      "url": "https://ecode360.com/46464778",
+      "key": "630c4b64e5c3dae4",
+      "retrievedAt": "2026-11-06T16:28:01.382915+00:00",
+      "status": 200,
+      "bytes": 182029
+    },
+    {
+      "url": "https://engagecamas.com/lacamas-lake-management-plan",
+      "key": "59f1f444b0cd9d15",
+      "retrievedAt": "2026-11-06T16:28:01.390934+00:00",
+      "status": 200,
+      "bytes": 95740
+    },
+    {
+      "url": "https://explore.predictwind.com/marinas/united-states/washington/felida-moorage",
+      "key": "fd6ca5b45be02357",
+      "retrievedAt": "2026-11-06T16:28:01.467322+00:00",
+      "status": 200,
+      "bytes": 3688299
+    },
+    {
+      "url": "https://flashalert.net/id/cc",
+      "key": "bc5cce049288b9e4",
+      "retrievedAt": "2026-11-06T16:28:01.494613+00:00",
+      "status": 200,
+      "bytes": 196774
+    },
+    {
+      "url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_Projects/MajorFishingArea/MapServer/0",
+      "key": "168994dca5161e29",
+      "retrievedAt": "2026-11-06T16:28:01.535101+00:00",
+      "status": 200,
+      "bytes": 8524
+    },
+    {
+      "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/ClarkView_Public/CountyLandsbyOwner/MapServer/0/query?geometry=-122.6516964%2C45.7059878&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=SN%2COwnerName%2CDescription%2CPropertyUse%2CRestrictions%2CPublishDt&returnGeometry=false&f=pjson",
+      "key": "1c8db3cee2391a20",
+      "retrievedAt": "2026-11-06T16:28:01.556037+00:00",
+      "status": 200,
+      "bytes": 1140
+    },
+    {
+      "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Ecoli_Beach_Monitoring_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+      "key": "c419eadddeabc5cc",
+      "retrievedAt": "2026-11-06T16:28:01.619832+00:00",
+      "status": 200,
+      "bytes": 4516
+    },
+    {
+      "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Regional_Water_Alerts_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+      "key": "c6f1240f0efb94f6",
+      "retrievedAt": "2026-11-06T16:28:05.457386+00:00",
+      "status": 200,
+      "bytes": 6230
+    },
+    {
+      "url": "https://hatcherytrackpnw.com/rivers/kalama/",
+      "key": "7d16de8a9385b1ba",
+      "retrievedAt": "2026-11-06T16:28:05.517451+00:00",
+      "status": 200,
+      "bytes": 68681
+    },
+    {
+      "url": "https://hatcherytrackpnw.com/rivers/sandy/",
+      "key": "93730dd8d512b322",
+      "retrievedAt": "2026-11-06T16:28:05.542600+00:00",
+      "status": 200,
+      "bytes": 50541
+    },
+    {
+      "url": "https://horningshideout.squarespace.com/fishing",
+      "key": "20c8b2f32a865364",
+      "retrievedAt": "2026-11-06T16:28:05.553973+00:00",
+      "status": 200,
+      "bytes": 255467
+    },
+    {
+      "url": "https://lakecorp.com/wp-content/uploads/documents/loc-invasive-species-management-plan-final.pdf",
+      "key": "54a4d4c441297ee1",
+      "retrievedAt": "2026-11-06T16:28:05.582052+00:00",
+      "status": 200,
+      "bytes": 495002
+    },
+    {
+      "url": "https://lewiscountywa.gov/departments/parks-recreation/parks-venues/",
+      "key": "c3358a5023fd6de5",
+      "retrievedAt": "2026-11-06T16:28:05.619552+00:00",
+      "status": 200,
+      "bytes": 71833
+    },
+    {
+      "url": "https://lewiscountywa.gov/departments/public-health/news/",
+      "key": "c6f86cd926e13be2",
+      "retrievedAt": "2026-11-06T16:28:05.710900+00:00",
+      "status": 200,
+      "bytes": 83890
+    },
+    {
+      "url": "https://multco.us/file/t2-2024-0109_/download",
+      "key": "a3c5d89cf987bf83",
+      "retrievedAt": "2026-11-06T16:28:05.969322+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "status": 404
+    },
+    {
+      "url": "https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland",
+      "key": "608cd0981457b234",
+      "retrievedAt": "2026-11-06T16:28:06.267527+00:00",
+      "status": 200,
+      "bytes": 97928
+    },
+    {
+      "url": "https://myodfw.com/articles/easy-angling-willamette-zone",
+      "key": "e14872efeb8d6814",
+      "retrievedAt": "2026-11-06T16:28:06.541366+00:00",
+      "status": 200,
+      "bytes": 71705
+    },
+    {
+      "url": "https://myodfw.com/articles/high-lakes-stocking-schedule-mid-columbia-district",
+      "key": "49148481e335515c",
+      "retrievedAt": "2026-11-06T16:28:06.607479+00:00",
+      "status": 200,
+      "bytes": 52596
+    },
+    {
+      "url": "https://myodfw.com/articles/high-lakes-stocking-schedule-north-willamette-district",
+      "key": "61fe3057e6b5266c",
+      "retrievedAt": "2026-11-06T16:28:06.844687+00:00",
+      "status": 200,
+      "bytes": 80322
+    },
+    {
+      "url": "https://myodfw.com/articles/regulation-updates",
+      "key": "b1cc04fe2f3ec6ce",
+      "retrievedAt": "2026-11-06T16:28:09.196066+00:00",
+      "status": 200,
+      "bytes": 116315
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule",
+      "key": "30eacdd2cdfd7f06",
+      "retrievedAt": "2026-11-06T16:28:09.841855+00:00",
+      "status": 200,
+      "bytes": 159855
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=BETHANY+PD&field_zone_value=All",
+      "key": "899c1648729f6dd3",
+      "retrievedAt": "2026-11-06T16:28:10.310006+00:00",
+      "status": 200,
+      "bytes": 56799
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=COMMONWEALTH+LK&field_zone_value=All",
+      "key": "7b96e1e17eaf1b01",
+      "retrievedAt": "2026-11-06T16:28:10.334851+00:00",
+      "status": 200,
+      "bytes": 58816
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=DORMAN+PD&field_zone_value=All",
+      "key": "321ffcfcf8c62a65",
+      "retrievedAt": "2026-11-06T16:28:10.475781+00:00",
+      "status": 200,
+      "bytes": 60667
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=HAGG+LK&field_zone_value=All",
+      "key": "8eb929afb7f1eb27",
+      "retrievedAt": "2026-11-06T16:28:10.589525+00:00",
+      "status": 200,
+      "bytes": 105960
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=HALDEMAN&field_zone_value=All",
+      "key": "a7fbcc583d33100b",
+      "retrievedAt": "2026-11-06T16:28:10.776661+00:00",
+      "status": 200,
+      "bytes": 54806
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=MCNARY&field_zone_value=All",
+      "key": "913c81bc4b41a7a5",
+      "retrievedAt": "2026-11-06T16:28:10.777958+00:00",
+      "status": 200,
+      "bytes": 62646
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=MINTO&field_zone_value=All",
+      "key": "44d9323bc626763f",
+      "retrievedAt": "2026-11-06T16:28:10.866835+00:00",
+      "status": 200,
+      "bytes": 45165
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=MIRROR+PD&field_zone_value=All",
+      "key": "67c55466f31776c6",
+      "retrievedAt": "2026-11-06T16:28:11.022562+00:00",
+      "status": 200,
+      "bytes": 45173
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=MISSION&field_zone_value=All",
+      "key": "75ef2b2a413773cd",
+      "retrievedAt": "2026-11-06T16:28:11.102293+00:00",
+      "status": 200,
+      "bytes": 45169
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=MUD+LK&field_zone_value=All",
+      "key": "2a740c49eab114be",
+      "retrievedAt": "2026-11-06T16:28:11.110237+00:00",
+      "status": 200,
+      "bytes": 45167
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=OSWEGO&field_zone_value=All",
+      "key": "8f66072999805793",
+      "retrievedAt": "2026-11-06T16:28:11.195831+00:00",
+      "status": 200,
+      "bytes": 45167
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=PROGRESS+LK&field_zone_value=All",
+      "key": "d2eced421858ba9a",
+      "retrievedAt": "2026-11-06T16:28:11.329099+00:00",
+      "status": 200,
+      "bytes": 62792
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=SHERIDAN+PD&field_zone_value=All",
+      "key": "473127c9e6b2df86",
+      "retrievedAt": "2026-11-06T16:28:11.478247+00:00",
+      "status": 200,
+      "bytes": 84327
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=SILVER+CR+RES&field_zone_value=All",
+      "key": "7e5209e5f6250fde",
+      "retrievedAt": "2026-11-06T16:28:11.627354+00:00",
+      "status": 200,
+      "bytes": 62634
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=SMITH&field_zone_value=All",
+      "key": "06146b991d9a817f",
+      "retrievedAt": "2026-11-06T16:28:17.133324+00:00",
+      "status": 200,
+      "bytes": 70422
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=ST+LOUIS+PD&field_zone_value=All",
+      "key": "8493f4978f7bb226",
+      "retrievedAt": "2026-11-06T16:28:17.145139+00:00",
+      "status": 200,
+      "bytes": 78427
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=STEELMAN&field_zone_value=All",
+      "key": "e7ea97e7ec2606f0",
+      "retrievedAt": "2026-11-06T16:28:17.197234+00:00",
+      "status": 200,
+      "bytes": 45171
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=STURGEON&field_zone_value=All",
+      "key": "9b8cacc1fd0d9f42",
+      "retrievedAt": "2026-11-06T16:28:17.246175+00:00",
+      "status": 200,
+      "bytes": 45171
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=TROJAN+RECREATION+LK&field_zone_value=All",
+      "key": "89d7358c9837cbb1",
+      "retrievedAt": "2026-11-06T16:28:17.321590+00:00",
+      "status": 200,
+      "bytes": 72583
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=TURNER+LK&field_zone_value=All",
+      "key": "581fddb50e20ca46",
+      "retrievedAt": "2026-11-06T16:28:21.937986+00:00",
+      "status": 200,
+      "bytes": 58676
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=VERNONIA+LK&field_zone_value=All",
+      "key": "1d1b9da9c1590075",
+      "retrievedAt": "2026-11-06T16:28:21.942588+00:00",
+      "status": 200,
+      "bytes": 58686
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=WALLING+PD&field_zone_value=All",
+      "key": "4d8a10f2545f7cce",
+      "retrievedAt": "2026-11-06T16:28:21.943160+00:00",
+      "status": 200,
+      "bytes": 45175
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=WALTER+WIRTH+LK&field_zone_value=All",
+      "key": "119e66c6a722ab27",
+      "retrievedAt": "2026-11-06T16:28:21.945802+00:00",
+      "status": 200,
+      "bytes": 115738
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=WILSONVILLE&field_zone_value=All",
+      "key": "3606cf244adb32a2",
+      "retrievedAt": "2026-11-06T16:28:22.029604+00:00",
+      "status": 200,
+      "bytes": 45177
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31&field_waterbody_name_value_1=WOODBURN&field_zone_value=All",
+      "key": "e1d3211aa2ef636d",
+      "retrievedAt": "2026-11-06T16:28:22.030503+00:00",
+      "status": 200,
+      "bytes": 45171
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=BENSON+LK&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "b761eb1a04d2f4cb",
+      "retrievedAt": "2026-11-06T16:28:22.074901+00:00",
+      "status": 200,
+      "bytes": 54716
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=BLUE+LK&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "1227dac0f3ab7e15",
+      "retrievedAt": "2026-11-06T16:28:22.137054+00:00",
+      "status": 200,
+      "bytes": 54704
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=CLACKAMETTE&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "d53a6a96d8f0e6f5",
+      "retrievedAt": "2026-11-06T16:28:22.139102+00:00",
+      "status": 200,
+      "bytes": 45177
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=CLEAR+LK&field_zone_value=1&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "4bb400c990aa79e7",
+      "retrievedAt": "2026-11-06T16:28:22.161766+00:00",
+      "status": 200,
+      "bytes": 62588
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=ESTACADA&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "8d384b209a86c7d5",
+      "retrievedAt": "2026-11-06T16:28:22.429987+00:00",
+      "status": 200,
+      "bytes": 78302
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=FAIRVIEW&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "1a8eac748b82411c",
+      "retrievedAt": "2026-11-06T16:28:22.483104+00:00",
+      "status": 200,
+      "bytes": 45171
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=FARADAY+LK&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "72d7559c42b49efa",
+      "retrievedAt": "2026-11-06T16:28:26.709800+00:00",
+      "status": 200,
+      "bytes": 68489
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=FROG+LK&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "8dc670b019af0226",
+      "retrievedAt": "2026-11-06T16:28:26.741623+00:00",
+      "status": 200,
+      "bytes": 54746
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=HARTMAN&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "386a5427d6ee7202",
+      "retrievedAt": "2026-11-06T16:28:26.757416+00:00",
+      "status": 200,
+      "bytes": 48874
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=KINGSLEY+RES&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "026e963f5073b373",
+      "retrievedAt": "2026-11-06T16:28:26.765583+00:00",
+      "status": 200,
+      "bytes": 54786
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=MIRROR&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "76224af07de117f4",
+      "retrievedAt": "2026-11-06T16:28:26.777527+00:00",
+      "status": 200,
+      "bytes": 45167
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=MT+HOOD+PD&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "015159eefac9b11e",
+      "retrievedAt": "2026-11-06T16:28:26.821832+00:00",
+      "status": 200,
+      "bytes": 72535
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=NORTH+FORK+RES&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "498d05b2da11a903",
+      "retrievedAt": "2026-11-06T16:28:26.894193+00:00",
+      "status": 200,
+      "bytes": 78366
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=SALISH&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "472e72a640458b37",
+      "retrievedAt": "2026-11-06T16:28:30.786169+00:00",
+      "status": 200,
+      "bytes": 60626
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=TRILLIUM+LK&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "e0c42da3b647f11f",
+      "retrievedAt": "2026-11-06T16:28:30.799026+00:00",
+      "status": 200,
+      "bytes": 64588
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule-print?field_waterbody_name_value_1=TWIN&field_zone_value=All&field_planned_stocking_date_value=2026-01-01&field_planned_stocking_date_end_value=2027-12-31",
+      "key": "da60dd3784c02301",
+      "retrievedAt": "2026-11-06T16:28:30.815196+00:00",
+      "status": 200,
+      "bytes": 111283
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule?field_zone_value=All&page=&page=2",
+      "key": "7e963f48db426aba",
+      "retrievedAt": "2026-11-06T16:28:30.817113+00:00",
+      "status": 200,
+      "bytes": 163851
+    },
+    {
+      "url": "https://myodfw.com/news/angling-closed-eagle-creek-oct-2-dec-31",
+      "key": "0c6bb5593eeceacb",
+      "retrievedAt": "2026-11-06T16:28:30.863453+00:00",
+      "status": 200,
+      "bytes": 37205
+    },
+    {
+      "url": "https://myodfw.com/recreation-report/fishing-report/northwest-zone",
+      "key": "4c8ba2077a421518",
+      "retrievedAt": "2026-11-06T16:28:30.929739+00:00",
+      "status": 200,
+      "bytes": 84610
+    },
+    {
+      "url": "https://myodfw.com/recreation-report/fishing-report/willamette-zone",
+      "key": "239e923c4cde478e",
+      "retrievedAt": "2026-11-06T16:28:31.101710+00:00",
+      "status": 200,
+      "bytes": 85183
+    },
+    {
+      "url": "https://myodfw.com/sandy-hatchery-visitors-guide",
+      "key": "5c7ed574bc98afa0",
+      "retrievedAt": "2026-11-06T16:28:31.245889+00:00",
+      "status": 200,
+      "bytes": 38501
+    },
+    {
+      "url": "https://myodfw.com/sauvie-island-wildlife-area-visitors-guide",
+      "key": "3ac84e9b0bb49135",
+      "retrievedAt": "2026-11-06T16:28:31.330081+00:00",
+      "status": 200,
+      "bytes": 41217
+    },
+    {
+      "url": "https://myodfw.com/sites/default/files/2023-07/2023%20High%20Lake%20Stocking%20Mid-Colimbia.pdf",
+      "key": "011fa7f55f9d62ea",
+      "retrievedAt": "2026-11-06T16:28:36.397806+00:00",
+      "status": 200,
+      "bytes": 86929
+    },
+    {
+      "url": "https://myodfw.com/sites/default/files/2023-07/2023%20High%20Lake%20Stocking%20No%20Willamette.pdf",
+      "key": "c3d66f55acdaface",
+      "retrievedAt": "2026-11-06T16:28:36.537654+00:00",
+      "status": 200,
+      "bytes": 135742
+    },
+    {
+      "url": "https://ncprd.org/parks-and-trails/spring-park",
+      "key": "9beb0d9c87eda25d",
+      "retrievedAt": "2026-11-06T16:28:36.545454+00:00",
+      "status": 200,
+      "bytes": 584753
+    },
+    {
+      "url": "https://orcity.org/Facilities/Facility/Details/Jon-Storm-Dock-15",
+      "key": "8de2f183c62b0f53",
+      "retrievedAt": "2026-11-06T16:28:36.758377+00:00",
+      "status": 200,
+      "bytes": 110412
+    },
+    {
+      "url": "https://orcity.org/Facilities/Facility/Details/Sportcraft-Boat-Ramp-24",
+      "key": "e5f39b9aa6938640",
+      "retrievedAt": "2026-11-06T16:28:36.765581+00:00",
+      "status": 200,
+      "bytes": 106255
+    },
+    {
+      "url": "https://parks.wa.gov/find-parks/state-parks/beacon-rock-state-park",
+      "key": "d3cc1b2ecf0f3a79",
+      "retrievedAt": "2026-11-06T16:28:36.785769+00:00",
+      "status": 200,
+      "bytes": 106835
+    },
+    {
+      "url": "https://parks.wa.gov/find-parks/state-parks/columbia-hills-historical-state-park",
+      "key": "dd11a3081669c325",
+      "retrievedAt": "2026-11-06T16:28:36.813757+00:00",
+      "status": 200,
+      "bytes": 101072
+    },
+    {
+      "url": "https://portlandgeneral.com/about/parks-campgrounds/clackamas-river-access-sites",
+      "key": "e66c4fc9e01d86c9",
+      "retrievedAt": "2026-11-06T16:28:36.901693+00:00",
+      "status": 200,
+      "bytes": 305508
+    },
+    {
+      "url": "https://portlandgeneral.com/about/parks-campgrounds/promontory-park",
+      "key": "28010ca002efedbd",
+      "retrievedAt": "2026-11-06T16:28:36.933401+00:00",
+      "status": 200,
+      "bytes": 345386
+    },
+    {
+      "url": "https://portlandgeneral.com/about/parks-campgrounds/timber-park",
+      "key": "1045d995777c1597",
+      "retrievedAt": "2026-11-06T16:28:36.957585+00:00",
+      "status": 200,
+      "bytes": 331149
+    },
+    {
+      "url": "https://rainbowtroutfarm.com/contact/",
+      "key": "f8ea25443c0e6270",
+      "retrievedAt": "2026-11-06T16:28:36.969980+00:00",
+      "status": 200,
+      "bytes": 122246
+    },
+    {
+      "url": "https://rainbowtroutfarm.com/plan-your-visit/",
+      "key": "df338fe8751853f2",
+      "retrievedAt": "2026-11-06T16:28:36.971412+00:00",
+      "status": 200,
+      "bytes": 117206
+    },
+    {
+      "url": "https://reports.cityofsandy.com/communityservices/",
+      "key": "e37aed403b6fbc92",
+      "retrievedAt": "2026-11-06T16:28:40.600829+00:00",
+      "status": 200,
+      "bytes": 579610
+    },
+    {
+      "url": "https://secure.sos.state.or.us/oard/viewReceipt.action?filingRsn=63629",
+      "key": "eb5dad033a74a438",
+      "retrievedAt": "2026-11-06T16:28:40.620657+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "status": 404
+    },
+    {
+      "url": "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+      "key": "adecf0b5f872042e",
+      "retrievedAt": "2026-11-06T16:28:40.925891+00:00",
+      "status": 200,
+      "bytes": 15849
+    },
+    {
+      "url": "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/HABs_Advisories_(Points)/FeatureServer/0",
+      "key": "11c0738791b2b06f",
+      "retrievedAt": "2026-11-06T16:28:40.934051+00:00",
+      "status": 200,
+      "bytes": 12611
+    },
+    {
+      "url": "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/HABs_Advisories_(Points)/FeatureServer/0/query?where=1%3D1&outFields=%2A&returnGeometry=false&f=json",
+      "key": "1ac7f370dc50a7a2",
+      "retrievedAt": "2026-11-06T16:28:41.034762+00:00",
+      "status": 200,
+      "bytes": 48193
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=main.loadFile&load=_siteFiles/publications//dabney-web.105740.pdf",
+      "key": "d7c23abd5b679f93",
+      "retrievedAt": "2026-11-06T16:28:41.098342+00:00",
+      "status": 200,
+      "bytes": 5863464
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=100",
+      "key": "e8923a7eba480b55",
+      "retrievedAt": "2026-11-06T16:28:41.101932+00:00",
+      "status": 200,
+      "bytes": 157838
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=110",
+      "key": "78240fcc1b27f2a3",
+      "retrievedAt": "2026-11-06T16:28:41.286668+00:00",
+      "status": 200,
+      "bytes": 184897
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=126",
+      "key": "168ee68229d6cb1d",
+      "retrievedAt": "2026-11-06T16:28:41.605907+00:00",
+      "status": 200,
+      "bytes": 192387
+    },
+    {
+      "url": "https://traveloregon.com/things-to-do/destinations/parks-forests-wildlife-areas/rainbow-trout-farm/",
+      "key": "113735c0fd4c064b",
+      "retrievedAt": "2026-11-06T16:28:41.902330+00:00",
+      "status": 200,
+      "bytes": 259702
+    },
+    {
+      "url": "https://troutstockingreport.com/waters/or/henry-hagg-lk/",
+      "key": "2d609c6bc2456051",
+      "retrievedAt": "2026-11-06T16:28:41.918652+00:00",
+      "status": 200,
+      "bytes": 29391
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ashes-lake",
+      "key": "a78fb9f17254468f",
+      "retrievedAt": "2026-11-06T16:28:42.737829+00:00",
+      "status": 200,
+      "bytes": 47068
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/drano-lake",
+      "key": "b0e67ceb60cd50ef",
+      "retrievedAt": "2026-11-06T16:28:42.815803+00:00",
+      "status": 200,
+      "bytes": 42162
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake",
+      "key": "3b224521c7f53f80",
+      "retrievedAt": "2026-11-06T16:28:42.843961+00:00",
+      "status": 200,
+      "bytes": 94535
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-merwin",
+      "key": "f86202f70a528815",
+      "retrievedAt": "2026-11-06T16:28:46.135891+00:00",
+      "status": 200,
+      "bytes": 50420
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tunnel-lake",
+      "key": "53291d5a1becbc85",
+      "retrievedAt": "2026-11-06T16:28:46.153999+00:00",
+      "status": 200,
+      "bytes": 47143
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/vancouver-lake",
+      "key": "dc1bb4157cb2c2b5",
+      "retrievedAt": "2026-11-06T16:28:46.185564+00:00",
+      "status": 200,
+      "bytes": 83275
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/yale-reservoir",
+      "key": "cff5cc719b5b2d5b",
+      "retrievedAt": "2026-11-06T16:28:46.221655+00:00",
+      "status": 200,
+      "bytes": 46178
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+      "key": "8182a52e0a9f57f1",
+      "retrievedAt": "2026-11-06T16:28:46.235178+00:00",
+      "status": 200,
+      "bytes": 254841
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/lower-columbia-river-salmon-and-steelhead-fishery-update-2026-09-0",
+      "key": "90e6be4be615eb57",
+      "retrievedAt": "2026-11-06T16:28:46.838919+00:00",
+      "status": 200,
+      "bytes": 41917
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all",
+      "key": "a5dc84f89f054cc5",
+      "retrievedAt": "2026-11-06T16:28:47.251757+00:00",
+      "status": 200,
+      "bytes": 133900
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?lake_stocked=FORT+BORST+PRK+LK+%28LEWI%29&items_per_page=100",
+      "key": "d50675984b6e5b92",
+      "retrievedAt": "2026-11-06T16:28:47.275051+00:00",
+      "status": 200,
+      "bytes": 92995
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?lake_stocked=KLINELINE+PD+%28CLAR%29&items_per_page=100",
+      "key": "59b64ea1a91b3eb4",
+      "retrievedAt": "2026-11-06T16:28:47.349379+00:00",
+      "status": 200,
+      "bytes": 117813
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?lake_stocked=LACAMAS+LK+%28CLAR%29",
+      "key": "a4db3ffd6567483b",
+      "retrievedAt": "2026-11-06T16:28:47.441209+00:00",
+      "status": 200,
+      "bytes": 90954
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?lake_stocked=LK+MERWIN+%28COWL%29&items_per_page=100",
+      "key": "6524e3a95aee0f97",
+      "retrievedAt": "2026-11-06T16:28:47.590465+00:00",
+      "status": 200,
+      "bytes": 89082
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/alerts",
+      "key": "92ba70ce9b67fcb4",
+      "retrievedAt": "2026-11-06T16:28:47.716057+00:00",
+      "status": 200,
+      "bytes": 67820
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/alerts/drano-lake-parking-and-access-information",
+      "key": "2d5fdcc92ae72c4f",
+      "retrievedAt": "2026-11-06T16:28:47.753870+00:00",
+      "status": 200,
+      "bytes": 39505
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/alerts/low-water-levels-may-affect-boat-launch-access-riffe-lake",
+      "key": "cf53896f3e7e5077",
+      "retrievedAt": "2026-11-06T16:28:50.497032+00:00",
+      "status": 200,
+      "bytes": 36872
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/prichard-421",
+      "key": "50e3f61220e9cb1e",
+      "retrievedAt": "2026-11-06T16:28:50.529567+00:00",
+      "status": 200,
+      "bytes": 37595
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/satterlund-384",
+      "key": "cb4c3506f994c1f1",
+      "retrievedAt": "2026-11-06T16:28:50.757461+00:00",
+      "status": 200,
+      "bytes": 37710
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/toledo-324",
+      "key": "1e7df65cd66a1563",
+      "retrievedAt": "2026-11-06T16:28:50.802706+00:00",
+      "status": 200,
+      "bytes": 37575
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/wildlife-areas/abernathy-creek-wildlife-area-unit",
+      "key": "67e823173dc18e18",
+      "retrievedAt": "2026-11-06T16:28:50.978556+00:00",
+      "status": 200,
+      "bytes": 48350
+    },
+    {
+      "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-oct-26-nov-1-2026.pdf",
+      "key": "cbf926da3cd3ed51",
+      "retrievedAt": "2026-11-06T16:28:51.001825+00:00",
+      "status": 200,
+      "bytes": 356836
+    },
+    {
+      "url": "https://wdfw.wa.gov/sites/default/files/publications/02693/wdfw02693.pdf",
+      "key": "e3432fc88d477029",
+      "retrievedAt": "2026-11-06T16:28:51.113643+00:00",
+      "status": 200,
+      "bytes": 531704
+    },
+    {
+      "url": "https://westlinnoregon.gov/parksrec/west-bridge-park",
+      "key": "76bb238b6a6f6ae9",
+      "retrievedAt": "2026-11-06T16:28:51.225718+00:00",
+      "status": 200,
+      "bytes": 57973
+    },
+    {
+      "url": "https://willamettewatertrail.org/map/oak-grove-boat-ramp/",
+      "key": "5829c4d028c00635",
+      "retrievedAt": "2026-11-06T16:28:51.274187+00:00",
+      "status": 200,
+      "bytes": 42929
+    },
+    {
+      "url": "https://www.accesstrails.org/overview/smith-bybee/",
+      "key": "114f31c49bdc7f87",
+      "retrievedAt": "2026-11-06T16:28:51.331156+00:00",
+      "status": 200,
+      "bytes": 23374
+    },
+    {
+      "url": "https://www.accesstrails.org/overview/spring-park/",
+      "key": "dd56a76d11021b0a",
+      "retrievedAt": "2026-11-06T16:28:51.482340+00:00",
+      "status": 200,
+      "bytes": 24484
+    },
+    {
+      "url": "https://www.americanwhitewater.org/content/River/view/river-detail/3648/main",
+      "key": "ac9f8d20df918a52",
+      "retrievedAt": "2026-11-06T16:28:51.661603+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "url": "https://www.americanwhitewater.org/content/River/view/river-detail/3690/main",
+      "key": "22041cc0353facb3",
+      "retrievedAt": "2026-11-06T16:28:51.810018+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "url": "https://www.americanwhitewater.org/content/River/view/river-detail/point-of-interest/access/qvLBXmsxillBwNyR40swA",
+      "key": "3f7d034673cc10e5",
+      "retrievedAt": "2026-11-06T16:28:55.061976+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "url": "https://www.aol.com/articles/residents-push-save-historic-salem-163841000.html",
+      "key": "25b19c4d7fe2a3ec",
+      "retrievedAt": "2026-11-06T16:28:55.065900+00:00",
+      "status": 200,
+      "bytes": 683821
+    },
+    {
+      "url": "https://www.bestfishinginamerica.com/or-salish-ponds-fishing-fairview-gresham-oregon.html",
+      "key": "6cebc250e1fdb6a5",
+      "retrievedAt": "2026-11-06T16:28:55.148958+00:00",
+      "status": 200,
+      "bytes": 118147
+    },
+    {
+      "url": "https://www.bestfishinginamerica.com/or-walter-wirth-lake-walling-pond-fishing-salem-oregon.html",
+      "key": "1488fee29d085fcd",
+      "retrievedAt": "2026-11-06T16:28:55.165700+00:00",
+      "status": 200,
+      "bytes": 140751
+    },
+    {
+      "url": "https://www.bestfishinginamerica.com/washington-swift-reservoir-and-swift-power-canal-fishing.html",
+      "key": "b80e7f4659afceec",
+      "retrievedAt": "2026-11-06T16:28:55.273033+00:00",
+      "status": 200,
+      "bytes": 113742
+    },
+    {
+      "url": "https://www.boonesferrylanding.com/marina-map-parking",
+      "key": "937201559adc5d9f",
+      "retrievedAt": "2026-11-06T16:28:55.513664+00:00",
+      "error": "HTTP Error 503: Service Unavailable",
+      "status": 503
+    },
+    {
+      "url": "https://www.cdid1.org/m/faq",
+      "key": "6d15fd4a5ba54bdc",
+      "retrievedAt": "2026-11-06T16:28:55.553459+00:00",
+      "status": 200,
+      "bytes": 130187
+    },
+    {
+      "url": "https://www.ci.carlton.or.us/parksrec",
+      "key": "cf377f1b98d05691",
+      "retrievedAt": "2026-11-06T16:28:55.654925+00:00",
+      "status": 200,
+      "bytes": 57474
+    },
+    {
+      "url": "https://www.ci.stevenson.wa.us/publicworks/page/parks-department",
+      "key": "bf06178203c27867",
+      "retrievedAt": "2026-11-06T16:28:55.682622+00:00",
+      "status": 200,
+      "bytes": 87194
+    },
+    {
+      "url": "https://www.cityofcamas.us/parksrec/page/washougal-river-greenway-trail",
+      "key": "8cb155fbfd5e0d18",
+      "retrievedAt": "2026-11-06T16:28:55.718808+00:00",
+      "status": 200,
+      "bytes": 71144
+    },
+    {
+      "url": "https://www.cityofcamas.us/publicworks/page/lacamas-lake-drawdown-scheduled-sept-21",
+      "key": "a95d316f84e2e93f",
+      "retrievedAt": "2026-11-06T16:28:55.797922+00:00",
+      "status": 200,
+      "bytes": 85406
+    },
+    {
+      "url": "https://www.cityofsalem.net/Home/Components/Calendar/Event/13938/17?backlist=%2Fhome",
+      "key": "5377743717a00317",
+      "retrievedAt": "2026-11-06T16:28:55.809714+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "url": "https://www.cityofwashougal.us/Facilities/Facility/Details/Sandy-Swimming-Hole-Park-18",
+      "key": "6b92429d88982c90",
+      "retrievedAt": "2026-11-06T16:28:55.826905+00:00",
+      "status": 200,
+      "bytes": 116932
+    },
+    {
+      "url": "https://www.clackamas.us/parks/boonesferry",
+      "key": "101971f205f96d45",
+      "retrievedAt": "2026-11-06T16:28:55.827203+00:00",
+      "status": 200,
+      "bytes": 36943
+    },
+    {
+      "url": "https://www.clackamaspartnership.org/Project/Detail/17027",
+      "key": "dd13db3b18399306",
+      "retrievedAt": "2026-11-06T16:28:56.312335+00:00",
+      "status": 200,
+      "bytes": 121831
+    },
+    {
+      "url": "https://www.co.cowlitz.wa.us/2277/Coal-Creek-Boat-Launch",
+      "key": "b3822438b6ecfdb4",
+      "retrievedAt": "2026-11-06T16:28:59.604483+00:00",
+      "status": 200,
+      "bytes": 72101
+    },
+    {
+      "url": "https://www.co.cowlitz.wa.us/AlertCenter.aspx",
+      "key": "45eb3a90012a6e7e",
+      "retrievedAt": "2026-11-06T16:28:59.604834+00:00",
+      "status": 200,
+      "bytes": 83584
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/departments/ParksForestsRecreation/big-eddy",
+      "key": "fbbd95d7887496d6",
+      "retrievedAt": "2026-11-06T16:28:59.610288+00:00",
+      "status": 200,
+      "bytes": 126285
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/departments/ParksForestsRecreation/scaponia-park",
+      "key": "06e45d26a2c291b0",
+      "retrievedAt": "2026-11-06T16:29:00.058946+00:00",
+      "status": 200,
+      "bytes": 125354
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/maps/layer/Boatlaunch",
+      "key": "d8037bb79509aee3",
+      "retrievedAt": "2026-11-06T16:29:00.234460+00:00",
+      "status": 200,
+      "bytes": 124295
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/park-guidelines-1",
+      "key": "3e5d545086022238",
+      "retrievedAt": "2026-11-06T16:29:00.247778+00:00",
+      "status": 200,
+      "bytes": 138862
+    },
+    {
+      "url": "https://www.columbiaslough.org/events-list/spring-birding-paddle-1",
+      "key": "e36185dae0de2c63",
+      "retrievedAt": "2026-11-06T16:29:00.268614+00:00",
+      "status": 200,
+      "bytes": 204420
+    },
+    {
+      "url": "https://www.dfw.state.or.us/OARs/rulemaking_temporary.html",
+      "key": "9572e08da98632e3",
+      "retrievedAt": "2026-11-06T16:29:00.391791+00:00",
+      "status": 200,
+      "bytes": 55400
+    },
+    {
+      "url": "https://www.dfw.state.or.us/fish/license_permits_apps/docs/licensed_operators_who_have_fish_for_sale.pdf",
+      "key": "2cc84f9e6f5e4c37",
+      "retrievedAt": "2026-11-06T16:29:00.458575+00:00",
+      "status": 200,
+      "bytes": 104014
+    },
+    {
+      "url": "https://www.ecology.wa.gov/spills-cleanup/spills/spill-preparedness-response/responding-to-spill-incidents/spill-incidents/nippon-dynawave-industrial-incident",
+      "key": "d39b7726cfb503d1",
+      "retrievedAt": "2026-11-06T16:29:01.167091+00:00",
+      "status": 200,
+      "bytes": 82248
+    },
+    {
+      "url": "https://www.eregulations.com/oregon/fishing/central-zone",
+      "key": "21326993ace16b44",
+      "retrievedAt": "2026-11-06T16:29:01.241609+00:00",
+      "status": 200,
+      "bytes": 95739
+    },
+    {
+      "url": "https://www.eregulations.com/oregon/fishing/northwest-zone",
+      "key": "7c5b0e5d7707317e",
+      "retrievedAt": "2026-11-06T16:29:02.078951+00:00",
+      "status": 200,
+      "bytes": 118891
+    },
+    {
+      "url": "https://www.eregulations.com/oregon/fishing/willamette-zone",
+      "key": "9efae7edc83d2f8f",
+      "retrievedAt": "2026-11-06T16:29:02.734955+00:00",
+      "status": 200,
+      "bytes": 122652
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/coal-creek-boat-launch",
+      "key": "91281a69c70def64",
+      "retrievedAt": "2026-11-06T16:29:04.766237+00:00",
+      "status": 200,
+      "bytes": 29592
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/felida-moorage-boat-ramp-nw-122nd-street",
+      "key": "e28a6c1d2430eaf2",
+      "retrievedAt": "2026-11-06T16:29:05.078666+00:00",
+      "status": 200,
+      "bytes": 32139
+    },
+    {
+      "url": "https://www.estuarypartnership.org/our-work/habitat-restoration/east-fork-lewis-river-reconnection-project",
+      "key": "b4633a22bb728404",
+      "retrievedAt": "2026-11-06T16:29:05.098445+00:00",
+      "status": 200,
+      "bytes": 73101
+    },
+    {
+      "url": "https://www.flashalert.net/news.html?id=4139",
+      "key": "31bc7deb174ad7e5",
+      "retrievedAt": "2026-11-06T16:29:05.163405+00:00",
+      "status": 200,
+      "bytes": 66693
+    },
+    {
+      "url": "https://www.fs.usda.gov/r06/giffordpinchot/recreation/moss-creek-campground",
+      "key": "c8eb5204ab105d08",
+      "retrievedAt": "2026-11-06T16:29:05.278528+00:00",
+      "status": 200,
+      "bytes": 225600
+    },
+    {
+      "url": "https://www.fs.usda.gov/r06/mthood/alerts/still-creek-road-closed-oct-29",
+      "key": "e0016cfb81751802",
+      "retrievedAt": "2026-11-06T16:29:05.360867+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "status": 404
+    },
+    {
+      "url": "https://www.fs.usda.gov/r06/mthood/recreation/clear-lake-campground",
+      "key": "8aa20e3f91334b32",
+      "retrievedAt": "2026-11-06T16:29:05.363028+00:00",
+      "status": 200,
+      "bytes": 217465
+    },
+    {
+      "url": "https://www.fs.usda.gov/r06/mthood/recreation/trillium-lake-day-use",
+      "key": "3db72cf705bb826b",
+      "retrievedAt": "2026-11-06T16:29:05.383495+00:00",
+      "status": 200,
+      "bytes": 224551
+    },
+    {
+      "url": "https://www.horningshideout.com/",
+      "key": "f013f5ddf99e0e01",
+      "retrievedAt": "2026-11-06T16:29:05.391428+00:00",
+      "status": 200,
+      "bytes": 386763
+    },
+    {
+      "url": "https://www.horningshideout.com/fishing",
+      "key": "3a36b2d401fddafa",
+      "retrievedAt": "2026-11-06T16:29:05.415202+00:00",
+      "status": 200,
+      "bytes": 231059
+    },
+    {
+      "url": "https://www.i205corridor.org/updates",
+      "key": "e5c950c57074ca77",
+      "retrievedAt": "2026-11-06T16:29:05.451488+00:00",
+      "status": 200,
+      "bytes": 247049
+    },
+    {
+      "url": "https://www.klickitatcounty.gov/840/Algae-Blooms",
+      "key": "c93b6b738b089391",
+      "retrievedAt": "2026-11-06T16:29:05.562060+00:00",
+      "status": 200,
+      "bytes": 96098
+    },
+    {
+      "url": "https://www.kxl.com/sandy-river-park-to-remain-closed-after-bear-sighting/",
+      "key": "0a6412790f677d89",
+      "retrievedAt": "2026-11-06T16:29:05.622921+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "url": "https://www.loopnet.com/Listing/Lot-200-300-16th-St-Salem-OR/32735626/",
+      "key": "f6737acaa834f7a5",
+      "retrievedAt": "2026-11-06T16:29:08.363364+00:00",
+      "status": 200,
+      "bytes": 120666
+    },
+    {
+      "url": "https://www.mcminnvilleoregon.gov/parksrec/page/joe-dancer-park",
+      "key": "595784d7ee9f9d4c",
+      "retrievedAt": "2026-11-06T16:29:09.625461+00:00",
+      "status": 200,
+      "bytes": 54915
+    },
+    {
+      "url": "https://www.mytpu.org/community-environment-parks/parks-recreation/mossyrock-park/",
+      "key": "a1b53079520e127f",
+      "retrievedAt": "2026-11-06T16:29:09.673699+00:00",
+      "status": 200,
+      "bytes": 188190
+    },
+    {
+      "url": "https://www.mytpu.org/community-environment-parks/parks-recreation/river-flows-lake-levels/",
+      "key": "8a281ccb6c512c90",
+      "retrievedAt": "2026-11-06T16:29:09.677455+00:00",
+      "status": 200,
+      "bytes": 172701
+    },
+    {
+      "url": "https://www.newsinthegrove.com/most-seasonal-state-forest-campgrounds-close-some-camping-stays-open/",
+      "key": "c0db510941964f84",
+      "retrievedAt": "2026-11-06T16:29:09.679991+00:00",
+      "status": 200,
+      "bytes": 97228
+    },
+    {
+      "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=266",
+      "key": "33679ac4fae75690",
+      "retrievedAt": "2026-11-06T16:29:09.798940+00:00",
+      "status": 200,
+      "bytes": 45387
+    },
+    {
+      "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=91",
+      "key": "14d2d57e37170220",
+      "retrievedAt": "2026-11-06T16:29:10.081284+00:00",
+      "status": 200,
+      "bytes": 25619
+    },
+    {
+      "url": "https://www.onxmaps.com/backcountry/trails/hiking/us/oregon/sandy-river-park-trail-k36n93e2wz9j",
+      "key": "daa7c5d10e32335c",
+      "retrievedAt": "2026-11-06T16:29:10.090578+00:00",
+      "status": 200,
+      "bytes": 102719
+    },
+    {
+      "url": "https://www.oregon.gov/dsl/waterways/pages/public-use.aspx",
+      "key": "10e26ebd27678cc9",
+      "retrievedAt": "2026-11-06T16:29:10.202958+00:00",
+      "status": 200,
+      "bytes": 102731
+    },
+    {
+      "url": "https://www.oregon.gov/odf/recreation/_api/web/GetList('/odf/recreation/Lists/guides')/items(27)?$select=Title,COVID_x002d_19_x0020_Updates,Modified&$format=json",
+      "key": "5eca26bd10e408eb",
+      "retrievedAt": "2026-11-06T16:29:10.374045+00:00",
+      "status": 200,
+      "bytes": 1033
+    },
+    {
+      "url": "https://www.oregon.gov/oha/ph/healthyenvironments/recreation/fishconsumption/pages/fishadvisories.aspx",
+      "key": "4be71f5f00404e0c",
+      "retrievedAt": "2026-11-06T16:29:10.564838+00:00",
+      "status": 200,
+      "bytes": 115872
+    },
+    {
+      "url": "https://www.oregon.gov/oha/ph/healthyenvironments/recreation/harmfulalgaeblooms/pages/blue-greenalgaeadvisories.aspx",
+      "key": "07cc60f8e9959f79",
+      "retrievedAt": "2026-11-06T16:29:11.147497+00:00",
+      "status": 200,
+      "bytes": 97358
+    },
+    {
+      "url": "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+      "key": "feb1d21de4b4bc19",
+      "retrievedAt": "2026-11-06T16:29:11.279401+00:00",
+      "status": 200,
+      "bytes": 278937
+    },
+    {
+      "url": "https://www.oregonaquaculture.org/producers.html",
+      "key": "d60be34ccdc66003",
+      "retrievedAt": "2026-11-06T16:29:11.340322+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "status": 404
+    },
+    {
+      "url": "https://www.oregonfishreports.com/fish_reports/221381/odfw-will-no-longer-be-stocking-walling-pond.php",
+      "key": "bff9fd6eede6562b",
+      "retrievedAt": "2026-11-06T16:29:13.210233+00:00",
+      "status": 200,
+      "bytes": 13261
+    },
+    {
+      "url": "https://www.oregonfishreports.com/fish_reports/237220/odfw-recreation-report.php",
+      "key": "9d229f32a86dc109",
+      "retrievedAt": "2026-11-06T16:29:13.333683+00:00",
+      "status": 200,
+      "bytes": 29645
+    },
+    {
+      "url": "https://www.oregonfishreports.com/fish_reports/238986/walter-wirth-updates.php",
+      "key": "d1acb1258e2650f6",
+      "retrievedAt": "2026-11-06T16:29:13.355318+00:00",
+      "status": 200,
+      "bytes": 17009
+    },
+    {
+      "url": "https://www.oregonfishreports.com/fish_reports/239349/turner-lake-updates.php",
+      "key": "caf55926b79154f4",
+      "retrievedAt": "2026-11-06T16:29:14.011903+00:00",
+      "status": 200,
+      "bytes": 15797
+    },
+    {
+      "url": "https://www.oregonfishreports.com/fish_reports/242304/odfw-recreation-report.php",
+      "key": "0f7f02002be1652a",
+      "retrievedAt": "2026-11-06T16:29:14.586007+00:00",
+      "status": 200,
+      "bytes": 31508
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/Scaponia_Park_Trailhead",
+      "key": "c5d5220b1363bbf9",
+      "retrievedAt": "2026-11-06T16:29:14.730860+00:00",
+      "status": 200,
+      "bytes": 20204
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/South_Yamhill_River_Bend",
+      "key": "01bcd3b123b7bfca",
+      "retrievedAt": "2026-11-06T16:29:14.883450+00:00",
+      "status": 200,
+      "bytes": 17650
+    },
+    {
+      "url": "https://www.oregonmetro.gov/places/oxbow-regional-park",
+      "key": "45b6b62825f11a47",
+      "retrievedAt": "2026-11-06T16:29:14.885943+00:00",
+      "status": 200,
+      "bytes": 102211
+    },
+    {
+      "url": "https://www.oregonmetro.gov/places/smith-and-bybee-wetlands-natural-area",
+      "key": "3ec37fb63b88203a",
+      "retrievedAt": "2026-11-06T16:29:14.945301+00:00",
+      "status": 200,
+      "bytes": 99682
+    },
+    {
+      "url": "https://www.pacificorp.com/community/recreation/washington.html",
+      "key": "38264eda6fe43e44",
+      "retrievedAt": "2026-11-06T16:29:15.379444+00:00",
+      "status": 200,
+      "bytes": 80468
+    },
+    {
+      "url": "https://www.portland.gov/parks/columbia-slough-natural-area",
+      "key": "203983b87a04f7a1",
+      "retrievedAt": "2026-11-06T16:29:16.276966+00:00",
+      "status": 200,
+      "bytes": 66058
+    },
+    {
+      "url": "https://www.portofklickitat.com/boat-launch-parks",
+      "key": "35e554e5018aeef0",
+      "retrievedAt": "2026-11-06T16:29:16.341580+00:00",
+      "status": 200,
+      "bytes": 99159
+    },
+    {
+      "url": "https://www.portofklickitat.com/conservation",
+      "key": "cabd92450cdcf9db",
+      "retrievedAt": "2026-11-06T16:29:16.592643+00:00",
+      "status": 200,
+      "bytes": 110489
+    },
+    {
+      "url": "https://www.portofklickitat.com/marina-park",
+      "key": "2b677bbca57238f9",
+      "retrievedAt": "2026-11-06T16:29:17.257570+00:00",
+      "status": 200,
+      "bytes": 97291
+    },
+    {
+      "url": "https://www.recreation.gov/camping/campgrounds/232799",
+      "key": "a6fe0328f326a3f5",
+      "retrievedAt": "2026-11-06T16:29:18.785784+00:00",
+      "status": 200,
+      "bytes": 21798
+    },
+    {
+      "url": "https://www.roverpass.com/c/big-cedars-campground-willard-wa/",
+      "key": "211e504316657e9f",
+      "retrievedAt": "2026-11-06T16:29:18.938221+00:00",
+      "status": 200,
+      "bytes": 152378
+    },
+    {
+      "url": "https://www.sauvieisland.org/hunting-fishing",
+      "key": "fe3b44968b7ddebc",
+      "retrievedAt": "2026-11-06T16:29:18.980027+00:00",
+      "status": 200,
+      "bytes": 186114
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/Home/Components/FacilityDirectory/FacilityDirectory/52/258",
+      "key": "1af74d019b282e5b",
+      "retrievedAt": "2026-11-06T16:29:19.154997+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/Home/Components/News/News/1366/256",
+      "key": "06e55288404dc55e",
+      "retrievedAt": "2026-11-06T16:29:19.227854+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/Home/Components/News/News/2428/15",
+      "key": "0cbf6800f5b3fbd8",
+      "retrievedAt": "2026-11-06T16:29:19.267439+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/departments-offices/community-health/health-news",
+      "key": "b5ffe056bcc0ed8c",
+      "retrievedAt": "2026-11-06T16:29:19.281564+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/departments-offices/public-works/boat-launches",
+      "key": "71ac3bc76243e29c",
+      "retrievedAt": "2026-11-06T16:29:19.487043+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "url": "https://www.theguidesforecast.com/free/coho-and-trout-lead-fall-action/286831/",
+      "key": "9bbf11165c71faf9",
+      "retrievedAt": "2026-11-06T16:29:20.689895+00:00",
+      "status": 200,
+      "bytes": 175420
+    },
+    {
+      "url": "https://www.theguidesforecast.com/free/salmon-action-is-shifting/287194/",
+      "key": "4f907ec744b1d135",
+      "retrievedAt": "2026-11-06T16:29:20.737501+00:00",
+      "status": 200,
+      "bytes": 172882
+    },
+    {
+      "url": "https://www.toledowa.us/1355/Parks-Rec",
+      "key": "d28c2d5c783a3af1",
+      "retrievedAt": "2026-11-06T16:29:20.740332+00:00",
+      "status": 200,
+      "bytes": 82249
+    },
+    {
+      "url": "https://www.vernonia-or.gov/departments/parks/",
+      "key": "7ecff5251d921164",
+      "retrievedAt": "2026-11-06T16:29:21.317782+00:00",
+      "status": 200,
+      "bytes": 22969
+    }
+  ],
+  "limitations": [
+    "HTTP success is retrieval evidence, not proof a claim was verified.",
+    "No fresh visual inspection was completed in this run. Existing route audits were compared with current notices; unresolved routes remain inactive.",
+    "No supported score or availability-state change was identified. Existing seasonal overrides retain their original validity periods.",
+    "Shared proposals are unapplied."
+  ]
+}
