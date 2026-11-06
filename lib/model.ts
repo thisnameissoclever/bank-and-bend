@@ -48,7 +48,7 @@ export function clearedFilters():Filters{return {...DEFAULT_FILTERS,availability
 export function activeFilterCount(f:Filters){return Number(!!f.query)+Number(f.drive<120)+Number(f.walk<120)+Number(f.states.length===1)+Number(f.availability.length===1)+Number(f.visited.length===1)+f.species.length+(f.waterType.length<WATER_TYPES.length?f.waterType.length:0)+(f.waterSpeed.length<WATER_SPEEDS.length?f.waterSpeed.length:0)+Number(f.minOverall>1)+Number(f.minRating>0)+Object.values(f.minScores).filter(x=>(x??1)>1).length+Number(f.favorites)+f.pinQuality.length;}
 export function normalizeFilters(input:unknown):Filters{const f=input&&typeof input==='object'?input as Partial<Filters>:{};return {...DEFAULT_FILTERS,...f,availability:f.availability===undefined?['active']:selectionValues(f.availability,AVAILABILITY_STATES),states:f.states===undefined?[...DEFAULT_FILTERS.states]:selectionValues(f.states,['WA','OR']),species:selectionValues(f.species,SPECIES),waterType:selectionValues(f.waterType,WATER_TYPES),waterSpeed:selectionValues(f.waterSpeed,WATER_SPEEDS),visited:selectionValues(f.visited,VISIT_STATES),pinQuality:selectionValues(f.pinQuality,PIN_LEVELS),minScores:Object.fromEntries(Object.entries(f.minScores??{}).filter(([k])=>k in SCORE_LABELS))};}
 export const REGION_CENTER:[number,number]=[45.86,-122.65];
-export const CORPUS_DATE='2026-10-28';
+export const CORPUS_DATE='2026-11-05';
 export function scoresFor(spot:Spot):ScoreValues{
  const assessed=Object.fromEntries(Object.keys(SCORE_LABELS).map(key=>{const value=spot.scores[key as ScoreKey];return [key,typeof value==='number'&&Number.isFinite(value)&&value>=1&&value<=10?value:null]})) as ScoreValues;
  return {...assessed,seasonalProspects:seasonAssessment(spot).score};

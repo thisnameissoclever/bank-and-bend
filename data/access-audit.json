@@ -57,5 +57,19 @@
     "missingFishing": 81,
     "allMissingPinsExplained": true,
     "report": "docs/research/2026-11-01-access-and-score-update.md"
+  },
+  "currentCorpusCount": 328,
+  "latestResearchRefresh": {
+    "checkedAt": "2026-11-05",
+    "report": "docs/research/2026-11-05-full-refresh.md",
+    "ledger": "data/research-refresh-2026-11-05.json",
+    "availabilityRecordsReviewed": 161,
+    "freshVisualAccessIds": [
+      "upper-clackamas-moore-bank",
+      "upper-clackamas-hole-bank",
+      "upper-clackamas-sandstone-bank",
+      "willamette-independence-riverview-bank"
+    ],
+    "scope": "Current notice and research refresh. The older complete route audit and its imagery dates remain separate."
   }
 }

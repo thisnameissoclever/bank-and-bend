@@ -23,27 +23,26 @@
   ],
   "counts": {
     "previousLocations": 95,
-    "addedLocations": 229,
-    "totalLocations": 324,
-    "within90DriveRange": 256,
-    "candidateDecisions": 744,
+    "addedLocations": 233,
+    "totalLocations": 328,
+    "candidateDecisions": 745,
     "byRegion": {
       "wa-clark": 21,
       "wa-north": 41,
       "wa-east": 23,
       "or-west": 52,
-      "or-south": 59,
+      "or-south": 63,
       "or-east": 26,
       "root": 7
     },
     "decisionsByStatus": {
-      "added": 318,
+      "added": 322,
       "existing": 113,
-      "excluded": 195,
+      "excluded": 192,
       "deferred": 63,
       "outside-range": 55
     },
-    "note": "Candidate decisions include aliases and repeated regional leads; totalLocations counts distinct mapped access records."
+    "note": "Candidate decisions include aliases and repeated regional leads. Total locations counts distinct mapped accesses. Drive times depend on the current visitor location."
   },
   "candidates": [
     {
@@ -6564,13 +6563,21 @@
     {
       "name": "Sandstone Paddle Launch",
       "region": "Oregon south coverage",
-      "status": "excluded",
-      "reason": "Technical paddling access considered. The relevant upper-stream resident trout are release-only and no accepted keepable bank fishery was established; several entries also lack public parking. Reservoir exceptions are handled separately.",
+      "status": "added",
+      "reason": "Added at the owner’s request as a distinct public river access. Current PGE/Marine Board notices and fresh aerial inspection support parking and shore entry. It remains inactive for the November fishing season; keeper prospects are null.",
       "sourceUrls": [
-        "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
-        "https://www.eregulations.com/oregon/fishing/willamette-zone"
+        "https://portlandgeneral.com/about/parks-campgrounds/clackamas-river-access-sites",
+        "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+        "https://www.eregulations.com/oregon/fishing/willamette-zone",
+        "https://myodfw.com/articles/regulation-updates"
       ],
-      "auditRegion": "or-south"
+      "auditRegion": "or-south",
+      "priorDecision": {
+        "status": "excluded",
+        "reason": "Technical paddling access considered. The relevant upper-stream resident trout are release-only and no accepted keepable bank fishery was established; several entries also lack public parking. Reservoir exceptions are handled separately."
+      },
+      "matchedSpotId": "upper-clackamas-sandstone-bank",
+      "checkedAt": "2026-11-05"
     },
     {
       "name": "Fish Creek Boat Slide",
@@ -6597,13 +6604,21 @@
     {
       "name": "Moore Creek Paddle Launch",
       "region": "Oregon south coverage",
-      "status": "excluded",
-      "reason": "Technical paddling access considered. The relevant upper-stream resident trout are release-only and no accepted keepable bank fishery was established; several entries also lack public parking. Reservoir exceptions are handled separately.",
+      "status": "added",
+      "reason": "Added at the owner’s request as a distinct public river access. Current PGE/Marine Board notices and fresh aerial inspection support parking and shore entry. It remains inactive for the November fishing season; keeper prospects are null.",
       "sourceUrls": [
-        "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
-        "https://www.eregulations.com/oregon/fishing/willamette-zone"
+        "https://portlandgeneral.com/about/parks-campgrounds/clackamas-river-access-sites",
+        "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+        "https://www.eregulations.com/oregon/fishing/willamette-zone",
+        "https://myodfw.com/articles/regulation-updates"
       ],
-      "auditRegion": "or-south"
+      "auditRegion": "or-south",
+      "priorDecision": {
+        "status": "excluded",
+        "reason": "Technical paddling access considered. The relevant upper-stream resident trout are release-only and no accepted keepable bank fishery was established; several entries also lack public parking. Reservoir exceptions are handled separately."
+      },
+      "matchedSpotId": "upper-clackamas-moore-bank",
+      "checkedAt": "2026-11-05"
     },
     {
       "name": "Memaloose Weigh Station Paddle Launch",
@@ -6619,13 +6634,21 @@
     {
       "name": "Hole in the Wall",
       "region": "Oregon south coverage",
-      "status": "excluded",
-      "reason": "Technical paddling access considered. The relevant upper-stream resident trout are release-only and no accepted keepable bank fishery was established; several entries also lack public parking. Reservoir exceptions are handled separately.",
+      "status": "added",
+      "reason": "Added at the owner’s request as a distinct public river access. Current PGE/Marine Board notices and fresh aerial inspection support parking and shore entry. It remains inactive for the November fishing season; keeper prospects are null.",
       "sourceUrls": [
-        "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
-        "https://www.eregulations.com/oregon/fishing/willamette-zone"
+        "https://portlandgeneral.com/about/parks-campgrounds/clackamas-river-access-sites",
+        "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+        "https://www.eregulations.com/oregon/fishing/willamette-zone",
+        "https://myodfw.com/articles/regulation-updates"
       ],
-      "auditRegion": "or-south"
+      "auditRegion": "or-south",
+      "priorDecision": {
+        "status": "excluded",
+        "reason": "Technical paddling access considered. The relevant upper-stream resident trout are release-only and no accepted keepable bank fishery was established; several entries also lack public parking. Reservoir exceptions are handled separately."
+      },
+      "matchedSpotId": "upper-clackamas-hole-bank",
+      "checkedAt": "2026-11-05"
     },
     {
       "name": "Collawash Bridge",
@@ -8591,6 +8614,19 @@
       ],
       "auditRegion": "root",
       "checkedAt": "2026-11-01"
+    },
+    {
+      "name": "Willamette River · Independence Riverview Park bank",
+      "region": "Independence · Polk County",
+      "status": "added",
+      "matchedSpotId": "willamette-independence-riverview-bank",
+      "reason": "2026-11-05: City notice explicitly reopens Riverview Park through December 31. Use the public lot and short park route to the dry gravel river entry; the separate northbound trail remains closed.",
+      "sourceUrls": [
+        "https://www.ci.independence.or.us/closure-faq/",
+        "https://willamettewatertrail.org/map/independence-riverview-park/"
+      ],
+      "auditRegion": "or-south",
+      "checkedAt": "2026-11-05"
     }
   ],
   "researchReports": [
@@ -8602,6 +8638,8 @@
     "docs/research/2026-10-27-coverage-or-south.md",
     "docs/research/2026-10-27-coverage-or-east.md",
     "docs/research/2026-10-30-east-pond.md",
-    "docs/research/2026-11-01-covered-bridge.md"
-  ]
+    "docs/research/2026-11-01-covered-bridge.md",
+    "docs/research/2026-11-05-full-refresh.md"
+  ],
+  "latestUpdateAt": "2026-11-05"
 }
