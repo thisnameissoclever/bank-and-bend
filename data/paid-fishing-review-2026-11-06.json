@@ -1,0 +1,301 @@
+{
+  "checkedAt": "2026-11-06",
+  "scope": "Private paid fishing within roughly two hours of Vancouver city center, including nearby edge cases up to a 135-minute static route estimate. Not a guarantee of exhaustive coverage or live travel time. Public parking passes alone are excluded.",
+  "routeMethod": "OSRM driving estimates from generic Vancouver city center; no personal origin, GPS or live traffic stored. Drive filters continue to use the visitor’s current browser-only origin.",
+  "paidLocations": 38,
+  "addedIds": [
+    "ofc-howell-ponds",
+    "ofc-salmon-river-otis",
+    "ofc-south-santiam-bates-bridge",
+    "ofc-north-santiam-park",
+    "ofc-rainier-lakes-pond",
+    "ofc-big-little-tree-lakes",
+    "ofc-wilson-river",
+    "ofc-molalla-river",
+    "ofc-hartland-lake",
+    "ofc-clackamas-river",
+    "ofc-turner-lake",
+    "ofc-schmadeke-pond",
+    "ofc-big-creek",
+    "ofc-north-santiam-river",
+    "ofc-highland-ponds",
+    "ofc-washougal-river",
+    "ofc-blue-den-lake-pond",
+    "ofc-eagle-creek-3",
+    "ofc-twin-oaks-pond",
+    "ofc-summerlin-ponds",
+    "ofc-brookside-inn-pond",
+    "ofc-crabtree-creek-pond",
+    "ofc-burdick-pond",
+    "ofc-north-santiam-pond",
+    "ofc-tom-molly-ponds",
+    "ofc-pudding-river-at-pats-acres",
+    "indian-springs-trout-farm",
+    "zeek-creek",
+    "offut-lake-resort",
+    "silver-cove-resort",
+    "columbus-park",
+    "salmon-shores",
+    "black-lake-grocery"
+  ],
+  "updatedIds": [
+    "silver-lake-resort-docks",
+    "lewis-pekin-ferry-private-bank",
+    "silver-lake-streeters-docks",
+    "hornings-hideout-trout",
+    "rainbow-trout-farm-sandy"
+  ],
+  "candidateRoutes": [
+    {
+      "candidate": "howell-ponds",
+      "minutes": 60,
+      "miles": 41,
+      "included": true
+    },
+    {
+      "candidate": "salmon-river-otis",
+      "minutes": 135,
+      "miles": 91,
+      "included": true
+    },
+    {
+      "candidate": "south-santiam-bates-bridge",
+      "minutes": 133,
+      "miles": 100,
+      "included": true
+    },
+    {
+      "candidate": "north-santiam-park",
+      "minutes": 112,
+      "miles": 89,
+      "included": true
+    },
+    {
+      "candidate": "trask-river-2",
+      "minutes": 142,
+      "miles": 91,
+      "included": false
+    },
+    {
+      "candidate": "rainier-lakes-pond",
+      "minutes": 71,
+      "miles": 55,
+      "included": true
+    },
+    {
+      "candidate": "nestucca-pipeline",
+      "minutes": 144,
+      "miles": 101,
+      "included": false
+    },
+    {
+      "candidate": "big-little-tree-lakes",
+      "minutes": 58,
+      "miles": 39,
+      "included": true
+    },
+    {
+      "candidate": "wilson-river",
+      "minutes": 113,
+      "miles": 80,
+      "included": true
+    },
+    {
+      "candidate": "molalla-river",
+      "minutes": 58,
+      "miles": 40,
+      "included": true
+    },
+    {
+      "candidate": "hartland-lake",
+      "minutes": 133,
+      "miles": 91,
+      "included": true
+    },
+    {
+      "candidate": "clackamas-river",
+      "minutes": 58,
+      "miles": 35,
+      "included": true
+    },
+    {
+      "candidate": "turner-lake",
+      "minutes": 95,
+      "miles": 69,
+      "included": true
+    },
+    {
+      "candidate": "schmadeke-pond",
+      "minutes": 55,
+      "miles": 37,
+      "included": true
+    },
+    {
+      "candidate": "deschutes-river-at-mecca-flats",
+      "minutes": 168,
+      "miles": 112,
+      "included": false
+    },
+    {
+      "candidate": "big-creek",
+      "minutes": 99,
+      "miles": 74,
+      "included": true
+    },
+    {
+      "candidate": "north-santiam-river",
+      "minutes": 108,
+      "miles": 82,
+      "included": true
+    },
+    {
+      "candidate": "highland-ponds",
+      "minutes": 61,
+      "miles": 40,
+      "included": true
+    },
+    {
+      "candidate": "washougal-river",
+      "minutes": 43,
+      "miles": 29,
+      "included": true
+    },
+    {
+      "candidate": "blue-den-lake-pond",
+      "minutes": 114,
+      "miles": 81,
+      "included": true
+    },
+    {
+      "candidate": "eagle-creek-3",
+      "minutes": 57,
+      "miles": 37,
+      "included": true
+    },
+    {
+      "candidate": "twin-oaks-pond",
+      "minutes": 45,
+      "miles": 26,
+      "included": true
+    },
+    {
+      "candidate": "nestucca-river-1",
+      "minutes": 140,
+      "miles": 99,
+      "included": false
+    },
+    {
+      "candidate": "summerlin-ponds",
+      "minutes": 127,
+      "miles": 84,
+      "included": true
+    },
+    {
+      "candidate": "brookside-inn-pond",
+      "minutes": 69,
+      "miles": 42,
+      "included": true
+    },
+    {
+      "candidate": "crabtree-creek-pond",
+      "minutes": 131,
+      "miles": 89,
+      "included": true
+    },
+    {
+      "candidate": "burdick-pond",
+      "minutes": 118,
+      "miles": 82,
+      "included": true
+    },
+    {
+      "candidate": "north-santiam-pond",
+      "minutes": 104,
+      "miles": 80,
+      "included": true
+    },
+    {
+      "candidate": "tom-molly-ponds",
+      "minutes": 120,
+      "miles": 82,
+      "included": true
+    },
+    {
+      "candidate": "whistlers-bend-lake",
+      "minutes": 249,
+      "miles": 201,
+      "included": false
+    },
+    {
+      "candidate": "pudding-river-at-pats-acres",
+      "minutes": 43,
+      "miles": 31,
+      "included": true
+    },
+    {
+      "candidate": "indian-springs-trout-farm",
+      "minutes": 49,
+      "miles": 32,
+      "included": true
+    },
+    {
+      "candidate": "offut-lake-resort",
+      "minutes": 120,
+      "miles": 100,
+      "included": true
+    },
+    {
+      "candidate": "streeters-resort",
+      "minutes": 73,
+      "miles": 58,
+      "included": true
+    },
+    {
+      "candidate": "zeek-creek",
+      "minutes": 41,
+      "miles": 22,
+      "included": true
+    },
+    {
+      "candidate": "silver-cove-resort",
+      "minutes": 73,
+      "miles": 58,
+      "included": true
+    },
+    {
+      "candidate": "columbus-park",
+      "minutes": 124,
+      "miles": 106,
+      "included": true
+    },
+    {
+      "candidate": "salmon-shores",
+      "minutes": 122,
+      "miles": 105,
+      "included": true
+    },
+    {
+      "candidate": "black-lake-grocery",
+      "minutes": 121,
+      "miles": 105,
+      "included": true
+    }
+  ],
+  "outsideScope": [
+    "Trask River #2 (142 minutes)",
+    "Nestucca Pipeline (144 minutes)",
+    "Nestucca River #1 (140 minutes)",
+    "Deschutes at Mecca Flats (168 minutes)",
+    "Whistlers Bend Lake (249 minutes)"
+  ],
+  "notCustomerFishing": [
+    "Nisqually Trout Farms: stocking supplier; no verified public U-Catch access.",
+    "Brian’s Trout Ranch and Island Springs: producer listings do not establish public customer fishing."
+  ],
+  "limitations": [
+    "Indian Springs and Zeek Creek are licensed U-Catch candidates, not confirmed currently bookable visits.",
+    "Oregon Fishing Club public markers are general locations. Exact member parking and legal bank routes were not established; individual access gaps are recorded and these entries remain inactive.",
+    "Black Lake Grocery and Salmon Shores current day access/fees need operator confirmation.",
+    "No businesses were contacted. No reservations or memberships purchased."
+  ]
+}

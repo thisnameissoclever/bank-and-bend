@@ -64,7 +64,7 @@ export default function GoogleFishingMap(props:FishingMapProps&{browserKey:strin
   const ids=new Set(spots.map(s=>s.id));for(const [id,p]of markers.current)if(!ids.has(id)){p.setMap(null);markers.current.delete(id)}
   for(const s of spots){
    const score=overall(s,weights),visited=recordFor(s,journal).visited;
-   const name=`${s.name}${availabilityFor(s).active?'':' (inactive)'}, fit ${formatScore(score)} out of 10${stocking&&stockingDay?", "+stockingRecency(stockingSummary(s.stocking,stocking,stockingDay).days):""}`;
+   const name=`${s.name}${s.paidFishing?', paid fishing':''}${availabilityFor(s).active?'':' (inactive)'}, fit ${formatScore(score)} out of 10${stocking&&stockingDay?", "+stockingRecency(stockingSummary(s.stocking,stocking,stockingDay).days):""}`;
    let pin=markers.current.get(s.id);
    if(!pin){pin=createPin(m,{lat:s.lat,lng:s.lng},'fit-marker',name,()=>callback.current(s.id));markers.current.set(s.id,pin)}
    else pin.setPosition({lat:s.lat,lng:s.lng});
@@ -73,6 +73,7 @@ export default function GoogleFishingMap(props:FishingMapProps&{browserKey:strin
    button.style.zIndex=s.id===selected?.id?'1000':'1';
    const badge=document.createElement('span');badge.style.setProperty('--score',color(score));badge.style.color=scoreInk(score);badge.textContent=formatScore(score);
    if(visited){const tick=document.createElement('i');tick.textContent='✓';badge.appendChild(tick)}button.replaceChildren(badge);
+   if(s.paidFishing){const paid=document.createElement("b");paid.className="paid-marker";paid.textContent="$";paid.setAttribute("aria-hidden","true");button.appendChild(paid)}
    if(stocking&&stockingDay){const flag=document.createElement('b');flag.className='stocking-flag';flag.textContent=stockingFlag(s.stocking,stocking,stockingDay);button.appendChild(flag)}
   }
  },[ready,spots,selected?.id,journal,weights,stocking,stockingDay]);
