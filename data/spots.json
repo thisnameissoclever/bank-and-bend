@@ -1769,6 +1769,30 @@
         "kind": "agency",
         "checkedAt": "2026-11-06",
         "supports": "November 6 retrieval of the visible health-news index found no current South County/Wallace Pond advisory. This is a notice-search result, not a no-advisory determination."
+      },
+      {
+        "id": "wallace-pond-toledo-review-20261113-43",
+        "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=91",
+        "title": "South County Pond lake-specific toxin records",
+        "supports": "November 13 direct retrieval still ends July 20, 2010: anatoxin-a 0.060 and microcystin 0.211 micrograms/L. These historical samples do not establish current clearance.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "wallace-pond-toledo-review-20261113-44",
+        "url": "https://lewiscountywa.gov/departments/parks-recreation/parks-venues/",
+        "title": "Lewis County park listing",
+        "supports": "November 13 park listing describes year-round South County Regional Park access, fishing piers and paved trail. No pond-specific algae closure appears.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "wallace-pond-toledo-review-20261113-45",
+        "url": "https://lewiscountywa.gov/departments/public-health/news/",
+        "title": "Lewis County health notices",
+        "supports": "November 13 retrieval of the visible health-news index found no current South County/Wallace Pond advisory. This is a notice-search result, not a no-advisory determination.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
       }
     ],
     "parking": {
@@ -1845,7 +1869,8 @@
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-06: Rechecked lake-specific state results, county park listing and health notices. Latest published pond sample remains July 20, 2010. No current named advisory was found, and no clearance or fresh test is claimed."
+      "2026-11-06: Rechecked lake-specific state results, county park listing and health notices. Latest published pond sample remains July 20, 2010. No current named advisory was found, and no clearance or fresh test is claimed.",
+      "2026-11-13: Rechecked the specific monitoring records and linked county/park notices. Existing advisory findings and historical sample/posting dates are unchanged."
     ],
     "generalAreaName": "Wallace Pond",
     "seasonalCheckedAt": "2026-10-26",
@@ -1878,13 +1903,13 @@
       "status": "none-found",
       "summary": "No current pond-specific algae advisory or closure was found in Lewis County health news or the park listing. The county still lists South County Regional Park as open year-round.",
       "limitation": "The lake-specific state record still ends July 20, 2010. Current toxin levels and notices posted only at the pond remain unknown.",
-      "checkedAt": "2026-11-06",
-      "nextReviewAt": "2026-11-13",
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-11-20",
       "nextReviewAction": "Recheck the pond-specific state results and Lewis County health and park notices, including newer Ecology preliminary-result bulletins. Do not substitute another Wallace Pond or the Lewis County-wide sample date.",
       "sourceIds": [
-        "wallace-pond-toledo-conditions-20261106-40",
-        "wallace-pond-toledo-conditions-20261106-41",
-        "wallace-pond-toledo-conditions-20261106-42"
+        "wallace-pond-toledo-review-20261113-43",
+        "wallace-pond-toledo-review-20261113-44",
+        "wallace-pond-toledo-review-20261113-45"
       ],
       "lastSampleDate": "2010-07-20"
     },
@@ -6652,6 +6677,22 @@
         "kind": "agency",
         "checkedAt": "2026-11-06",
         "supports": "November 6 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed."
+      },
+      {
+        "id": "battle-ground-lake-review-20261113-33",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Regional_Water_Alerts_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "title": "Clark County regional water-advisory record",
+        "supports": "November 13 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "battle-ground-lake-review-20261113-34",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Ecoli_Beach_Monitoring_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "title": "Clark County bacteria-advisory record",
+        "supports": "November 13 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
       }
     ],
     "parking": {
@@ -6729,7 +6770,8 @@
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
       "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
-      "2026-11-06: County regional and E. coli data explicitly continue to report no advisory. September 25 remains the posting date, not a new sample. Water-quality status and fishing scores are unchanged."
+      "2026-11-06: County regional and E. coli data explicitly continue to report no advisory. September 25 remains the posting date, not a new sample. Water-quality status and fishing scores are unchanged.",
+      "2026-11-13: Rechecked the specific monitoring records and linked county/park notices. Existing advisory findings and historical sample/posting dates are unchanged."
     ],
     "generalAreaName": "Battle Ground Lake",
     "seasonalCheckedAt": "2026-10-27",
@@ -6762,12 +6804,12 @@
       "status": "none-reported",
       "summary": "Clark County explicitly reports no current water advisory. Its regional and bacteria records agree; routine E. coli monitoring resumes in May 2027.",
       "limitation": "Routine sampling has ended for the season. September 25 is the posting update date; current water conditions have no fresh sample in these records.",
-      "checkedAt": "2026-11-06",
-      "nextReviewAt": "2026-11-13",
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-11-20",
       "nextReviewAction": "Read the county regional and E. coli records and check the park manager for a new restriction. Retain the September 25 posting date unless the source changes.",
       "sourceIds": [
-        "battle-ground-lake-conditions-20261106-31",
-        "battle-ground-lake-conditions-20261106-32"
+        "battle-ground-lake-review-20261113-33",
+        "battle-ground-lake-review-20261113-34"
       ],
       "sourceUpdatedAt": "2026-09-25"
     },
@@ -7959,6 +8001,22 @@
         "kind": "agency",
         "checkedAt": "2026-11-06",
         "supports": "November 6 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed."
+      },
+      {
+        "id": "klineline-pond-review-20261113-32",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Regional_Water_Alerts_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "title": "Clark County regional water-advisory record",
+        "supports": "November 13 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "klineline-pond-review-20261113-33",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Ecoli_Beach_Monitoring_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "title": "Clark County bacteria-advisory record",
+        "supports": "November 13 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
       }
     ],
     "parking": {
@@ -8039,7 +8097,8 @@
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
       "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
-      "2026-11-06: County regional and E. coli data explicitly continue to report no advisory. September 25 remains the posting date, not a new sample. Water-quality status and fishing scores are unchanged."
+      "2026-11-06: County regional and E. coli data explicitly continue to report no advisory. September 25 remains the posting date, not a new sample. Water-quality status and fishing scores are unchanged.",
+      "2026-11-13: Rechecked the specific monitoring records and linked county/park notices. Existing advisory findings and historical sample/posting dates are unchanged."
     ],
     "generalAreaName": "Klineline Pond",
     "seasonalCheckedAt": "2026-10-27",
@@ -8072,12 +8131,12 @@
       "status": "none-reported",
       "summary": "Clark County explicitly reports no current water advisory. Its regional and bacteria records agree; routine E. coli monitoring resumes in May 2027.",
       "limitation": "Routine sampling has ended for the season. September 25 is the posting update date; current water conditions have no fresh sample in these records.",
-      "checkedAt": "2026-11-06",
-      "nextReviewAt": "2026-11-13",
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-11-20",
       "nextReviewAction": "Read the county regional and E. coli records and check the park manager for a new restriction. Retain the September 25 posting date unless the source changes.",
       "sourceIds": [
-        "klineline-pond-conditions-20261106-30",
-        "klineline-pond-conditions-20261106-31"
+        "klineline-pond-review-20261113-32",
+        "klineline-pond-review-20261113-33"
       ],
       "sourceUpdatedAt": "2026-09-25"
     },
@@ -9108,6 +9167,30 @@
         "kind": "agency",
         "checkedAt": "2026-11-06",
         "supports": "November 6 review retains the November-March lake day-use closure. No new algae clearance was established."
+      },
+      {
+        "id": "horsethief-lake-day-use-bank-review-20261113-31",
+        "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=266",
+        "title": "Horsethief Lake toxin records",
+        "supports": "November 13 retrieval still lists September 22 as the latest sample: anatoxin-a below detection and microcystin 0.400 micrograms/L, both below recreational guidance. No advisory-lifting decision is supplied.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "horsethief-lake-day-use-bank-review-20261113-32",
+        "url": "https://www.klickitatcounty.gov/840/Algae-Blooms",
+        "title": "Klickitat County algae monitoring",
+        "supports": "November 13 review found monitoring information but no dated active Horsethief advisory or formal clearance.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "horsethief-lake-day-use-bank-review-20261113-33",
+        "url": "https://parks.wa.gov/find-parks/state-parks/columbia-hills-historical-state-park",
+        "title": "Columbia Hills park notices",
+        "supports": "November 13 review retains the November-March lake day-use closure. No new algae clearance was established.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
       }
     ],
     "parking": {
@@ -9184,7 +9267,8 @@
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
       "2026-11-05: The park’s lake day-use area and lake fishery are closed November-March. The September toxin results do not override the seasonal closure.",
-      "2026-11-06: Lake-specific toxin table, county monitoring page and park notices rechecked. September 22 remains the newest sample. Seasonal closure remains separate and unchanged; below-guideline samples are not a formal reopening notice."
+      "2026-11-06: Lake-specific toxin table, county monitoring page and park notices rechecked. September 22 remains the newest sample. Seasonal closure remains separate and unchanged; below-guideline samples are not a formal reopening notice.",
+      "2026-11-13: Rechecked the specific monitoring records and linked county/park notices. Existing advisory findings and historical sample/posting dates are unchanged."
     ],
     "overallReason": "Spring rainbow stocking and broad usable park banks support good seasonal keeper prospects. Warmwater targets offer additional possibilities during the lake's open season. The day-use peninsula offers multiple separated bank positions. Busy recreation periods and wind can reduce usable choices.",
     "availability": {
@@ -9229,13 +9313,13 @@
       "status": "none-found",
       "summary": "No active algae advisory was found in the current park and Klickitat County notices. Published samples from September 1, 8 and 22 were below recreational guidelines.",
       "limitation": "September 22 remains the latest published sample. Current shoreline conditions and a formal advisory-lifting decision remain unconfirmed. The November 1 seasonal closure still applies.",
-      "checkedAt": "2026-11-06",
-      "nextReviewAt": "2026-11-13",
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-11-20",
       "nextReviewAction": "Recheck lake-specific toxin records, Klickitat County health notices and the State Parks alert listing. Preserve the separate November 1 seasonal closure.",
       "sourceIds": [
-        "horsethief-lake-day-use-bank-conditions-20261106-28",
-        "horsethief-lake-day-use-bank-conditions-20261106-29",
-        "horsethief-lake-day-use-bank-conditions-20261106-30"
+        "horsethief-lake-day-use-bank-review-20261113-31",
+        "horsethief-lake-day-use-bank-review-20261113-32",
+        "horsethief-lake-day-use-bank-review-20261113-33"
       ],
       "lastSampleDate": "2026-09-22"
     },
@@ -10052,6 +10136,14 @@
         "checkedAt": "2026-11-05",
         "kind": "agency",
         "supports": "Upcoming monthly allocations are plans and may change. Exact delivery dates are not published. 10,500 catchables are allocated across March-April and December; the December share is unspecified."
+      },
+      {
+        "id": "lacamas-lake-heritage-park-review-20261113-32",
+        "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=94",
+        "title": "Lacamas Lake toxin results",
+        "supports": "Direct state table retrieved November 13 lists a November 9 boat-ramp microcystin sample of 0.700 micrograms/L, marked below the recreational guideline. November 2 lists microcystin 7.900 and anatoxin-a below detection. The web reader served an older October version; the direct public table supplied the newer rows.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
       }
     ],
     "parking": {
@@ -10118,7 +10210,8 @@
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Public parking and the established shore approach remain documented. The city’s drawdown notice ties refill to completed repairs and rainfall; it does not establish the present waterline or firm footing within casting reach. No whole-park closure is claimed. The selected fishing position remains paused pending current ground/waterline evidence."
+      "2026-11-05: Public parking and the established shore approach remain documented. The city’s drawdown notice ties refill to completed repairs and rainfall; it does not establish the present waterline or firm footing within casting reach. No whole-park closure is claimed. The selected fishing position remains paused pending current ground/waterline evidence.",
+      "2026-11-13: Direct state table retrieved November 13 lists a November 9 boat-ramp microcystin sample of 0.700 micrograms/L, marked below the recreational guideline. November 2 lists microcystin 7.900 and anatoxin-a below detection. The web reader served an older October version; the direct public table supplied the newer rows. Access status is unchanged."
     ],
     "overallReason": "Access is paused for the specific issue in the access audit. Fishery potential does not establish a usable bank. Stocked trout support a reasonable seasonal bank opportunity when the lake is filled and usable shore is available. The current drawdown requires the inactive status to remain in place. Practical casting access is concentrated at a few openings. Much of the trail follows wooded or shallow shore, with additional limitations during drawdown.",
     "availability": {
@@ -10205,16 +10298,16 @@
     "waterQuality": {
       "category": "cyanobacteria",
       "status": "none-reported",
-      "summary": "Clark County’s live Lacamas Lake record explicitly reports no current advisory or harmful-algae bloom report. The record was last edited October 29, 2026.",
-      "limitation": "The record describes the Heritage Park boat-ramp monitoring area and supplies no current toxin measurement. It does not remove separate posted cove restrictions.",
-      "checkedAt": "2026-11-05",
+      "summary": "The November 9 boat-ramp sample measured microcystin at 0.700 micrograms/L, below the state recreational guideline.",
+      "limitation": "A sample describes its location and date. It does not establish a formal advisory clearance or resolve drawdown footing, cove restrictions or construction closures.",
+      "checkedAt": "2026-11-13",
       "sourceUpdatedAt": "2026-10-29",
-      "nextReviewAt": "2026-11-12",
+      "nextReviewAt": "2026-11-20",
       "nextReviewAction": "Recheck the county record and city notices. Separately obtain the current low-water bank approach from Camas Public Works.",
       "sourceIds": [
-        "lacamas-health-20261031",
-        "lacamas-management-20261031"
-      ]
+        "lacamas-lake-heritage-park-review-20261113-32"
+      ],
+      "lastSampleDate": "2026-11-09"
     },
     "pinGaps": {
       "fishing": "The old bank pin assumed normal lake level. Firm footing within casting reach during the six-foot drawdown has not been located."
@@ -15782,7 +15875,8 @@
       "2026-10-31 privacy review: Judgment: The stair-served rocky shore is exposed below the highway-side fishing area. Anglers can move along the bank, but others using the stairs, shore and reservoir have clear views, and drawdown can concentrate them at the usable edge. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-01: Reviewed current stocking records and plans for Riffe Lake. Latest recorded delivery: 2026-10-27, 14,857 cutthroat (200 fish per pound, approximately 0.005 lb each; fry). The newest October 27 cutthroat release is fry at 200 fish per pound. October steelhead fingerlings also need growth; neither plant supports an immediate dinner-fishing boost. Current seasonal scores and override expiries are unchanged because this review found no new delivered keeper-size fish that changes the existing assessment. See stocking source links and docs/research/2026-11-01-stocking.md.",
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
-      "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred."
+      "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
+      "2026-11-13: November 9 deliveries added 11,960 steelhead fingerlings at 26 fish per pound and 28,900 yearlings at 17 fish per pound, about 0.038 and 0.059 pound each. These small fish do not support an immediate keeper-fishing score increase."
     ],
     "overallReason": "A credible landlocked salmon and trout bank fishery. Road noise, stairs, concentrated casting positions and October drawdown reduce its fit for a quiet, easy outing.",
     "sources": [
@@ -15967,6 +16061,14 @@
         "checkedAt": "2026-10-27",
         "kind": "agency",
         "supports": "Reviewed the statewide current above-guideline list and searched county/manager notices for this water. Absence does not establish a recent sample or clearance."
+      },
+      {
+        "id": "riffe-lake-north-shore-review-20261113-22",
+        "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27RIFFE+LK+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+        "title": "WDFW confirmed fish deliveries, November 13 recheck",
+        "supports": "New November deliveries are recorded releases. Fish size and life stage are retained; no remaining-fish quantity is inferred.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
       }
     ],
     "seasonality": {
@@ -16028,15 +16130,42 @@
     "stocking": {
       "waterbody": "Riffe Lake",
       "status": "confirmed-record",
-      "summary": "Latest recorded delivery: 2026-10-27, 14,857 cutthroat (200 fish per pound, approximately 0.005 lb each; fry). The newest October 27 cutthroat release is fry at 200 fish per pound. October steelhead fingerlings also need growth; neither plant supports an immediate dinner-fishing boost.",
-      "limitation": "The newest October 27 cutthroat release is fry at 200 fish per pound. October steelhead fingerlings also need growth; neither plant supports an immediate dinner-fishing boost.",
-      "checkedAt": "2026-11-05",
-      "nextReviewAt": "2026-11-12",
+      "summary": "November 9 deliveries added 11,960 steelhead fingerlings at 26 fish per pound and 28,900 yearlings at 17 fish per pound, about 0.038 and 0.059 pound each. These small fish do not support an immediate keeper-fishing score increase.",
+      "limitation": "The November steelhead and October cutthroat plants need growth. Older resident fish remain a separate fishing opportunity.",
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-11-19",
       "sourceIds": [
         "wa-stocking-20261101-riffe-lake-north-shore",
-        "wa-plan-scope-20261101"
+        "wa-plan-scope-20261101",
+        "riffe-lake-north-shore-review-20261113-22"
       ],
       "events": [
+        {
+          "date": "2026-11-09",
+          "through": "2026-11-09",
+          "status": "confirmed",
+          "species": "Steelhead",
+          "quantity": 11960,
+          "fishPerPound": 26.0,
+          "lifeStage": "Fingerling",
+          "size": "26 fish per pound, about 0.0385 lb each; fingerling",
+          "sourceIds": [
+            "riffe-lake-north-shore-review-20261113-22"
+          ]
+        },
+        {
+          "date": "2026-11-09",
+          "through": "2026-11-09",
+          "status": "confirmed",
+          "species": "Steelhead",
+          "quantity": 28900,
+          "fishPerPound": 17.0,
+          "lifeStage": "Yearling",
+          "size": "17 fish per pound, about 0.0588 lb each; yearling",
+          "sourceIds": [
+            "riffe-lake-north-shore-review-20261113-22"
+          ]
+        },
         {
           "date": "2026-10-27",
           "status": "confirmed",
@@ -16696,7 +16825,8 @@
       "2026-10-31 privacy review: Judgment: The maintained fishing dock projects into open water beside the hand-launch approach. Shoreline trees screen parts of the park behind it, but other dock users, paddlers and people at the approach can readily see the angler. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-01: Reviewed current stocking records and plans for Deep Lake (Thurston County). Latest recorded delivery: 2026-04-22, 2,500 rainbow (2.15 fish per pound, approximately 0.465 lb each; legals). Recorded deliveries establish what was released. Current numbers remaining and catches at this bank are unknown. Current seasonal scores and override expiries are unchanged because this review found no new delivered keeper-size fish that changes the existing assessment. See stocking source links and docs/research/2026-11-01-stocking.md.",
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
-      "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred."
+      "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
+      "2026-11-13: 550 rainbow trout delivered November 10 at 0.73 fish per pound, about 1.37 pounds each. Fresh keeper-size trout support strong short-term prospects from the public fishing dock. This is a judgment about opportunity, not a catch-rate measurement."
     ],
     "overallReason": "Stocked trout, calm water and multiple public bank options make this a strong fit. The drive is longer, and vegetation limits the total casting shoreline.",
     "sources": [
@@ -16847,6 +16977,38 @@
         "kind": "agency",
         "checkedAt": "2026-11-05",
         "supports": "Washington statewide mercury guidance limits bass to two meals per month for children and people who are or may become pregnant or nursing. Do not eat northern pikeminnow."
+      },
+      {
+        "id": "deep-lake-millersylvania-bank-review-20261113-18",
+        "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27DEEP+LK+%28THUR%29%27&%24order=release_start_date+DESC&%24limit=50000",
+        "title": "WDFW confirmed fish deliveries, November 13 recheck",
+        "supports": "New November deliveries are recorded releases. Fish size and life stage are retained; no remaining-fish quantity is inferred.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "deep-lake-millersylvania-bank-review-20261113-19",
+        "url": "https://wdfw.wa.gov/fishing/reports/stocking/trout-plants?hatchery=EELLS+SPRINGS",
+        "title": "WDFW catchable-trout report cross-check",
+        "supports": "The hatchery-filtered report independently displays the November 10 Deep Lake delivery: 550 rainbow at 0.73 fish per pound.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "deep-lake-millersylvania-bank-review-20261113-20",
+        "url": "https://parks.wa.gov/find-activities/winter-schedule",
+        "title": "State Parks winter access schedule",
+        "supports": "Newly considered current winter schedule lists Millersylvania day use and watercraft launch open. Some campsites and water services close seasonally; that is not a day-use closure.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "deep-lake-millersylvania-bank-review-20261113-21",
+        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.917244%2C46.907967%2C-122.91364399999999%2C46.910467&bboxSR=4326&imageSR=4326&size=1000%2C750&format=jpg&f=image",
+        "title": "Deep Lake day-use route imagery recheck",
+        "supports": "Viewed the returned aerial image November 13: parking row connects south to the hand-launch apron and fishing dock west of the swimming enclosure. Capture date is unavailable; this verifies physical layout, not present dock condition.",
+        "kind": "map",
+        "checkedAt": "2026-11-13"
       }
     ],
     "seasonality": {
@@ -16905,15 +17067,29 @@
     "stocking": {
       "waterbody": "Deep Lake (Thurston County)",
       "status": "confirmed-record",
-      "summary": "Latest recorded delivery: 2026-04-22, 2,500 rainbow (2.15 fish per pound, approximately 0.465 lb each; legals). Recorded deliveries establish what was released. Current numbers remaining and catches at this bank are unknown.",
-      "limitation": "The latest recorded delivery is not an estimate of remaining fish. No exact date is available for future annual-plan windows.",
-      "checkedAt": "2026-11-05",
-      "nextReviewAt": "2026-11-12",
+      "summary": "550 rainbow trout delivered November 10 at 0.73 fish per pound, about 1.37 pounds each. Fresh keeper-size trout support strong short-term prospects from the public fishing dock. This is a judgment about opportunity, not a catch-rate measurement.",
+      "limitation": "Confirmed delivery does not establish current fish remaining or catches at the dock.",
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-11-19",
       "sourceIds": [
         "wa-stocking-20261101-deep-lake-millersylvania-bank",
-        "wa-plan-scope-20261101"
+        "wa-plan-scope-20261101",
+        "deep-lake-millersylvania-bank-review-20261113-18"
       ],
       "events": [
+        {
+          "date": "2026-11-10",
+          "through": "2026-11-10",
+          "status": "confirmed",
+          "species": "Rainbow",
+          "quantity": 550,
+          "fishPerPound": 0.73,
+          "lifeStage": "Legals",
+          "size": "0.73 fish per pound, about 1.37 lb each; legals",
+          "sourceIds": [
+            "deep-lake-millersylvania-bank-review-20261113-18"
+          ]
+        },
         {
           "date": "2026-04-22",
           "status": "confirmed",
@@ -16963,6 +17139,16 @@
       "sourceIds": [
         "state-fish-guidance-20261105"
       ]
+    },
+    "seasonalOverride": {
+      "score": 8,
+      "from": "2026-11-13",
+      "through": "2026-11-19",
+      "checkedAt": "2026-11-13",
+      "sourceIds": [
+        "deep-lake-millersylvania-bank-review-20261113-18"
+      ],
+      "reason": "550 rainbow trout delivered November 10 at 0.73 fish per pound, about 1.37 pounds each. Fresh keeper-size trout support strong short-term prospects from the public fishing dock. This is a judgment about opportunity, not a catch-rate measurement."
     }
   },
   {
@@ -42787,6 +42973,14 @@
         "checkedAt": "2026-11-05",
         "kind": "agency",
         "supports": "Upcoming monthly allocations are plans and may change. Exact delivery dates are not published. 10,500 catchables are allocated across March-April and December; the December share is unspecified."
+      },
+      {
+        "id": "lacamas-leadbetter-launch-bank-review-20261113-32",
+        "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=94",
+        "title": "Lacamas Lake toxin results",
+        "supports": "Direct state table retrieved November 13 lists a November 9 boat-ramp microcystin sample of 0.700 micrograms/L, marked below the recreational guideline. November 2 lists microcystin 7.900 and anatoxin-a below detection. The web reader served an older October version; the direct public table supplied the newer rows.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
       }
     ],
     "parking": {
@@ -42854,7 +43048,8 @@
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Public parking and the established shore approach remain documented. The city’s drawdown notice ties refill to completed repairs and rainfall; it does not establish the present waterline or firm footing within casting reach. No whole-park closure is claimed. The selected fishing position remains paused pending current ground/waterline evidence."
+      "2026-11-05: Public parking and the established shore approach remain documented. The city’s drawdown notice ties refill to completed repairs and rainfall; it does not establish the present waterline or firm footing within casting reach. No whole-park closure is claimed. The selected fishing position remains paused pending current ground/waterline evidence.",
+      "2026-11-13: Direct state table retrieved November 13 lists a November 9 boat-ramp microcystin sample of 0.700 micrograms/L, marked below the recreational guideline. November 2 lists microcystin 7.900 and anatoxin-a below detection. The web reader served an older October version; the direct public table supplied the newer rows. Access status is unchanged."
     ],
     "overallReason": "Access is paused for the specific issue in the access audit. Fishery potential does not establish a usable bank. A small north-side launch opening with close parking. Useful as a short bank attempt, with limited room and seasonal low-water mud.",
     "checkedAt": "2026-10-28",
@@ -42897,16 +43092,16 @@
     "waterQuality": {
       "category": "cyanobacteria",
       "status": "none-reported",
-      "summary": "Clark County’s live Lacamas Lake record explicitly reports no current advisory or harmful-algae bloom report. The record was last edited October 29, 2026.",
-      "limitation": "The record describes the Heritage Park boat-ramp monitoring area and supplies no current toxin measurement. It does not remove separate posted cove restrictions.",
-      "checkedAt": "2026-11-05",
+      "summary": "The November 9 boat-ramp sample measured microcystin at 0.700 micrograms/L, below the state recreational guideline.",
+      "limitation": "A sample describes its location and date. It does not establish a formal advisory clearance or resolve drawdown footing, cove restrictions or construction closures.",
+      "checkedAt": "2026-11-13",
       "sourceUpdatedAt": "2026-10-29",
-      "nextReviewAt": "2026-11-12",
+      "nextReviewAt": "2026-11-20",
       "nextReviewAction": "Recheck the county record and city notices. Separately obtain the current low-water bank approach from Camas Public Works.",
       "sourceIds": [
-        "lacamas-health-20261031",
-        "lacamas-management-20261031"
-      ]
+        "lacamas-leadbetter-launch-bank-review-20261113-32"
+      ],
+      "lastSampleDate": "2026-11-09"
     },
     "seasonalOverride": {
       "score": null,
@@ -55955,6 +56150,14 @@
         "checkedAt": "2026-11-05",
         "kind": "agency",
         "supports": "Checked the relevant county plan. No additional November-December allocation is listed for this water. The annual plan excludes high-lake fry and fingerling plants and is not proof that an unlisted fishery has no fish."
+      },
+      {
+        "id": "riffe-mossyrock-park-bank-review-20261113-20",
+        "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27RIFFE+LK+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+        "title": "WDFW confirmed fish deliveries, November 13 recheck",
+        "supports": "New November deliveries are recorded releases. Fish size and life stage are retained; no remaining-fish quantity is inferred.",
+        "kind": "agency",
+        "checkedAt": "2026-11-13"
       }
     ],
     "parking": {
@@ -56020,7 +56223,8 @@
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Tacoma Power has closed the swimming beach used by this bank approach. The park day-use area remains open, but that does not reopen the selected shore route."
+      "2026-11-05: Tacoma Power has closed the swimming beach used by this bank approach. The park day-use area remains open, but that does not reopen the selected shore route.",
+      "2026-11-13: November 9 deliveries added 11,960 steelhead fingerlings at 26 fish per pound and 28,900 yearlings at 17 fish per pound, about 0.038 and 0.059 pound each. These small fish do not support an immediate keeper-fishing score increase."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -56112,15 +56316,42 @@
     "stocking": {
       "waterbody": "Riffe Lake",
       "status": "confirmed-record",
-      "summary": "Latest recorded delivery: 2026-10-27, 14,857 cutthroat (200 fish per pound, approximately 0.005 lb each; fry). The newest October 27 cutthroat release is fry at 200 fish per pound. October steelhead fingerlings also need growth; neither plant supports an immediate dinner-fishing boost.",
-      "limitation": "The newest October 27 cutthroat release is fry at 200 fish per pound. October steelhead fingerlings also need growth; neither plant supports an immediate dinner-fishing boost.",
-      "checkedAt": "2026-11-05",
-      "nextReviewAt": "2026-11-12",
+      "summary": "November 9 deliveries added 11,960 steelhead fingerlings at 26 fish per pound and 28,900 yearlings at 17 fish per pound, about 0.038 and 0.059 pound each. These small fish do not support an immediate keeper-fishing score increase.",
+      "limitation": "The November steelhead and October cutthroat plants need growth. Older resident fish remain a separate fishing opportunity.",
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-11-19",
       "sourceIds": [
         "wa-stocking-20261101-riffe-lake-north-shore",
-        "wa-plan-scope-20261101"
+        "wa-plan-scope-20261101",
+        "riffe-mossyrock-park-bank-review-20261113-20"
       ],
       "events": [
+        {
+          "date": "2026-11-09",
+          "through": "2026-11-09",
+          "status": "confirmed",
+          "species": "Steelhead",
+          "quantity": 11960,
+          "fishPerPound": 26.0,
+          "lifeStage": "Fingerling",
+          "size": "26 fish per pound, about 0.0385 lb each; fingerling",
+          "sourceIds": [
+            "riffe-mossyrock-park-bank-review-20261113-20"
+          ]
+        },
+        {
+          "date": "2026-11-09",
+          "through": "2026-11-09",
+          "status": "confirmed",
+          "species": "Steelhead",
+          "quantity": 28900,
+          "fishPerPound": 17.0,
+          "lifeStage": "Yearling",
+          "size": "17 fish per pound, about 0.0588 lb each; yearling",
+          "sourceIds": [
+            "riffe-mossyrock-park-bank-review-20261113-20"
+          ]
+        },
         {
           "date": "2026-10-27",
           "status": "confirmed",

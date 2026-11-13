@@ -1,0 +1,161 @@
+{
+  "checkedAt": "2026-11-13",
+  "applied": false,
+  "baseGlobalRevision": 305,
+  "blocker": "No originating owner browser context; public production API reports canEdit=false. No legacy connector or direct database write used.",
+  "records": [
+    {
+      "spotId": "horsethief-lake-day-use-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-13: The park lake fishery remains closed after October 31. The September 22 toxin sample does not reopen the seasonal lake access.",
+        "checkedAt": "2026-11-13",
+        "nextReviewAt": "2026-11-20",
+        "sourceUrls": [
+          "https://parks.wa.gov/find-parks/state-parks/columbia-hills-historical-state-park",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false
+    },
+    {
+      "spotId": "lacamas-lake-heritage-park",
+      "expectedRevision": 6,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-13: Public parking and the established lakeside approach remain documented. The new November 9 toxin sample does not establish the low-water casting stance or firm footing. The city drawdown page returned 503; the specific shoreline access remains unresolved.",
+        "checkedAt": "2026-11-13",
+        "nextReviewAt": "2026-11-20",
+        "sourceUrls": [
+          "https://www.cityofcamas.us/publicworks/page/lacamas-lake-drawdown-scheduled-sept-21",
+          "https://clark.wa.gov/public-works/trail-and-access-closures-begin-soon-lacamas-regional-park-bridge-replacement-project",
+          "https://clark.wa.gov/sites/all/files/environmental-services/legacy-lands/lacamasheritagetrail.pdf",
+          "https://engagecamas.com/lacamas-lake-management-plan"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "deep-lake-millersylvania-bank",
+      "expectedRevision": 0,
+      "availability": {
+        "active": true,
+        "reason": "2026-11-13: The current winter schedule keeps Millersylvania day use open. Rechecked aerial layout connects the public parking row south to the hand-launch approach and fishing dock. The separate boardwalk closure near campsite 31 is not this route. Fresh November 10 trout delivery supports a legal keeper-fishing opportunity.",
+        "checkedAt": "2026-11-13",
+        "nextReviewAt": "2026-11-20",
+        "sourceUrls": [
+          "https://wdfw.wa.gov/fishing/locations/lowland-lakes/deep-lake-thurston",
+          "https://parks.wa.gov/find-parks/state-parks/millersylvania-state-park",
+          "https://parks.wa.gov/find-activities/winter-schedule"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "sandy-oxbow-coho-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-13: Metro still closes the entire park, boat launch and equestrian path for water-system replacement, with reopening expected early 2027. The parking-to-bank route is unavailable.",
+        "checkedAt": "2026-11-13",
+        "nextReviewAt": "2026-11-20",
+        "sourceUrls": [
+          "https://www.oregonmetro.gov/places/oxbow-regional-park",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "merwin-speelyai-bay-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-13: The November 5 manager notice closes the entire park to public use. Seawall work closes the picnic shore through April 2027; the launch also remains closed for low water.",
+        "checkedAt": "2026-11-13",
+        "nextReviewAt": "2026-11-20",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "lacamas-leadbetter-launch-bank",
+      "expectedRevision": 4,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-13: Public launch parking remains documented. The new toxin sample does not establish firm dry footing within casting reach at the lowered waterline. The city drawdown page returned 503; no supported reopening of this selected position is established.",
+        "checkedAt": "2026-11-13",
+        "nextReviewAt": "2026-11-20",
+        "sourceUrls": [
+          "https://www.cityofcamas.us/publicworks/page/lacamas-lake-drawdown-scheduled-sept-21",
+          "https://clark.wa.gov/public-works/trail-and-access-closures-begin-soon-lacamas-regional-park-bridge-replacement-project",
+          "https://clark.wa.gov/sites/all/files/environmental-services/legacy-lands/lacamasheritagetrail.pdf",
+          "https://engagecamas.com/lacamas-lake-management-plan"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "gales-creek-day-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-13: The live forestry record still closes campground, trailhead and day use for forest operations. Its closure text remains dated September 18. No public parking-to-bank route can be used through the closed facility.",
+        "checkedAt": "2026-11-13",
+        "nextReviewAt": "2026-11-20",
+        "sourceUrls": [
+          "https://www.oregon.gov/odf/recreation/_api/web/GetList('/odf/recreation/Lists/guides')/items(27)?$select=Title,COVID_x002d_19_x0020_Updates,Modified&$format=json",
+          "https://www.newsinthegrove.com/most-seasonal-state-forest-campgrounds-close-some-camping-stays-open/",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false
+    },
+    {
+      "spotId": "or-westbridge-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-13: The current project page still carries West Bridge Trail closure information and ongoing construction. No dated reopening of the continuous parking-to-bank route was established. The expired October work window alone is insufficient.",
+        "checkedAt": "2026-11-13",
+        "nextReviewAt": "2026-11-20",
+        "sourceUrls": [
+          "https://westlinnoregon.gov/parksrec/west-bridge-park",
+          "https://www.i205corridor.org/updates",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "east-fork-danger-park",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-13: The restoration partner continues to restrict river and greenway access through winter 2027. A November project photograph or completed earthworks does not reopen the access.",
+        "checkedAt": "2026-11-13",
+        "nextReviewAt": "2026-11-20",
+        "sourceUrls": [
+          "https://www.estuarypartnership.org/our-work/habitat-restoration/east-fork-lewis-river-reconnection-project",
+          "https://flashalert.net/id/cc",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false
+    }
+  ]
+}
