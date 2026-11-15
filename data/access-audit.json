@@ -58,7 +58,7 @@
     "allMissingPinsExplained": true,
     "report": "docs/research/2026-11-01-access-and-score-update.md"
   },
-  "currentCorpusCount": 328,
+  "currentCorpusCount": 382,
   "latestResearchRefresh": {
     "checkedAt": "2026-11-05",
     "report": "docs/research/2026-11-05-full-refresh.md",
@@ -71,5 +71,14 @@
       "willamette-independence-riverview-bank"
     ],
     "scope": "Current notice and research refresh. The older complete route audit and its imagery dates remain separate."
+  },
+  "latestExpansion": {
+    "checkedAt": "2026-11-15",
+    "report": "docs/research/2026-11-15-expansion.md",
+    "reviewed": 21,
+    "supported": 14,
+    "unresolved": 7,
+    "active": 9,
+    "note": "Supported access is separate from current fishing availability. Seasonal, algae and gate restrictions remain visible."
   }
 }

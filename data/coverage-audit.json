@@ -1,7 +1,7 @@
 {
   "reviewStartedAt": "2026-10-27",
   "completedAt": "2026-10-28",
-  "scope": "",
+  "scope": "Washington and Oregon bank access, expanded approximately ten miles beyond the previous mapped research envelope on November 15, 2026.",
   "method": "Compared fishing and park lists with boat launches, water trails, manager properties and geographic access inventories. Merged aliases, kept distinct access points, checked usable bank routes and recorded specific exclusions. Route screening does not prove public access.",
   "limitations": "The inventory is a systematic coverage review. It cannot establish every informal shoreline or future opening. Deferred candidates retain a concrete unresolved question for later review; old reasoning must be reconsidered.",
   "sourceInventories": [
@@ -8627,6 +8627,259 @@
       ],
       "auditRegion": "or-south",
       "checkedAt": "2026-11-05"
+    },
+    {
+      "name": "Hicks Lake · Wanschers Park bank",
+      "region": "Lacey / Olympia · Thurston County",
+      "status": "added",
+      "matchedSpotId": "hicks-lake-wanschers-bank",
+      "reason": "Fishing is closed November 1 until the fourth Saturday in April. WDFW’s lake rule takes precedence over the park page’s ambiguous April 4 wording.",
+      "sourceUrls": [
+        "https://laceyparks.org/parks_trails/wanschers-community-park/",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.807491%2C47.020675%2C-122.79949099999999%2C47.026675&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Hicks Lake · WDFW launch bank",
+      "region": "Lacey / Olympia · Thurston County",
+      "status": "added",
+      "matchedSpotId": "hicks-lake-wdfw-bank",
+      "reason": "The Hicks Lake fishing season ended October 31. This access is a future-season option until the fourth Saturday in April.",
+      "sourceUrls": [
+        "https://wdfw.wa.gov/fishing/locations/lowland-lakes/hicks-lake",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.80665400000001%2C47.019047%2C-122.798654%2C47.025047&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Ward Lake · WDFW east bank",
+      "region": "Lacey / Olympia · Thurston County",
+      "status": "added",
+      "matchedSpotId": "ward-lake-wdfw-bank",
+      "reason": "The WDFW access inventory still lists vehicle access only through September 30, while current fishing rules list Ward as year-round. Winter entry through the gate needs confirmation.",
+      "sourceUrls": [
+        "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.875912%2C47.006208%2C-122.86791199999999%2C47.012208&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Long’s Pond · Woodland Creek fishing dock",
+      "region": "Lacey / Olympia · Thurston County",
+      "status": "added",
+      "matchedSpotId": "longs-pond-woodland-fishing-dock",
+      "reason": "The checked manager/agency description and inspected park approach support this bank access. Recheck posted restrictions and conditions before a trip.",
+      "sourceUrls": [
+        "https://laceyparks.org/parks_trails/woodland-creek-community-park/",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.79549700000001%2C47.036336%2C-122.787497%2C47.042336&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Long Lake · WDFW launch bank",
+      "region": "Lacey / Olympia · Thurston County",
+      "status": "added",
+      "matchedSpotId": "long-lake-thurston-wdfw-bank",
+      "reason": "The checked manager/agency description and inspected park approach support this bank access. Recheck posted restrictions and conditions before a trip.",
+      "sourceUrls": [
+        "https://wdfw.wa.gov/fishing/locations/lowland-lakes/long-lake-thurston",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.78632300000001%2C47.018232%2C-122.778323%2C47.024232&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json",
+        "https://cityoflacey.org/wp-content/uploads/sites/3/2022/09/Lacey-Life-September-2022-higher-res.pdf"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Lake St. Clair · WDFW bank",
+      "region": "Lacey / Olympia · Thurston County",
+      "status": "added",
+      "matchedSpotId": "saint-clair-lake-wdfw-bank",
+      "reason": "The checked manager/agency description and inspected park approach support this bank access. Recheck posted restrictions and conditions before a trip.",
+      "sourceUrls": [
+        "https://wdfw.wa.gov/fishing/locations/lowland-lakes/st.-clair-lake",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.721725%2C46.995664%2C-122.713725%2C47.001664&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Pattison Lake · WDFW bank",
+      "region": "Lacey / Olympia · Thurston County",
+      "status": "added",
+      "matchedSpotId": "pattison-lake-wdfw-bank",
+      "reason": "Thurston County reports an active toxic-algae advisory. A November 12 sample measured microcystin at 84 µg/L, above the 8 µg/L recreation guideline; defer keeper fishing until the authority lifts the advisory.",
+      "sourceUrls": [
+        "https://wdfw.wa.gov/fishing/locations/lowland-lakes/pattison-lake",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.77464%2C46.993182%2C-122.76664%2C46.999182&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Devils Lake · Regatta Park fishing dock",
+      "region": "Lincoln City · Lincoln County",
+      "status": "added",
+      "matchedSpotId": "devils-lake-regatta-bank",
+      "reason": "The checked manager/agency description and inspected park approach support this bank access. Recheck posted restrictions and conditions before a trip.",
+      "sourceUrls": [
+        "https://www.lincolncityparksandrec.org/parks-1/regatta-park",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-124.00258500000001%2C44.970815%2C-123.994585%2C44.976815&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Devils Lake · Holmes Road Park bank",
+      "region": "Lincoln City · Lincoln County",
+      "status": "added",
+      "matchedSpotId": "devils-lake-holmes-road-bank",
+      "reason": "The city confirms fishing docks, stairs and a steep boat ramp, but its public address point and the Marine Board locator fall among residential parcels. The inspected aerial could not establish which entrance and parking area belong to the park.",
+      "sourceUrls": [
+        "https://www.lincolncityparksandrec.org/parks-1/holmes-road-park",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-123.99953500000001%2C44.987105%2C-123.991535%2C44.993105&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Devils Lake · East day-use bank",
+      "region": "Lincoln City · Lincoln County",
+      "status": "added",
+      "matchedSpotId": "devils-lake-east-day-use-bank",
+      "reason": "The checked manager/agency description and inspected park approach support this bank access. Recheck posted restrictions and conditions before a trip.",
+      "sourceUrls": [
+        "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=155",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-124.00150500000001%2C44.964768%2C-123.993505%2C44.970768&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "South Santiam · Waterloo Park bank",
+      "region": "Albany / Lebanon / Sweet Home · Linn County",
+      "status": "added",
+      "matchedSpotId": "south-santiam-waterloo-park-bank",
+      "reason": "The public park and its river fishing are documented, but the reviewed aerial does not distinguish authorized day-use parking from campground pads and grass picnic areas. A continuous route from a verified day-use space to the riverbank needs confirmation.",
+      "sourceUrls": [
+        "https://traveloregon.com/things-to-do/outdoor-recreation/boating-jet-boating/waterloo-park/",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.821984%2C44.488105%2C-122.81398399999999%2C44.494105&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Foster Reservoir · Sunnyside bank",
+      "region": "Albany / Lebanon / Sweet Home · Linn County",
+      "status": "added",
+      "matchedSpotId": "foster-reservoir-sunnyside-bank",
+      "reason": "The checked manager/agency description and inspected park approach support this bank access. Recheck posted restrictions and conditions before a trip.",
+      "sourceUrls": [
+        "https://myodfw.com/articles/easy-angling-willamette-zone",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.61525400000001%2C44.421715%2C-122.607254%2C44.427715&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Foster Reservoir · Lewis Creek bank",
+      "region": "Albany / Lebanon / Sweet Home · Linn County",
+      "status": "added",
+      "matchedSpotId": "foster-reservoir-lewis-creek-bank",
+      "reason": "The current Marine Board report lists the Lewis Creek launch closed for low water. A usable winter parking-to-water route has not been confirmed, so this bank access remains inactive pending a manager check.",
+      "sourceUrls": [
+        "https://myodfw.com/articles/easy-angling-willamette-zone",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.62936400000001%2C44.422525%2C-122.621364%2C44.428525&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Columbia River · Celilo Park bank",
+      "region": "Eastern Columbia Gorge · Wasco / Sherman County",
+      "status": "added",
+      "matchedSpotId": "columbia-celilo-park-bank",
+      "reason": "The checked manager/agency description and inspected park approach support this bank access. Recheck posted restrictions and conditions before a trip.",
+      "sourceUrls": [
+        "https://www.nps.gov/places/000/celilo-park.htm",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-120.96754700000001%2C45.645894%2C-120.959547%2C45.651894&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Deschutes River · State Recreation Area bank",
+      "region": "Eastern Columbia Gorge · Wasco / Sherman County",
+      "status": "added",
+      "matchedSpotId": "deschutes-state-recreation-east-bank",
+      "reason": "The park’s winter notice closes primitive loops, and the inspected aerial does not establish which nearby parking spaces remain day-use spaces. A winter parking-to-bank route needs confirmation.",
+      "sourceUrls": [
+        "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=29",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-120.9127%2C45.6275%2C-120.90469999999999%2C45.6335&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Waverly Lake · Park bank",
+      "region": "Albany / Lebanon / Sweet Home · Linn County",
+      "status": "added",
+      "matchedSpotId": "waverly-lake-park-bank",
+      "reason": "The checked manager/agency description and inspected park approach support this bank access. Recheck posted restrictions and conditions before a trip.",
+      "sourceUrls": [
+        "https://myodfw.com/articles/easy-angling-willamette-zone",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-123.073537%2C44.637529%2C-123.06553699999999%2C44.643529&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Freeway Lakes · East park bank",
+      "region": "Albany / Lebanon / Sweet Home · Linn County",
+      "status": "added",
+      "matchedSpotId": "freeway-lakes-east-park-bank",
+      "reason": "The checked manager/agency description and inspected park approach support this bank access. Recheck posted restrictions and conditions before a trip.",
+      "sourceUrls": [
+        "https://myodfw.com/articles/easy-angling-willamette-zone",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-123.06256400000001%2C44.588659%2C-123.054564%2C44.594659&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Trask River #2 · Oregon Fishing Club",
+      "region": "Private river fishing · Oregon Coast Range",
+      "status": "added",
+      "matchedSpotId": "ofc-trask-river-2",
+      "reason": "A forested road and river corridor are visible, but the public map does not identify a signed member entrance, legal parking or the route through the trees to a permitted bank.",
+      "sourceUrls": [
+        "https://oregonfishingclub.com/property/trask-river-2/",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-123.6341%2C45.444752%2C-123.6261%2C45.450752&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Nestucca Pipeline · Oregon Fishing Club",
+      "region": "Private river fishing · Oregon Coast Range",
+      "status": "added",
+      "matchedSpotId": "ofc-nestucca-pipeline",
+      "reason": "The public marker is amid farm buildings and fields beside the river. The authorized member drive and parking area cannot be distinguished from private farm access.",
+      "sourceUrls": [
+        "https://oregonfishingclub.com/property/nestucca-pipeline/",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-123.87933100000001%2C45.230159%2C-123.871331%2C45.236159&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Nestucca River #1 · Oregon Fishing Club",
+      "region": "Private river fishing · Oregon Coast Range",
+      "status": "added",
+      "matchedSpotId": "ofc-nestucca-river-1",
+      "reason": "The river, a bridge and adjoining farm tracks are visible. A bridge shoulder or farm track is not verified member parking, and the public map supplies no continuous authorized bank route.",
+      "sourceUrls": [
+        "https://oregonfishingclub.com/property/nestucca-river-1/",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-123.86764600000001%2C45.237114%2C-123.859646%2C45.243114&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Nisqually River · Riverbend fishing access",
+      "region": "Nisqually River · Thurston County",
+      "status": "added",
+      "matchedSpotId": "nisqually-riverbend",
+      "reason": "The Nisqually mouth-to-Clear Creek reach is closed Sundays and Mondays in late season, including November 15, 2026; its annual season also ends November 15. The private parking-to-bar route still needs operator confirmation.",
+      "sourceUrls": [
+        "https://www.riverbendcampgroundwa.com/about-5-2",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.6949%2C47.0486%2C-122.6869%2C47.0546&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
+      ],
+      "auditRegion": "2026-11-15-expansion"
     }
   ],
   "researchReports": [
@@ -8639,7 +8892,20 @@
     "docs/research/2026-10-27-coverage-or-east.md",
     "docs/research/2026-10-30-east-pond.md",
     "docs/research/2026-11-01-covered-bridge.md",
-    "docs/research/2026-11-05-full-refresh.md"
+    "docs/research/2026-11-05-full-refresh.md",
+    "docs/research/2026-11-15-expansion.md"
   ],
-  "latestUpdateAt": "2026-11-05"
+  "latestUpdateAt": "2026-11-15",
+  "latestExpansion": {
+    "checkedAt": "2026-11-15",
+    "report": "docs/research/2026-11-15-expansion.md",
+    "ledger": "data/coverage-expansion-2026-11-15.json",
+    "baselineLocations": 361,
+    "addedLocations": 21,
+    "totalLocations": 382,
+    "paidLocations": 42,
+    "bufferMiles": 10,
+    "inventoryBandLeads": 106,
+    "note": "Historical counts above describe the October audit. The new ledger separates mapped accesses from deferred facility leads and farther road estimates."
+  }
 }

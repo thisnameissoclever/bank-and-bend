@@ -9,7 +9,9 @@
 
 ## Geographic scope
 
-The inventory covers Washington and Oregon fishing access around northwest Vancouver. Review every named candidate that can plausibly be reached within 90 minutes, then retain useful candidates out to the application's 120-minute limit. A road route without traffic is a screening estimate. The displayed planning range includes ordinary approach time; congestion, weather and road closures can extend it. Use the fishing position and its lawful parking route as the unit of comparison. Separate accesses on one lake or river can differ substantially in available bank, crowding, current and walking distance. Merge aliases for the same access. Keep the existing spot ID when correcting its name or research.
+The November 15 expansion reviews an approximate ten-mile outward buffer around the previous 361-location research envelope, plus interior gaps. It includes public and paid lake, pond, reservoir and river access. The prior locations, buffer method, candidate decisions and non-live Vancouver city-center screening routes are recorded in `data/coverage-expansion-2026-11-15.json`. Outer additions can take roughly 2–2½ hours by road. The drive filter now supports 150 minutes; existing saved limits remain unchanged. The envelope defines research scope and does not clip the map or prove that every facility inside it permits bank fishing.
+
+The inventory covers Washington and Oregon fishing access around northwest Vancouver. Review every named candidate that can plausibly be reached within 90 minutes, then retain useful outer candidates through the expanded 150-minute screening range. A road route without traffic is a screening estimate. The displayed planning range includes ordinary approach time; congestion, weather and road closures can extend it. Use the fishing position and its lawful parking route as the unit of comparison. Separate accesses on one lake or river can differ substantially in available bank, crowding, current and walking distance. Merge aliases for the same access. Keep the existing spot ID when correcting its name or research.
 
 ## How to find omissions
 

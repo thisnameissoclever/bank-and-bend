@@ -4,6 +4,7 @@ import {readFileSync} from 'node:fs';
 import {clearedFilters,filterSpots,normalizeFilters,activeFilterCount} from '../lib/model.ts';
 import {preferencePatch} from '../lib/preferences.ts';
 import type {Spot} from '../lib/model.ts';
+import {readSharedView,shareLink} from '../lib/share-links.ts';
 const spots=JSON.parse(readFileSync(new URL('../data/spots.json',import.meta.url),'utf8')) as Spot[];
 test('paid and unpaid filters partition the same corpus without changing other filters',()=>{
  const all=clearedFilters();
@@ -41,4 +42,17 @@ test('unverified walking distance stays unknown and does not crash filtering',()
  const candidate=spots.find(s=>s.id==='indian-springs-trout-farm')!;
  assert.equal(candidate.walk.minutes,null);
  assert.equal(filterSpots([candidate],{...clearedFilters(),walk:5},{}).length,1);
+});
+test('expanded drive limits filter road times and survive preference and shared-link validation',()=>{
+ const spot=spots.find(s=>s.id==='rainbow-trout-farm-sandy')!;
+ for(const minutes of [120,135,150]){
+  const filters={...clearedFilters(),payment:'paid' as const,drive:minutes};
+  assert.equal(filterSpots([spot],filters,{},undefined,()=>minutes).length,1);
+  assert.equal(filterSpots([spot],filters,{},undefined,()=>minutes+1).length,0);
+  assert.equal(preferencePatch.parse({filters}).filters?.drive,minutes);
+  const shared=readSharedView(new URL(shareLink('https://bankandbend.com/',{filters})).hash);
+  assert.equal(shared.filters?.drive,minutes);
+  assert.equal(shared.filters?.payment,'paid');
+ }
+ assert.equal(preferencePatch.safeParse({filters:{...clearedFilters(),drive:151}}).success,false);
 });
