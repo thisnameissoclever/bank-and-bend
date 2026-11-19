@@ -1,0 +1,77 @@
+{
+  "checkedAt": "2026-11-19",
+  "nextReviewAt": "2026-11-26",
+  "accessRecords": 135,
+  "waterbodies": 106,
+  "inactiveAccessRecords": 53,
+  "riverTypedReservoirAccesses": [
+    "swift-power-canal-pier-bank"
+  ],
+  "materialChanges": [
+    {
+      "spotIds": [
+        "or-turner-bank"
+      ],
+      "finding": "ODFW expressly confirms recent stocking and assigns 1,000 legal-size trout to the November 9 week.",
+      "seasonalOverride": {
+        "score": 9,
+        "from": "2026-11-19",
+        "through": "2026-12-03"
+      }
+    },
+    {
+      "spotIds": [
+        "or-walter-bank"
+      ],
+      "finding": "ODFW expressly confirms recent stocking and assigns 90 trophy trout to the November 9 week.",
+      "seasonalOverride": {
+        "score": 8,
+        "from": "2026-11-19",
+        "through": "2026-11-26"
+      }
+    },
+    {
+      "spotIds": [
+        "st-louis-ponds",
+        "mt-hood-pond-north-bank",
+        "or-silverton-bank"
+      ],
+      "finding": "Current regional table rows were added as scheduled plans because completion is not expressly confirmed."
+    },
+    {
+      "spotIds": [
+        "ofc-turner-lake"
+      ],
+      "finding": "Separated the private Oregon Fishing Club lake north of Dallas from the public Turner Lake in Salem."
+    }
+  ],
+  "additionalSourceClass": {
+    "source": "WDFW Southwest creel report, November 16, 2026",
+    "finding": "No effort was reported at Drano Lake. This supplies no catch-rate evidence and caused no score change."
+  },
+  "sourceFailures": [
+    {
+      "url": "https://www.dfw.state.or.us/fish/license_permits_apps/docs/licensed_operators_who_have_fish_for_sale.pdf",
+      "status": 503,
+      "alternative": "Current ODFW private fish hatchery page and agency-indexed operator listing"
+    },
+    {
+      "url": "https://www.oregonaquaculture.org/producers.html",
+      "status": 404,
+      "alternative": "Current operator pages and ODFW private-hatchery information"
+    },
+    {
+      "url": "https://multco.us/file/t2-2024-0109_/download",
+      "status": 404,
+      "alternative": "Current ODFW water-specific schedule search; historical county claim retained only as dated context"
+    }
+  ],
+  "availability": {
+    "revisionRead": 305,
+    "recordCount": 171,
+    "canEdit": false,
+    "proposals": [],
+    "writeAttempted": false,
+    "reason": "No stocking finding changed legal access or availability."
+  }
+}
