@@ -8880,6 +8880,20 @@
         "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.6949%2C47.0486%2C-122.6869%2C47.0546&bboxSR=4326&imageSR=4326&size=800%2C600&format=jpg&f=json"
       ],
       "auditRegion": "2026-11-15-expansion"
+    },
+    {
+      "name": "Rio Park · Marine Park west bank",
+      "region": "Vancouver · Clark County",
+      "status": "added",
+      "matchedSpotId": "rio-park-marine-park-west-bank",
+      "reason": "2026-11-20: Resolved the Rio place pin, compared both sides of the launch and traced the western beach separately. The existing Marine Park entry covers the east beach about 375 m away.",
+      "sourceUrls": [
+        "https://maps.app.goo.gl/JZJjtxyPuZpbh5nw8",
+        "https://www.cityofvancouver.us/parks_trails/marine-park/",
+        "https://apps.ecology.wa.gov/cleanupsearch/document/149841/",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.6325,45.6115,-122.6255,45.6157&bboxSR=4326&imageSR=3857&size=1050,900&format=jpg&f=image"
+      ],
+      "auditRegion": "wa-clark"
     }
   ],
   "researchReports": [
@@ -8895,7 +8909,7 @@
     "docs/research/2026-11-05-full-refresh.md",
     "docs/research/2026-11-15-expansion.md"
   ],
-  "latestUpdateAt": "2026-11-15",
+  "latestUpdateAt": "2026-11-20",
   "latestExpansion": {
     "checkedAt": "2026-11-15",
     "report": "docs/research/2026-11-15-expansion.md",

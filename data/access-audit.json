@@ -58,7 +58,7 @@
     "allMissingPinsExplained": true,
     "report": "docs/research/2026-11-01-access-and-score-update.md"
   },
-  "currentCorpusCount": 382,
+  "currentCorpusCount": 383,
   "latestResearchRefresh": {
     "checkedAt": "2026-11-05",
     "report": "docs/research/2026-11-05-full-refresh.md",

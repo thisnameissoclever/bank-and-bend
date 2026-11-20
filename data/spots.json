@@ -131493,5 +131493,282 @@
       "licenseRequired": true
     },
     "overallReason": "A paid river fishery with daily, monthly and seasonal fishing passes."
+  },
+  {
+    "id": "rio-park-marine-park-west-bank",
+    "name": "Rio Park · Marine Park west bank",
+    "generalAreaName": "Rio park, Vancouver, WA",
+    "state": "WA",
+    "waterType": "river",
+    "waterSpeed": [
+      "slow"
+    ],
+    "waterSpeedNote": "The pin faces the main Columbia. The shallow margin may be easier to work than the channel, but wind, current and boat wakes can move a float quickly.",
+    "waterSpeedBasis": "inferred",
+    "waterSpeedCheckedAt": "2026-11-20",
+    "region": "Vancouver · Clark County",
+    "lat": 45.612783,
+    "lng": -122.62922,
+    "driveMinutes": null,
+    "species": [
+      "smallmouth bass",
+      "salmon"
+    ],
+    "description": "A short walk across the Kaiser Shipyard Memorial lawn reaches the Columbia west of the boat basin. The fishing pin marks the beach; the Google place pin marks the lawn.",
+    "scores": {
+      "bankQuantity": 6,
+      "bankQuality": 6,
+      "accessEase": 8,
+      "seclusion": 4,
+      "waterManageability": 5,
+      "scenery": 7,
+      "evidence": 7,
+      "seasonalProspects": 4
+    },
+    "scoreReasons": {
+      "bankQuantity": "Several stretches of sand are visible; logs and river stage limit how far anglers can spread out.",
+      "bankQuality": "Openings between driftwood allow casting from dry sand. High water reduces those openings.",
+      "accessEase": "Marked parking is close. The walk crosses lawn and ends on uneven sand.",
+      "seclusion": "The tree line breaks some sightlines, but people on the memorial lawn, waterfront path and passing boats can see the beach.",
+      "waterManageability": "The pin faces the main Columbia. The shallow margin may be easier to work than the channel, but wind, current and boat wakes can move a float quickly.",
+      "scenery": "Trees frame a broad Columbia view beside a working waterfront.",
+      "evidence": "City policy, parcel maps and aerial imagery agree on access. Catch evidence is regional.",
+      "seasonalProspects": "Spring warming brings smallmouth within reach of the bank. Autumn feeding is possible; by late November this shallow beach is a weaker bet as bass move toward deeper winter water. Migrating hatchery coho are a secondary possibility."
+    },
+    "sources": [
+      {
+        "id": "rio-city",
+        "title": "City of Vancouver: Marine Park",
+        "url": "https://www.cityofvancouver.us/parks_trails/marine-park/",
+        "supports": "Beach, ramp, paved paths, hours and year-round designated parking at $10 per vehicle.",
+        "kind": "agency",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "rio-policy",
+        "title": "City of Vancouver: fishing in parks",
+        "url": "https://www.cityofvancouver.us/community/parks-trails/",
+        "supports": "City explicitly permits fishing at Marine Park.",
+        "kind": "agency",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "rio-parcels",
+        "title": "Washington Ecology: Kaiser Shipyard site and parcel map",
+        "url": "https://apps.ecology.wa.gov/cleanupsearch/document/149841/",
+        "supports": "Shows the city waterfront and distinguishes it from neighboring industrial parcels.",
+        "kind": "agency",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "rio-aerial",
+        "title": "Esri World Imagery: memorial lawn, lot and bank",
+        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.6325,45.6115,-122.6255,45.6157&bboxSR=4326&imageSR=3857&size=1050,900&format=jpg&f=image",
+        "supports": "Viewed November 20. The marked lot connects across grass to the sandy strip southwest of the basin. Image capture date unknown.",
+        "kind": "map",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "rio-place",
+        "title": "Google Maps: Rio park",
+        "url": "https://maps.app.goo.gl/JZJjtxyPuZpbh5nw8",
+        "supports": "The named pin is inland on the lawn. Its Hidden Way address is not the vehicle entrance.",
+        "kind": "map",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "rio-trail",
+        "title": "Estuary Partnership: Vancouver Marine Park",
+        "url": "https://www.estuarypartnership.org/locations/launch-point/vancouver-marine-park",
+        "supports": "Access from SE Columbia Way and SE Marine Park Way.",
+        "kind": "agency",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "rio-bass",
+        "title": "WDFW: smallmouth bass fishing calendar",
+        "url": "https://wdfw.wa.gov/species-habitats/species/micropterus-dolomieu",
+        "supports": "Bass move shoreward in spring; fall can fish well before winter fish move offshore.",
+        "kind": "agency",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "rio-rules",
+        "title": "Washington: Columbia River rules",
+        "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-060",
+        "supports": "Reach and species retention rules. Current emergency changes take precedence.",
+        "kind": "agency",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "rio-creel",
+        "title": "WDFW: November 9–15 lower Columbia fishery report",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "Mainstem creel reporting ended October 31. No Rio bank catch rate in the report.",
+        "kind": "agency",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "rio-algae",
+        "title": "Clark County: current water advisories",
+        "url": "https://clark.wa.gov/public-health/public-beaches",
+        "supports": "Names Marine Park for possible bottom-attached algae mats; no recent sample for this beach.",
+        "kind": "agency",
+        "checkedAt": "2026-11-20"
+      },
+      {
+        "id": "rio-health",
+        "title": "Washington DOH: fish consumption advisories",
+        "url": "https://doh.wa.gov/community-and-environment/food/fish/advisories",
+        "supports": "Statewide mercury guidance applies to bass.",
+        "kind": "agency",
+        "checkedAt": "2026-11-20"
+      }
+    ],
+    "parking": {
+      "lat": 45.613418,
+      "lng": -122.62874,
+      "label": "Marine Park launch lot by the memorial lawn",
+      "notes": "Use a designated vehicle space. Parking costs $10 year-round.",
+      "confidence": "access audit supported",
+      "sourceIds": [
+        "rio-city",
+        "rio-policy",
+        "rio-parcels",
+        "rio-aerial"
+      ]
+    },
+    "fishing": {
+      "lat": 45.612783,
+      "lng": -122.62922,
+      "label": "West beach opening below the memorial lawn",
+      "notes": "Approximate dry shore access selected from aerial imagery. The waterline moves.",
+      "confidence": "access audit supported",
+      "sourceIds": [
+        "rio-city",
+        "rio-policy",
+        "rio-parcels",
+        "rio-aerial"
+      ]
+    },
+    "visualVerification": {
+      "status": "checked",
+      "method": "Esri aerial, Ecology parcel diagram, city access and parking policy",
+      "notes": "Reviewed the marked lot, lawn, tree opening and shore separately from the launch basin.",
+      "sourceIds": [
+        "rio-city",
+        "rio-policy",
+        "rio-parcels",
+        "rio-aerial"
+      ]
+    },
+    "walk": {
+      "minutes": [
+        2,
+        4
+      ],
+      "description": "Use SE Marine Park Way off SE Columbia Way. Park in a designated vehicle space in the city lot on the river side of the road. Walk southwest across the memorial lawn to the sandy opening. Driftwood and higher water can narrow the last few yards. Stay clear of the ramp, trailer lanes and industrial driveways."
+    },
+    "accessNotes": "Use SE Marine Park Way off SE Columbia Way. Park in a designated vehicle space in the city lot on the river side of the road. Walk southwest across the memorial lawn to the sandy opening. Driftwood and higher water can narrow the last few yards. Stay clear of the ramp, trailer lanes and industrial driveways. City hours: 5 a.m. to 10 p.m. Parking: $10 per vehicle.",
+    "currentStatus": {
+      "label": "Available candidate",
+      "summary": "The city allows fishing in Marine Park. The parcel map and aerial show a continuous approach from designated parking to the beach west of the basin.",
+      "checkedAt": "2026-11-20"
+    },
+    "retentionNotes": "Smallmouth are the primary resident target. For November salmon, the published reach rule allows hatchery coho and requires release of Chinook. Check WDFW emergency changes for the trip date. See state consumption advice for bass.",
+    "seasonNotes": "Spring warming brings smallmouth within reach of the bank. Autumn feeding is possible; by late November this shallow beach is a weaker bet as bass move toward deeper winter water. Migrating hatchery coho are a secondary possibility.",
+    "crowdNotes": "The tree line breaks some sightlines, but people on the memorial lawn, waterfront path and passing boats can see the beach.",
+    "history": {
+      "visited": false,
+      "notes": ""
+    },
+    "unknowns": [
+      "No recent catch count specific to this beach was found. Water depth and current within casting range were not measured."
+    ],
+    "researchLog": [
+      "2026-11-20: Resolved the Rio place pin, compared both sides of the launch and traced the western beach separately. The existing Marine Park entry covers the east beach about 375 m away.",
+      "2026-11-20: Checked city fishing permission and parking, Ecology parcels, Estuary Partnership directions, Esri imagery, county mats guidance, state reach rules and WDFW fishery reporting. Seasonal ratings reflect expected opportunity from this particular shore."
+    ],
+    "overallReason": "Easy public approach and a real beach. Open sightlines and exposure to the main river limit its fit for secluded float fishing.",
+    "checkedAt": "2026-11-20",
+    "availability": {
+      "active": true,
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-04",
+      "reason": "2026-11-20: The city allows fishing in Marine Park. The parcel map and aerial show a continuous approach from designated parking to the beach west of the basin.",
+      "sourceUrls": [
+        "https://www.cityofvancouver.us/parks_trails/marine-park/",
+        "https://www.cityofvancouver.us/community/parks-trails/",
+        "https://apps.ecology.wa.gov/cleanupsearch/document/149841/",
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.6325,45.6115,-122.6255,45.6157&bboxSR=4326&imageSR=3857&size=1050,900&format=jpg&f=image"
+      ]
+    },
+    "seasonalCheckedAt": "2026-11-20",
+    "seasonality": {
+      "monthlyScores": [
+        3,
+        3,
+        4,
+        5,
+        7,
+        8,
+        7,
+        7,
+        7,
+        6,
+        4,
+        3
+      ],
+      "rationale": "Spring warming brings smallmouth within reach of the bank. Autumn feeding is possible; by late November this shallow beach is a weaker bet as bass move toward deeper winter water. Migrating hatchery coho are a secondary possibility.",
+      "sourceIds": [
+        "rio-bass",
+        "rio-rules",
+        "rio-creel"
+      ],
+      "reviewedAt": "2026-11-20"
+    },
+    "waterQuality": {
+      "status": "caution",
+      "category": "cyanobacteria",
+      "summary": "Clark County names Marine Park for possible bottom-attached algae mats. Avoid visible mats along the bank.",
+      "limitation": "No recent sample for this beach is reported. The notice is an educational caution.",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-04",
+      "nextReviewAction": "Recheck the named park notice and new city restrictions.",
+      "sourceIds": [
+        "rio-algae"
+      ]
+    },
+    "accessAudit": {
+      "status": "supported",
+      "checkedAt": "2026-11-20",
+      "summary": "The city allows fishing in Marine Park. The parcel map and aerial show a continuous approach from designated parking to the beach west of the basin.",
+      "parkingVerified": true,
+      "fishingVerified": true,
+      "routeVerified": true,
+      "sourceIds": [
+        "rio-city",
+        "rio-policy",
+        "rio-parcels",
+        "rio-aerial"
+      ],
+      "findings": [
+        "Use SE Marine Park Way off SE Columbia Way. Park in a designated vehicle space in the city lot on the river side of the road. Walk southwest across the memorial lawn to the sandy opening. Driftwood and higher water can narrow the last few yards. Stay clear of the ramp, trailer lanes and industrial driveways."
+      ],
+      "coordinateMethod": "Selected dry shore and the lot from the actual projected Esri export extent."
+    },
+    "privacyReview": {
+      "checkedAt": "2026-11-20",
+      "sourceIds": [
+        "rio-aerial",
+        "rio-city"
+      ],
+      "limitations": [
+        "Visibility depends on where other park users are. No occupancy count."
+      ],
+      "physicalSpaceScore": 6,
+      "physicalSpaceReason": "Several stretches of sand are visible; logs and river stage limit how far anglers can spread out."
+    },
+    "fishingBackground": "Lower Columbia smallmouth and seasonal salmon are within reach of bank anglers. No dated catch report singled out this opening."
   }
 ]
