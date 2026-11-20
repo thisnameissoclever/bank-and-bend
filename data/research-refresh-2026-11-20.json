@@ -1,0 +1,2538 @@
+{
+  "checkedAt": "2026-11-20",
+  "changedSpotIds": [
+    "battle-ground-lake",
+    "haapa-boat-launch",
+    "haydu-park",
+    "horsethief-lake-day-use-bank",
+    "kalama-beginners-hole-bank",
+    "kalama-fishermans-loop-bank",
+    "kalama-hand-bank",
+    "kalama-modrow-bridge-bank",
+    "kalama-sportsmans-club-bank",
+    "klineline-pond",
+    "lacamas-lake-heritage-park",
+    "lacamas-leadbetter-launch-bank",
+    "lewis-cedar-creek-launch-bank",
+    "lewis-goerig-hayes-bridge-bank",
+    "lewis-hatchery-walk-in-bank",
+    "lewis-island-ramp-bank",
+    "lewis-johnson-creek-walk-in-bank",
+    "lewis-martin-pekin-wdfw-bank",
+    "lewis-pekin-ferry-private-bank",
+    "round-lake-west-bank",
+    "vancouver-lake-regional-park-bank",
+    "vancouver-lake-wdfw-south-bank",
+    "wallace-pond-toledo"
+  ],
+  "accessProposals": [
+    "horsethief-lake-day-use-bank",
+    "sandy-oxbow-coho-bank",
+    "merwin-speelyai-bay-bank",
+    "merwin-cresap-bay-bank",
+    "yale-saddle-dam-bank",
+    "yale-park-south-bank",
+    "yale-cougar-park-peninsula-bank",
+    "yale-beaver-bay-day-use-bank",
+    "swift-power-canal-pier-bank",
+    "east-fork-lucia-upstream-bank",
+    "east-fork-moulton-upstream-bank",
+    "gales-creek-day-bank",
+    "hicks-lake-wanschers-bank",
+    "hicks-lake-wdfw-bank",
+    "lacamas-lake-heritage-park",
+    "round-lake-west-bank",
+    "lacamas-leadbetter-launch-bank",
+    "ofc-howell-ponds",
+    "ofc-big-little-tree-lakes",
+    "ofc-hartland-lake",
+    "ofc-schmadeke-pond",
+    "ofc-big-creek",
+    "ofc-highland-ponds",
+    "ofc-blue-den-lake-pond",
+    "ofc-twin-oaks-pond",
+    "ofc-burdick-pond",
+    "ofc-north-santiam-pond",
+    "ofc-tom-molly-ponds",
+    "ofc-pudding-river-at-pats-acres"
+  ],
+  "remainingAccessReviews": [
+    "horseshoe-lake-woodland",
+    "hagg-lake-sain-creek",
+    "blue-lake-regional-park",
+    "haapa-boat-launch",
+    "battle-ground-lake",
+    "haydu-park",
+    "lewisville-regional-park",
+    "klineline-pond",
+    "rowland-lake-north-bank",
+    "icehouse-lake-roadside-bank",
+    "washougal-hathaway-bank",
+    "north-fork-reservoir-lower-bank",
+    "benson-lake-west-bank",
+    "hartman-pond-east-dock",
+    "trillium-lake-dam-bank",
+    "spearfish-lake-southwest-bank",
+    "drano-lake-hatchery-road-bank",
+    "riffe-lake-north-shore",
+    "swofford-pond-northeast-bank",
+    "deep-lake-millersylvania-bank",
+    "high-rocks-park-gladstone",
+    "riverside-park-clackamas",
+    "milo-mciver-riverbend-bank",
+    "sandy-dabney-riverfront-bank",
+    "west-salish-pond-northwest-platform",
+    "sheridan-pond-south-bank",
+    "kelley-point-willamette-bank",
+    "cathedral-park-downstream-bank",
+    "sellwood-riverfront-north-bank",
+    "powers-marine-south-bank",
+    "cedaroak-upstream-bank",
+    "meldrum-bar-south-bank",
+    "clackamette-willamette-bank",
+    "george-rogers-main-beach",
+    "haldeman-pond-south-bank",
+    "gilbert-ramp-multnomah-channel-bank",
+    "walton-beach-bank",
+    "willow-bar-beach-bank",
+    "prescott-beach-bank",
+    "dibblee-beach-bank",
+    "chinook-landing-north-beach",
+    "rooster-rock-slough-bank",
+    "lewis-clark-sandy-north-bank",
+    "mirror-pond-north-entry",
+    "sturgeon-lake-oak-island-bank",
+    "willamette-park-west-linn-bank",
+    "steamboat-landing-washougal-dock",
+    "cottonwood-beach-washougal-bank",
+    "wintler-beach-east-bank",
+    "marine-park-east-beach",
+    "washougal-river-sandy-swimming-hole",
+    "washougal-river-greenway-bridge-bank",
+    "beacon-rock-moorage-bank",
+    "rock-cove-fairgrounds-bank",
+    "stevenson-leavens-point-bank",
+    "stevenson-pebble-beach-bank",
+    "daybreak-regional-park-upper-bank",
+    "lake-river-division-street-bank",
+    "lake-river-mill-street-bank",
+    "vancouver-lake-regional-park-bank",
+    "vancouver-lake-wdfw-south-bank",
+    "frenchmans-bar-columbia-bank",
+    "blurock-landing-columbia-bank",
+    "langsdorf-landing-slough-bank",
+    "salmon-creek-felida-greenway-bank",
+    "lewis-martin-pekin-wdfw-bank",
+    "lewis-pekin-ferry-private-bank",
+    "austin-point-columbia-beach",
+    "martin-bar-columbia-public-strip",
+    "lewis-goerig-hayes-bridge-bank",
+    "east-fork-paradise-point-bank",
+    "east-fork-two-forks-walk-in-bank",
+    "east-fork-cd-hale-road-bank",
+    "east-fork-john-pollock-bank",
+    "east-fork-timmens-landing-bank",
+    "merwin-park-reservoir-bank",
+    "swift-forest-camp-day-use-bank",
+    "swift-eagle-cliff-bridge-bank",
+    "lewis-island-ramp-bank",
+    "lewis-cedar-creek-launch-bank",
+    "lewis-hatchery-walk-in-bank",
+    "lewis-johnson-creek-walk-in-bank",
+    "lewis-merwin-hatchery-launch-bank",
+    "lake-river-felida-moorage-bank",
+    "salmon-creek-klineline-stream-bank",
+    "merwin-yale-bridge-stairs-bank",
+    "kalama-fishermans-loop-bank",
+    "kalama-sportsmans-club-bank",
+    "kalama-modrow-bridge-bank",
+    "kalama-beginners-hole-bank",
+    "kalama-hand-bank",
+    "kalama-prichard-bank",
+    "kalama-red-barn-bank",
+    "kalama-marine-rasmussen-beach",
+    "cowlitz-gerhart-gardens-bank",
+    "cowlitz-al-helenberg-bank",
+    "cowlitz-lions-pride-bank",
+    "cowlitz-cook-ferry-trail-bank",
+    "cowlitz-hog-island-bank",
+    "cowlitz-olequa-crossing-bank",
+    "cowlitz-i5-mandy-bank",
+    "cowlitz-wallace-bar-easement",
+    "cowlitz-toledo-front-street-bank",
+    "cowlitz-toledo-first-street-bank",
+    "cowlitz-blue-creek-public-bank",
+    "toutle-tower-bridge-bank",
+    "toutle-harry-gardner-bank",
+    "coweeman-river-park-bank",
+    "willow-grove-columbia-beach",
+    "coal-creek-slough-launch-bank",
+    "silver-lake-kerr-road-bank",
+    "silver-lake-streeters-docks",
+    "columbia-county-line-park-bank",
+    "elochoman-marina-launch-bank",
+    "abernathy-creek-walk-in-bank",
+    "cowlitz-barrier-dam-bank",
+    "mayfield-lake-park-bank",
+    "mayfield-mossyrock-hatchery-bank",
+    "riffe-mossyrock-park-bank",
+    "plummer-brick-wagner-bank",
+    "elochoman-beaver-creek-easement",
+    "elochoman-upper-public-bank",
+    "puget-island-wdfw-beach",
+    "puget-island-svensen-bank",
+    "skamokawa-vista-columbia-beach",
+    "grays-satterlund-walk-in-bank",
+    "grays-rosburg-launch-bank",
+    "washougal-three-mile-bank",
+    "washougal-county-line-hand-launch",
+    "washougal-steel-bridge-sportsman-bank",
+    "little-ash-lake-shore",
+    "ashes-lake-culvert-bank",
+    "tunnel-lake-west-bank",
+    "greenleaf-lake-city-launch",
+    "gillette-lake-pct-bank",
+    "washougal-big-eddy-bank",
+    "hamilton-island-launch-bank",
+    "hamilton-island-west-bank",
+    "bonneville-north-shore-bank",
+    "home-valley-columbia-beach",
+    "wind-river-county-launch-bank",
+    "drano-county-launch-shore",
+    "stevenson-bobs-beach-bank",
+    "bingen-marina-park-bank",
+    "bingen-sailboard-park-bank",
+    "white-salmon-northwestern-bank",
+    "little-white-big-cedars-bank",
+    "dougs-beach-shore",
+    "wind-river-high-bridge-bank",
+    "little-white-moss-creek-bank",
+    "tualatin-rood-bridge",
+    "tualatin-farmington",
+    "tualatin-scholls",
+    "tualatin-eagle-landing",
+    "tualatin-king-city",
+    "tualatin-99w",
+    "tualatin-jurgens",
+    "tualatin-cook",
+    "tualatin-tualatin-community",
+    "tualatin-browns-ferry",
+    "tualatin-stark",
+    "hagg-a-bank",
+    "hagg-c-bank",
+    "hagg-dam-bank",
+    "hagg-elks-bank",
+    "gleason-broughton-bank",
+    "eastbank-duckworth-fishing",
+    "smith-bybee-bank",
+    "slough-columbia-blvd",
+    "slough-elrod",
+    "slough-airport",
+    "slough-simpson",
+    "slough-headwaters",
+    "fairview-lakeshore-platform",
+    "sauvie-ferry-ramp-bank",
+    "hadleys-landing-dock",
+    "sauvie-little-mcnary",
+    "sauvie-steelman-west",
+    "columbia-rainier-bank",
+    "columbia-mayger-bank",
+    "columbia-jones-bank",
+    "columbia-pixie-bank",
+    "columbia-grey-cliffs-bank",
+    "chapman-landing-bank",
+    "clatskanie-city-bank",
+    "beaver-landing-bank",
+    "westport-bank",
+    "nehalem-anderson",
+    "nehalem-pittsburg",
+    "nehalem-big-eddy",
+    "nehalem-nehalem-park",
+    "scaponia-creek-bank",
+    "hornings-hideout-trout",
+    "yamhill-dayton",
+    "yamhill-lafayette",
+    "yamhill-wennerberg",
+    "yamhill-joe-dancer",
+    "sauvie-mud-lake-trail-bank",
+    "nehalem-timber-bridge",
+    "swan-island-ramp-bank",
+    "hawkins-rock-creek-bank",
+    "or-barton-bank",
+    "or-carver-bank",
+    "or-cross-bank",
+    "or-feldheimer-bank",
+    "or-bonnie-bank",
+    "or-eagle-fern-bank",
+    "or-timber-bank",
+    "or-estacada-mciver-bank",
+    "or-promontory-bank",
+    "or-feyrer-bank",
+    "or-knights-bank",
+    "or-wagon-bank",
+    "or-goods-bank",
+    "or-canby-river-bank",
+    "or-molalla-state-bank",
+    "or-hebb-bank",
+    "or-boones-marina-bank",
+    "or-boones-park-bank",
+    "or-memorial-bank",
+    "or-tryon-bank",
+    "or-milwaukie-bank",
+    "or-mary-young-bank",
+    "or-cedar-island-bank",
+    "or-maddax-bank",
+    "or-burnside-bank",
+    "or-westbridge-bank",
+    "or-swiftshore-bank",
+    "or-fields-bank",
+    "or-tualatin-space-bank",
+    "or-shipley-bank",
+    "or-river-run-bank",
+    "or-cove-bank",
+    "or-oak-grove-bank",
+    "or-wilsonville-pond-bank",
+    "or-woodburn-bank",
+    "or-champoeg-bank",
+    "or-rogers-bank",
+    "or-butteville-bank",
+    "or-san-salvador-bank",
+    "or-wheatland-bank",
+    "or-ediger-bank",
+    "or-mission-lake-bank",
+    "or-spongs-bank",
+    "or-keizer-bank",
+    "or-wallace-bank",
+    "or-walter-bank",
+    "or-walling-bank",
+    "or-silverton-bank",
+    "or-turner-bank",
+    "or-minto-bank",
+    "or-sportcraft-bank",
+    "or-spring-valley-bank",
+    "or-mciver-upper-bank",
+    "or-oswego-bank",
+    "or-rivervilla-bank",
+    "or-salem-riverfront-bank",
+    "or-culvert-bank",
+    "or-elk-rock-bank",
+    "or-meadowbrook-bank",
+    "mt-hood-pond-north-bank",
+    "east-salish-pond-north-bank",
+    "sandy-glenn-otto-beach",
+    "sandy-dodge-confluence-bank",
+    "sandy-hatchery-cedar-mouth",
+    "sandy-revenue-bridge-bank",
+    "sandy-marmot-gravel-bank",
+    "sandy-barlow-carry-in-bank",
+    "rainbow-trout-farm-sandy",
+    "dalton-point-east-bank",
+    "rooster-rock-columbia-beach",
+    "cascade-locks-canal-bank",
+    "blackberry-beach-columbia-bank",
+    "herman-creek-lagoon-south-bank",
+    "viento-columbia-bank",
+    "hood-river-lower-footbridge-bank",
+    "hood-river-hook-inner-bank",
+    "hood-nichols-basin-bank",
+    "hood-tucker-park-bank",
+    "hood-punchbowl-confluence-bank",
+    "kingsley-reservoir-day-bank",
+    "frog-lake-west-bank",
+    "mirror-lake-loop-bank",
+    "lower-twin-lake-shore",
+    "clear-lake-hood-day-bank",
+    "mosier-rock-creek-beach",
+    "daybreak-lower-restored-trail",
+    "east-fork-county-yard-bank",
+    "east-fork-cemetery-bend",
+    "east-fork-bjur-road",
+    "east-fork-danger-park",
+    "east-pond-klineline",
+    "grays-covered-bridge-north-bank",
+    "upper-clackamas-moore-bank",
+    "upper-clackamas-hole-bank",
+    "upper-clackamas-sandstone-bank",
+    "ofc-salmon-river-otis",
+    "ofc-south-santiam-bates-bridge",
+    "ofc-north-santiam-park",
+    "ofc-rainier-lakes-pond",
+    "ofc-wilson-river",
+    "ofc-molalla-river",
+    "ofc-clackamas-river",
+    "ofc-turner-lake",
+    "ofc-north-santiam-river",
+    "ofc-washougal-river",
+    "ofc-eagle-creek-3",
+    "ofc-summerlin-ponds",
+    "ofc-brookside-inn-pond",
+    "ofc-crabtree-creek-pond",
+    "indian-springs-trout-farm",
+    "zeek-creek",
+    "offut-lake-resort",
+    "silver-cove-resort",
+    "columbus-park",
+    "salmon-shores",
+    "black-lake-grocery",
+    "ward-lake-wdfw-bank",
+    "pattison-lake-wdfw-bank",
+    "devils-lake-holmes-road-bank",
+    "south-santiam-waterloo-park-bank",
+    "foster-reservoir-lewis-creek-bank",
+    "deschutes-state-recreation-east-bank",
+    "ofc-trask-river-2",
+    "ofc-nestucca-pipeline",
+    "ofc-nestucca-river-1",
+    "nisqually-riverbend"
+  ],
+  "sourceRetrievals": [
+    {
+      "url": "http://butteville.org/butteville_landing.html",
+      "status": 200
+    },
+    {
+      "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+      "status": 200
+    },
+    {
+      "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-060",
+      "status": 200
+    },
+    {
+      "url": "https://app.leg.wa.gov/wac/default.aspx?cite=220-312-060",
+      "status": 200
+    },
+    {
+      "url": "https://assets.ctfassets.net/416ywc1laqmd/206UaCMOMTelzuXbXyoLn6/e94c183f4fca0d4fa059eef45b18efd4/clackamas-river-daily-fish-counts-2026.xlsx",
+      "status": 200
+    },
+    {
+      "url": "https://ci.castle-rock.wa.us/parks.htm",
+      "status": 200
+    },
+    {
+      "url": "https://cityofmosier.gov/government/utilities/parks/",
+      "status": 403
+    },
+    {
+      "url": "https://cityofmosier.gov/things-to-do-in-mosier/swimming-and-water-sports-in-mosier/",
+      "status": 403
+    },
+    {
+      "url": "https://cityofrainier.com/boat-launch/",
+      "status": 200
+    },
+    {
+      "url": "https://cityofrainier.com/city-park/",
+      "status": 200
+    },
+    {
+      "url": "https://cityofwashougal.us/DocumentCenter/View/1838/City-of-Washougal-Comprehensive-Park-and-Recreation-Plan-September-2021",
+      "status": 200
+    },
+    {
+      "url": "https://clackamaswatertrail.org/cwt-map-signs-gladstone/",
+      "status": 200
+    },
+    {
+      "url": "https://clackamaswatertrail.org/itinerary-inspirations/upper-river-itineraries/upper-river-flatwater/",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-health/harmful-algal-blooms",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-health/public-beaches",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-health/swim-beach-program-faq",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/captain-william-clark-regional-park-cottonwood-beach",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/daybreak-regional-park",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/fishing",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/haapa-boat-launch",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/lacamas-regional-park",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/legacy-lands-properties",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/lewisville-regional-park",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/lucia-falls-regional-park",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/moulton-falls-regional-park",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/new-accessible-fishing-platform-opens-haapa-boat-launch",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/portion-daybreak-regional-park-close-aug-3-through-oct-15-restoration-project",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/trail-and-access-closures-begin-soon-lacamas-regional-park-bridge-replacement-project",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/public-works/vancouver-lake-regional-park",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/sites/all/files/environmental-services/legacy-lands/lacamasheritagetrail.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/sites/default/files/dept/files/public-works/Parks/Legacy_Lands/ConservAcquDraftComplete.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://clark.wa.gov/sites/default/files/dept/files/public-works/Parks/Salmon_Creek_Greenway_Trail.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://columbia-city.org/our-community/city-parks-and-recreation/",
+      "status": 200
+    },
+    {
+      "url": "https://concordiapdx.org/2026/10/slough-stew-stories-on-the-columbia-paddling-the-slough/",
+      "status": 200
+    },
+    {
+      "url": "https://corpslakes.erdc.dren.mil/visitors/status.cfm?state=OR",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=%28county+like+%27Clark%25%27+OR+county+like+%27Cowlitz%25%27+OR+county+like+%27Lewis%25%27+OR+county+like+%27Skamania%25%27+OR+county+like+%27Klickitat%25%27+OR+county+like+%27Thurston%25%27%29&%24select=release_location%2Ccounty%2Cmax%28release_start_date%29+as+latest%2Ccount%28%2A%29+as+records&%24group=release_location%2Ccounty&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27ASHES+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27BATTLE+GROUND+LK+%28CLAR%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27CARLISLE+LK+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27DEEP+LK+%28THUR%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27DRANO+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27FORT+BORST+PRK+LK+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27GILLETTE+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27HORSESHOE+LK+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27HORSETHIEF+LK+%28KLIC%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27ICE+HOUSE+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27KLINELINE+PD+%28CLAR%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27KRESS+LK+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27LACAMAS+LK+%28CLAR%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27LEWIS+CO+PRK+PD-S+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27LK+MERWIN+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27LK+SACAJAWEA+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27LTL+ASH+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27MAYFIELD+RES+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27PLUMMER+LK+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27RIFFE+LK+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27ROUND+LK+%28CLAR%29+T03%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27ROWLAND+LK+%28KLIC%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27SILVER+LK+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27SPEARFISH+LK+%28KLIC%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27SWIFT+POWER+CANAL+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27SWIFT+RES+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27SWOFFORD+PD+%28LEWI%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27TUNNEL+LK+%28SKAM%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location%3D%27YALE+LK+%28COWL%29%27&%24order=release_start_date+DESC&%24limit=50000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location+in+%28%27TUNNEL+LK+%28SKAM%29%27%2C%27YALE+LK+%28COWL%29%27%2C%27DRANO+LK+%28SKAM%29%27%2C%27ASHES+LK+%28SKAM%29%27%2C%27KLINELINE+PD+E+%28CLAR%29%27%2C%27GILLETTE+LK+%28SKAM%29%27%2C%27ROUND+LK+%28CLAR%29+T03%27%29&%24limit=50000&%24order=release_start_date+DESC",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location+like+%27%25BLACK%25%27+AND+release_start_date+%3E%3D+%272026-01-01%27&%24order=release_start_date+DESC&%24limit=1000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location+like+%27%25CLAIR%25%27+AND+release_start_date+%3E%3D+%272026-01-01%27&%24order=release_start_date+DESC&%24limit=1000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location+like+%27%25HICKS%25%27+AND+release_start_date+%3E%3D+%272026-01-01%27&%24order=release_start_date+DESC&%24limit=1000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location+like+%27%25LONG%25%27+AND+release_start_date+%3E%3D+%272026-01-01%27&%24order=release_start_date+DESC&%24limit=1000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location+like+%27%25OFFUTT%25%27+AND+release_start_date+%3E%3D+%272026-01-01%27&%24order=release_start_date+DESC&%24limit=1000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location+like+%27%25PATTISON%25%27+AND+release_start_date+%3E%3D+%272026-01-01%27&%24order=release_start_date+DESC&%24limit=1000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location+like+%27%25WARD%25%27+AND+release_start_date+%3E%3D+%272026-01-01%27&%24order=release_start_date+DESC&%24limit=1000",
+      "status": 200
+    },
+    {
+      "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_year%3D%272026%27+AND+release_start_date+%3E%3D+%272026-10-01T00%3A00%3A00%27+AND+%28county+like+%27Clark%25%27+OR+county+like+%27Cowlitz%25%27+OR+county+like+%27Lewis%25%27%29&%24limit=1000",
+      "status": 200
+    },
+    {
+      "url": "https://doh.wa.gov/community-and-environment/food/fish/advisories",
+      "status": 200
+    },
+    {
+      "url": "https://doh.wa.gov/community-and-environment/food/fish/advisories/publications",
+      "status": 200
+    },
+    {
+      "url": "https://doh.wa.gov/community-and-environment/food/fish/mercury-advisories",
+      "status": 200
+    },
+    {
+      "url": "https://ecode360.com/46464778",
+      "status": 200
+    },
+    {
+      "url": "https://ecode360.com/46464866",
+      "status": 200
+    },
+    {
+      "url": "https://ecode360.com/49468369",
+      "status": 200
+    },
+    {
+      "url": "https://ecology.wa.gov/spills-cleanup/spills/spill-preparedness-response/responding-to-spill-incidents/spill-incidents/nippon-dynawave-industrial-incident",
+      "status": 403
+    },
+    {
+      "url": "https://engagecamas.com/lacamas-lake-management-plan",
+      "status": 200
+    },
+    {
+      "url": "https://explore.pcta.org/trips/bonneville-trailhead-to-gillette-lake",
+      "status": 403
+    },
+    {
+      "url": "https://explore.pcta.org/trips/wapinitia-pass-southbound/print",
+      "status": 403
+    },
+    {
+      "url": "https://explore.predictwind.com/marinas/united-states/washington/felida-moorage",
+      "status": 200
+    },
+    {
+      "url": "https://fairvieworegon.gov/Facilities/Facility/Details/Lakeshore-Park-8",
+      "status": 200
+    },
+    {
+      "url": "https://flashalert.net/id/cc",
+      "status": 403
+    },
+    {
+      "url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_Projects/MajorFishingArea/MapServer/0",
+      "status": 200
+    },
+    {
+      "url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/WP_RealEstate/WaterAccessSites/FeatureServer/0",
+      "status": 200
+    },
+    {
+      "url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/WP_RealEstate/WaterAccessSites/FeatureServer/0/query?where=WaterAccessSiteName+IN+%28%27Vancouver+Lake%27%2C%27Upper+Elochoman%27%2C%27Modrow%27%2C%27Three+Mile%27%2C%27Two+Forks%27%29&outFields=%2A&returnGeometry=true&outSR=4326&f=json",
+      "status": 200
+    },
+    {
+      "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/ClarkView_Public/CountyLandsbyOwner/MapServer/0/query?geometry=-122.6516964%2C45.7059878&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=SN%2COwnerName%2CDescription%2CPropertyUse%2CRestrictions%2CPublishDt&returnGeometry=false&f=pjson",
+      "status": 200
+    },
+    {
+      "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Ecoli_Beach_Monitoring_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+      "status": 200
+    },
+    {
+      "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Harmful_Algal_Blooms_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+      "status": 200
+    },
+    {
+      "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Regional_Water_Alerts_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json",
+      "status": 200
+    },
+    {
+      "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Regional_Water_Alerts_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+      "status": 200
+    },
+    {
+      "url": "https://hatcherytrackpnw.com/rivers/kalama/",
+      "status": 403
+    },
+    {
+      "url": "https://hatcherytrackpnw.com/rivers/sandy/",
+      "status": 403
+    },
+    {
+      "url": "https://hhs.co.yamhill.or.us/Facilities/Facility/Details/Dayton-Landing-13",
+      "status": 403
+    },
+    {
+      "url": "https://hhs.co.yamhill.or.us/Facilities/Facility/Details/Lafayette-Locks-Historical-Park-19",
+      "status": 403
+    },
+    {
+      "url": "https://horningshideout.squarespace.com/fishing",
+      "status": 200
+    },
+    {
+      "url": "https://kpeters15.wixsite.com/pekinferry/fishing",
+      "status": 200
+    },
+    {
+      "url": "https://laceyparks.org/parks_trails/wanschers-community-park/",
+      "status": 200
+    },
+    {
+      "url": "https://lewiscountywa.gov/departments/parks-recreation/parks-venues/",
+      "status": 200
+    },
+    {
+      "url": "https://lewiscountywa.gov/departments/public-health/news/",
+      "status": 200
+    },
+    {
+      "url": "https://multco.us/file/t2-2024-0109_/download",
+      "status": 403
+    },
+    {
+      "url": "https://myodfw.com/articles/50-places-go-fishing-within-60-minutes-portland",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/articles/easy-angling-willamette-zone",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/articles/high-lakes-stocking-schedule-mid-columbia-district",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/articles/parking-sauvie-island-wildlife-area",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/articles/regulation-updates",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/fishing/species/trout/stocking-schedule?field_zone_value=All&page=&page=2",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/news/angling-closed-eagle-creek-oct-2-dec-31",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/recreation-report",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/recreation-report/fishing-report/willamette-zone",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/sandy-hatchery-visitors-guide",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/sauvie-island-wildlife-area-visitors-guide",
+      "status": 200
+    },
+    {
+      "url": "https://myodfw.com/sites/default/files/2019-03/Sauvie%20Island%20beach%20areas.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://ncprd.org/parks-and-trails/riverfront-park-jefferson-st-boat-ramp",
+      "status": 200
+    },
+    {
+      "url": "https://ncprd.org/parks-and-trails/rivervilla-park",
+      "status": 200
+    },
+    {
+      "url": "https://ncprd.org/parks-and-trails/spring-park",
+      "status": 200
+    },
+    {
+      "url": "https://northbonneville.net/wp-content/uploads/2012-11-Inventory-Characterization-Report-FINAL.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://nrimp.dfw.state.or.us/RE/default.aspx?pid=1644&pn=viewapp",
+      "status": 200
+    },
+    {
+      "url": "https://offutlakeresort.com/day-use-boat-rentals/",
+      "status": 403
+    },
+    {
+      "url": "https://orcity.org/Facilities/Facility/Details/Jon-Storm-Dock-15",
+      "status": 200
+    },
+    {
+      "url": "https://orcity.org/Facilities/Facility/Details/Sportcraft-Boat-Ramp-24",
+      "status": 200
+    },
+    {
+      "url": "https://oregondiscovery.com/big-eddy",
+      "status": 200
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/big-creek/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/big-little-tree-lakes/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/blue-den-lake-pond/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/brookside-inn-pond/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/burdick-pond/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/clackamas-river/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/crabtree-creek-pond/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/eagle-creek-3/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/hartland-lake/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/highland-ponds/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/howell-ponds/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/molalla-river/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/nestucca-pipeline/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/nestucca-river-1/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/north-santiam-park/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/north-santiam-pond/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/north-santiam-river/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/pudding-river-at-pats-acres/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/rainier-lakes-pond/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/salmon-river-otis/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/schmadeke-pond/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/south-santiam-bates-bridge/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/summerlin-ponds/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/tom-molly-ponds/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/trask-river-2/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/turner-lake/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/twin-oaks-pond/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/washougal-river/",
+      "status": 403
+    },
+    {
+      "url": "https://oregonfishingclub.com/property/wilson-river/",
+      "status": 403
+    },
+    {
+      "url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
+      "status": 200
+    },
+    {
+      "url": "https://parks.wa.gov/find-parks/state-parks/beacon-rock-state-park",
+      "status": 200
+    },
+    {
+      "url": "https://parks.wa.gov/find-parks/state-parks/columbia-hills-historical-state-park",
+      "status": 200
+    },
+    {
+      "url": "https://parks.wa.gov/find-parks/state-parks/dougs-beach-state-park",
+      "status": 200
+    },
+    {
+      "url": "https://parks.wa.gov/find-parks/state-parks/millersylvania-state-park",
+      "status": 200
+    },
+    {
+      "url": "https://parks.wa.gov/sites/default/files/2023-03/Dougs%20Beach%20State%20Park%20Brochure%20Final%20Web%2005-31-17.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://parks.wa.gov/sites/default/files/2023-07/Paradise%20Point%20Overview%20Map.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://portlandgeneral.com/about/parks-campgrounds/clackamas-river-access-sites",
+      "status": 200
+    },
+    {
+      "url": "https://portlandgeneral.com/about/parks-campgrounds/promontory-park",
+      "status": 200
+    },
+    {
+      "url": "https://portlandgeneral.com/about/parks-campgrounds/timber-park",
+      "status": 200
+    },
+    {
+      "url": "https://portofkalama.com/recreation/haydu-park/",
+      "status": 403
+    },
+    {
+      "url": "https://portofkalama.com/recreation/marine-park/",
+      "status": 403
+    },
+    {
+      "url": "https://portofwoodland.com/martin-bar-public-access-on-wdfw-land/",
+      "status": 403
+    },
+    {
+      "url": "https://rainbowtroutfarm.com/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://rainbowtroutfarm.com/plan-your-visit/",
+      "status": 200
+    },
+    {
+      "url": "https://reports.cityofsandy.com/communityservices/",
+      "status": 200
+    },
+    {
+      "url": "https://ridgefieldwa.us/DocumentCenter/View/437/Water-Trail-Report-PDF",
+      "status": 200
+    },
+    {
+      "url": "https://ridgefieldwa.us/facilities/facility/details/Ridgefield-Waterfront-21",
+      "status": 200
+    },
+    {
+      "url": "https://secure.sos.state.or.us/oard/viewReceipt.action?filingRsn=63629",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-121.131127%2C45.623927357142854%2C-121.125927%2C45.627641642857135&bboxSR=4326&imageSR=4326&size=1200%2C860&format=jpg&f=image&adjustAspectRatio=false",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-121.38344950000001%2C45.70792635714286%2C-121.37824950000001%2C45.71164064285714&bboxSR=4326&imageSR=4326&size=1200%2C860&format=jpg&f=image&adjustAspectRatio=false",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-121.9087515%2C45.65986335714286%2C-121.90355149999999%2C45.66357764285714&bboxSR=4326&imageSR=4326&size=1200%2C860&format=jpg&f=image&adjustAspectRatio=false",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.4557%2C45.55215%2C-122.4457%2C45.55865&bboxSR=4326&imageSR=4326&size=1000%2C750&format=jpg&f=pjson",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.45899999999999%2C45.5483%2C-122.455%2C45.5509&bboxSR=4326&imageSR=4326&size=1000%2C750&format=jpg&f=pjson",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.45956550000001%2C45.550013%2C-122.4538605%2C45.553513&bboxSR=4326&imageSR=4326&size=900%2C650&format=jpg&f=image",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.7853564285714,45.2627922653061,-122.78021357142855,45.26646573469386&bboxSR=4326&imageSR=4326&size=840,600&format=jpg&f=image",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.9233%2C45.41365%2C-122.9173%2C45.41755&bboxSR=4326&imageSR=4326&size=1000%2C750&format=jpg&f=pjson",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.924316%2C45.4130085%2C-122.918611%2C45.4165085&bboxSR=4326&imageSR=4326&size=900%2C650&format=jpg&f=image",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.9255%2C45.41665%2C-122.9205%2C45.42015&bboxSR=4326&imageSR=4326&size=1000%2C750&format=jpg&f=pjson",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.9533%2C45.488975%2C-122.9483%2C45.492225&bboxSR=4326&imageSR=4326&size=1000%2C750&format=jpg&f=pjson",
+      "status": 200
+    },
+    {
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-122.953702%2C45.489098999999996%2C-122.947997%2C45.492599&bboxSR=4326&imageSR=4326&size=900%2C650&format=jpg&f=image",
+      "status": 200
+    },
+    {
+      "url": "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Boating_Access_Sites_OA/FeatureServer/0",
+      "status": 200
+    },
+    {
+      "url": "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/HABs_Advisories_(Points)/FeatureServer/0",
+      "status": 200
+    },
+    {
+      "url": "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/HABs_Advisories_(Points)/FeatureServer/0/query?where=1%3D1&outFields=%2A&returnGeometry=false&f=json",
+      "status": 200
+    },
+    {
+      "url": "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/HABs_Advisories_(Points)/FeatureServer/0/query?where=WaterbodyName%3D%27Blue%20Lake%27&outFields=*&returnGeometry=false&f=pjson",
+      "status": 200
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=main.loadFile&load=_siteFiles%2Fpublications%2FCRG_Viento_Map_2020_%28web%29114717.pdf",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=main.loadFile&load=_siteFiles/publications//dabney-web.105740.pdf",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=100",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=102",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=106",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=110",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=123",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=126",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=217",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=218",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=29",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=78",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=79",
+      "status": 403
+    },
+    {
+      "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=99",
+      "status": 403
+    },
+    {
+      "url": "https://theeagle.news/2026/09/17/historic-covered-bridge-needs-help/",
+      "status": 403
+    },
+    {
+      "url": "https://traveloregon.com/things-to-do/destinations/rivers-streams/herman-creek/",
+      "status": 200
+    },
+    {
+      "url": "https://traveloregon.com/things-to-do/outdoor-recreation/boating-jet-boating/waterloo-park/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinvalley.tu.org/about-us/area-fishing/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/99w-bridge/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/browns-ferry-park/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/farmington-paddle-launch/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/jurgens-park/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/king-city-community-park/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/river-run-park/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/rood-bridge-park/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/scholls-bridge/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/shipley-bridge/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/stark-boat-ramp/",
+      "status": 200
+    },
+    {
+      "url": "https://tualatinwatertrail.org/access-site/tualatin-community-park/",
+      "status": 200
+    },
+    {
+      "url": "https://turneroregon.gov/turnerlakepark",
+      "status": 200
+    },
+    {
+      "url": "https://visitwashougal.com/186/Swimming",
+      "status": 200
+    },
+    {
+      "url": "https://wa-cowlitzcounty.civicplus.com/1277/Harry-Gardner-Park",
+      "status": 503
+    },
+    {
+      "url": "https://wahport2.org/",
+      "status": 403
+    },
+    {
+      "url": "https://washcoparks.org/scoggins-valley-park",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ashes-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/black-lake-thurston",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/deep-lake-thurston",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/hicks-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ice-house-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-merwin",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/little-ash-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mayfield-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/pattison-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rowland-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spearfish-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/swofford-pond",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tunnel-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/lower-columbia-river-salmon-and-steelhead-fishery-update-2026-09-0",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?river=26843",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?type=26746&lake=72381",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/reports/creel/southwest",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?lake_stocked=LACAMAS+LK+%28CLAR%29",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/hunting/locations/pheasant-release-sites/117",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/alerts",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/alerts/drano-lake-parking-and-access-information",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/alerts/low-water-levels-may-affect-boat-launch-access-riffe-lake",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/barrier-dam-250",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/beaver-creek-254",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/beginners-hole-257",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/cedar-creek-448",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/county-line-698",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/fishermans-loop-1546",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/hand-422",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/i-5-bridge-409",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/island-412",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/modrow-bridge-490",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/prichard-421",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/puget-island-554",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/rosburg-1116",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/rowland-lake-571",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/satterlund-384",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/silver-lake-1146",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/sportsmans-club-1533",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/steel-bridge-699",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/swofford-pond-1784",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/three-mile-697",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/toledo-324",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/tower-bridge-680",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/upper-elochoman-356",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/wallace-bar-323",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/wildlife-areas/abernathy-creek-wildlife-area-unit",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/places-to-go/wildlife-areas/two-forks-wildlife-area-unit",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-oct-26-nov-1-2026.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://wdfw.wa.gov/sites/default/files/publications/02059/draft-wdfw02059.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://westlinnoregon.gov/parks-amenities/river-access",
+      "status": 503
+    },
+    {
+      "url": "https://westlinnoregon.gov/parksrec/burnside-park",
+      "status": 503
+    },
+    {
+      "url": "https://westlinnoregon.gov/parksrec/cedar-island",
+      "status": 503
+    },
+    {
+      "url": "https://westlinnoregon.gov/parksrec/cedaroak-boat-ramp",
+      "status": 503
+    },
+    {
+      "url": "https://westlinnoregon.gov/parksrec/maddax-woods",
+      "status": 503
+    },
+    {
+      "url": "https://westlinnoregon.gov/parksrec/mary-s-young-park",
+      "status": 503
+    },
+    {
+      "url": "https://westlinnoregon.gov/parksrec/swiftshore-park",
+      "status": 503
+    },
+    {
+      "url": "https://westlinnoregon.gov/parksrec/west-bridge-park",
+      "status": 503
+    },
+    {
+      "url": "https://westlinnoregon.gov/parksrec/willamette-park",
+      "status": 503
+    },
+    {
+      "url": "https://wildcolumbia.org/2023/06/30/beaches-of-columbia-county/",
+      "status": 200
+    },
+    {
+      "url": "https://wildcolumbia.org/hiking-camping-wildlife-columbia-county-oregon/cz-trail-scappoose-trailhead-to-chapman-landing-overview/",
+      "status": 200
+    },
+    {
+      "url": "https://willamettewatertrail.org/map/oak-grove-boat-ramp/",
+      "status": 403
+    },
+    {
+      "url": "https://willamettewatertrail.org/map/salem-riverfront-park/",
+      "status": 403
+    },
+    {
+      "url": "https://willamettewatertrail.org/map/san-salvador-park/",
+      "status": 403
+    },
+    {
+      "url": "https://willamettewatertrail.org/map/swan-island-boat-ramp/",
+      "status": 403
+    },
+    {
+      "url": "https://wilsonvilleparksandrec.com/Facilities/Facility/Details/Boones-Ferry-Park-11",
+      "status": 200
+    },
+    {
+      "url": "https://www.accesstrails.org/overview/fields-bridge/",
+      "status": 403
+    },
+    {
+      "url": "https://www.accesstrails.org/overview/smith-bybee/",
+      "status": 403
+    },
+    {
+      "url": "https://www.accesstrails.org/overview/spring-park/",
+      "status": 403
+    },
+    {
+      "url": "https://www.americanwhitewater.org/content/River/view/river-detail/3648/main",
+      "status": 403
+    },
+    {
+      "url": "https://www.americanwhitewater.org/content/River/view/river-detail/3690/main",
+      "status": 403
+    },
+    {
+      "url": "https://www.americanwhitewater.org/content/River/view/river-detail/point-of-interest/access/qvLBXmsxillBwNyR40swA",
+      "status": 403
+    },
+    {
+      "url": "https://www.aol.com/articles/residents-push-save-historic-salem-163841000.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.bestfishinginamerica.com/or-salish-ponds-fishing-fairview-gresham-oregon.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.bestfishinginamerica.com/or-walter-wirth-lake-walling-pond-fishing-salem-oregon.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.bestfishinginamerica.com/washington-county-skamania-fishing-near-stevenson-carson.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.bestfishinginamerica.com/washington-swift-reservoir-and-swift-power-canal-fishing.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.blm.gov/sites/default/files/docs/2021-01/orwa-nwo-rec-site-plan.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://www.boonesferrylanding.com/marina-map-parking",
+      "status": 503
+    },
+    {
+      "url": "https://www.canbyoregon.gov/tourism/page/canby-community-park",
+      "status": 503
+    },
+    {
+      "url": "https://www.cathlametmarina.org/county-line-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.cathlametmarina.org/fishing",
+      "status": 200
+    },
+    {
+      "url": "https://www.cdid1.org/m/faq",
+      "status": 200
+    },
+    {
+      "url": "https://www.ci.carlton.or.us/parksrec",
+      "status": 403
+    },
+    {
+      "url": "https://www.ci.gladstone.or.us/publicworks/park/high-rocks-park",
+      "status": 403
+    },
+    {
+      "url": "https://www.ci.gladstone.or.us/publicworks/park/meldrum-bar-park",
+      "status": 403
+    },
+    {
+      "url": "https://www.ci.oswego.or.us/council-digest/2015/05/01/tryon-cove-paddle-put-in/",
+      "status": 500
+    },
+    {
+      "url": "https://www.ci.oswego.or.us/parksrec/george-rogers-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.ci.oswego.or.us/parksrec/parks-rules",
+      "status": 200
+    },
+    {
+      "url": "https://www.ci.sandy.or.us/community/page/sandy-river-park-descriptions",
+      "status": 503
+    },
+    {
+      "url": "https://www.ci.stevenson.wa.us/publicworks/page/parks-department",
+      "status": 403
+    },
+    {
+      "url": "https://www.ci.woodland.wa.us/parksites",
+      "status": 403
+    },
+    {
+      "url": "https://www.ci.woodland.wa.us/publicworks/park/horseshoe-lake-park",
+      "status": 403
+    },
+    {
+      "url": "https://www.cityofcamas.us/parksrec/page/washougal-river-greenway-trail",
+      "status": 503
+    },
+    {
+      "url": "https://www.cityofcamas.us/publicworks/page/lacamas-lake-drawdown-scheduled-sept-21",
+      "status": 503
+    },
+    {
+      "url": "https://www.cityofcentralia.com/Facilities/Facility/Details/Brick-Wagner-Park-5",
+      "status": 200
+    },
+    {
+      "url": "https://www.cityofsalem.net/Home/Components/Calendar/Event/13938/17?backlist=%2Fhome",
+      "status": 403
+    },
+    {
+      "url": "https://www.cityofsalem.net/Home/Components/FacilityDirectory/FacilityDirectory/122/599",
+      "status": 403
+    },
+    {
+      "url": "https://www.cityofsalem.net/Home/Components/FacilityDirectory/FacilityDirectory/161/599",
+      "status": 403
+    },
+    {
+      "url": "https://www.cityofsalem.net/community/things-to-do/parks/find-a-park",
+      "status": 403
+    },
+    {
+      "url": "https://www.cityofsheridanor.com/?SEC=9D17AA37-F0D7-4F2B-B693-4E63655C6834",
+      "status": 200
+    },
+    {
+      "url": "https://www.cityofvancouver.us/community/parks-trails/",
+      "status": 200
+    },
+    {
+      "url": "https://www.cityofvancouver.us/parks_trails/marine-park/",
+      "status": 200
+    },
+    {
+      "url": "https://www.cityofvancouver.us/parks_trails/wintler-community-park/",
+      "status": 200
+    },
+    {
+      "url": "https://www.cityofwashougal.us/Facilities/Facility/Details/Sandy-Swimming-Hole-Park-18",
+      "status": 200
+    },
+    {
+      "url": "https://www.cityofwashougal.us/facilities/facility/details/Hathaway-Park-11",
+      "status": 200
+    },
+    {
+      "url": "https://www.cityofwashougal.us/facilities/facility/details/Steamboat-Landing-Park-19",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamas.us/event/2026-08-12/community-invited-to-celebrate-new-public-art-at-riverside-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamas.us/parks",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamas.us/parks/barlow",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamas.us/parks/barton",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamas.us/parks/boonesferry",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamas.us/parks/carver",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamas.us/parks/eaglefern",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamas.us/parks/feyrer",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamas.us/parks/hebb",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamas.us/sites/default/files/images/parks/barlowtrail2.jpg",
+      "status": 200
+    },
+    {
+      "url": "https://www.clackamaspartnership.org/Project/Detail/17027",
+      "status": 200
+    },
+    {
+      "url": "https://www.clatskanieparksandrecreation.gov/fishing",
+      "status": 200
+    },
+    {
+      "url": "https://www.clatsopcounty.gov/facilities/facility/details/Westport-County-Park-15",
+      "status": 200
+    },
+    {
+      "url": "https://www.co.cowlitz.wa.us/1556/Blue-Green-Algae",
+      "status": 200
+    },
+    {
+      "url": "https://www.co.cowlitz.wa.us/2275/Coweeman-River-Park",
+      "status": 200
+    },
+    {
+      "url": "https://www.co.cowlitz.wa.us/2277/Coal-Creek-Boat-Launch",
+      "status": 200
+    },
+    {
+      "url": "https://www.co.cowlitz.wa.us/2280/Cook-Ferry-Trail-System",
+      "status": 200
+    },
+    {
+      "url": "https://www.co.cowlitz.wa.us/AlertCenter.aspx",
+      "status": 200
+    },
+    {
+      "url": "https://www.co.cowlitz.wa.us/DocumentCenter/View/35527/Parks-Comp-Plan-Final",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/crownz-trail",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/departments/ParksForestsRecreation/beaver-boat-ramp-and-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/departments/ParksForestsRecreation/big-eddy",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/departments/ParksForestsRecreation/dibblee-beach-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/departments/ParksForestsRecreation/prescott-beach",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/departments/ParksForestsRecreation/scaponia-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/maps/layer/Boatlaunch",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/media/Board/BOC/BOC%20Hearings/11-2024%20In%20the%20Matter%20of%20the%20Vacation%20of%20a%20Portion%20of%20Mayger%20Fill%20Road%20located%20in%20Section%2019%2C%20Township%208%20North%2C%20Range%203%20West%20of%20the%20Willamette%20Meridian%2C%20near%20Clatskanie%20in%20Columbia%20County%2C%20Oregon.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbiacountyor.gov/park-guidelines-1",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbiagorgenews.com/free_news/experience-mt-hood-the-gorge-awards-120-000-for-tourism-projects/article_158d096e-1d5e-4ab4-92ed-0eb4478db314.html",
+      "status": 429
+    },
+    {
+      "url": "https://www.columbiaslough.org/events-list/spring-birding-paddle-1",
+      "status": 200
+    },
+    {
+      "url": "https://www.columbuspark.net/day-use/",
+      "status": 403
+    },
+    {
+      "url": "https://www.dfw.state.or.us/OARs/rulemaking_temporary.html",
+      "status": 503
+    },
+    {
+      "url": "https://www.dfw.state.or.us/agency/commission/minutes/22/01_Jan/Field%20Report%20January%202022.pdf",
+      "status": 503
+    },
+    {
+      "url": "https://www.dfw.state.or.us/fish/OSCRP/CRM/docs/2026/2026%20Columbia%20River%20summer-fall%20regulations.pdf",
+      "status": 503
+    },
+    {
+      "url": "https://www.dfw.state.or.us/fish/license_permits_apps/docs/licensed_operators_who_have_fish_for_sale.pdf",
+      "status": 503
+    },
+    {
+      "url": "https://www.ecology.wa.gov/spills-cleanup/spills/spill-preparedness-response/responding-to-spill-incidents/spill-incidents/nippon-dynawave-industrial-incident",
+      "status": 403
+    },
+    {
+      "url": "https://www.eregulations.com/oregon/fishing/central-zone",
+      "status": 403
+    },
+    {
+      "url": "https://www.eregulations.com/oregon/fishing/columbia-river-zone",
+      "status": 403
+    },
+    {
+      "url": "https://www.eregulations.com/oregon/fishing/northwest-zone",
+      "status": 403
+    },
+    {
+      "url": "https://www.eregulations.com/oregon/fishing/willamette-zone",
+      "status": 403
+    },
+    {
+      "url": "https://www.eregulations.com/washington/fishing/puget-sound-coastal-rivers-special-rules-l-r",
+      "status": 403
+    },
+    {
+      "url": "https://www.eregulations.com/washington/fishing/statewide-freshwater-species-rules",
+      "status": 403
+    },
+    {
+      "url": "https://www.eregulations.com/washington/fishing/westside-lakes-special-rules-f-p",
+      "status": 403
+    },
+    {
+      "url": "https://www.eregulations.com/washington/fishing/westside-lakes-special-rules-q-z",
+      "status": 403
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/austin-point-boat-launch",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/blurock-landing",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/cd-hale-road-shore-launch",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/coal-creek-boat-launch",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/dalton-point",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/dibblee-point-beach-landing",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/division-streetridgefield-shore-launch",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/felida-moorage-boat-ramp-nw-122nd-street",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/frenchmans-bar-park-beach-launch",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/grey-cliffs-waterfront-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/hayes-road-bridge-shore-launch-0",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/john-pollock-water-trail-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/la-center-shore-launchtimmens-landing",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/langsdorf-landing",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/lions-community-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/martin-wdfw-boat-ramp",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/mayger-odfw-day-access-beach",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/paradise-point-state-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/pekin-ferry-lewis-river-boat-ramp-camping",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/rainier-boat-ramp",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/ridgefield-boat-rampmill-street",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/locations/launch-point/vancouver-lake-wdfw-shore-launch",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/our-work/habitat-restoration/east-fork-lewis-river-reconnection-project",
+      "status": 200
+    },
+    {
+      "url": "https://www.estuarypartnership.org/sites/default/files/2022-03/Experience%20Vancouver%20Lake%20Map.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://www.fairvieworegon.gov/Facilities/Facility/Details/Salish-Ponds-Wetland-Park-9",
+      "status": 200
+    },
+    {
+      "url": "https://www.flashalert.net/news.html?id=4139",
+      "status": 200
+    },
+    {
+      "url": "https://www.fs.usda.gov/r06/giffordpinchot/recreation/moss-creek-campground",
+      "status": 200
+    },
+    {
+      "url": "https://www.fs.usda.gov/r06/mthood/alerts/closure-place-grasshopper-fire",
+      "status": 200
+    },
+    {
+      "url": "https://www.fs.usda.gov/r06/mthood/alerts/still-creek-road-closed-oct-29",
+      "status": 404
+    },
+    {
+      "url": "https://www.fs.usda.gov/r06/mthood/recreation/clear-lake-campground",
+      "status": 200
+    },
+    {
+      "url": "https://www.fs.usda.gov/r06/mthood/recreation/trillium-lake-day-use",
+      "status": 200
+    },
+    {
+      "url": "https://www.fws.gov/locations/little-white-salmon-national-fish-hatchery",
+      "status": 200
+    },
+    {
+      "url": "https://www.fws.gov/locations/little-white-salmon-national-fish-hatchery/fishing",
+      "status": 200
+    },
+    {
+      "url": "https://www.hoodrivercounty.gov/dayuseareas2",
+      "status": 200
+    },
+    {
+      "url": "https://www.hoodrivercounty.gov/kingsleycampground",
+      "status": 200
+    },
+    {
+      "url": "https://www.hoodrivercounty.gov/tuckerpark2",
+      "status": 200
+    },
+    {
+      "url": "https://www.hoodrivercounty.gov/uploads/dm/8574/TuckerParkSiteMap.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://www.horningshideout.com/",
+      "status": 200
+    },
+    {
+      "url": "https://www.i205corridor.org/updates",
+      "status": 200
+    },
+    {
+      "url": "https://www.keizeror.gov/461/Spongs-Landing",
+      "status": 403
+    },
+    {
+      "url": "https://www.keizeror.gov/Facilities/Facility/Details/Keizer-Rapids-Park-30",
+      "status": 403
+    },
+    {
+      "url": "https://www.klickitatcounty.gov/840/Algae-Blooms",
+      "status": 200
+    },
+    {
+      "url": "https://www.kxl.com/sandy-river-park-to-remain-closed-after-bear-sighting/",
+      "status": 403
+    },
+    {
+      "url": "https://www.lincolncityparksandrec.org/parks-1/holmes-road-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.loc8nearme.com/washington/olympia/black-lake-grocery/2406064/",
+      "status": 403
+    },
+    {
+      "url": "https://www.loopnet.com/Listing/Lot-200-300-16th-St-Salem-OR/32735626/",
+      "status": 200
+    },
+    {
+      "url": "https://www.mcminnvilleoregon.gov/parksrec/page/joe-dancer-park",
+      "status": 503
+    },
+    {
+      "url": "https://www.mylongview.com/Facilities/Facility/Details/Gerhart-Gardens-Park-9",
+      "status": 200
+    },
+    {
+      "url": "https://www.mytpu.org/community-environment-parks/hydropower-natural-resources/cowlitz-river-project/cowlitz-fisheries-programs/cowlitz-trout-hatchery/",
+      "status": 200
+    },
+    {
+      "url": "https://www.mytpu.org/community-environment-parks/parks-recreation/mayfield-lake-park/",
+      "status": 200
+    },
+    {
+      "url": "https://www.mytpu.org/community-environment-parks/parks-recreation/mossyrock-park/",
+      "status": 200
+    },
+    {
+      "url": "https://www.mytpu.org/community-environment-parks/parks-recreation/river-flows-lake-levels/",
+      "status": 200
+    },
+    {
+      "url": "https://www.newsinthegrove.com/most-seasonal-state-forest-campgrounds-close-some-camping-stays-open/",
+      "status": 403
+    },
+    {
+      "url": "https://www.nwp.usace.army.mil/Missions/Recreation/Columbia-River/",
+      "status": 403
+    },
+    {
+      "url": "https://www.nwtoxicalgae.org/",
+      "status": 200
+    },
+    {
+      "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=266",
+      "status": 200
+    },
+    {
+      "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=90",
+      "status": 200
+    },
+    {
+      "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=91",
+      "status": 200
+    },
+    {
+      "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=94",
+      "status": 200
+    },
+    {
+      "url": "https://www.nwtoxicalgae.org/Data.aspx?SiteID=95",
+      "status": 200
+    },
+    {
+      "url": "https://www.onxmaps.com/backcountry/trails/hiking/us/oregon/sandy-river-park-trail-k36n93e2wz9j",
+      "status": 200
+    },
+    {
+      "url": "https://www.onxmaps.com/backcountry/trails/hiking/us/oregon/twin-lakes-trail-495-7861kp1xpzlm",
+      "status": 200
+    },
+    {
+      "url": "https://www.openstreetmap.org/way/5862847",
+      "status": 200
+    },
+    {
+      "url": "https://www.orcity.org/755/Clackamette-Boat-Ramp",
+      "status": 200
+    },
+    {
+      "url": "https://www.orcity.org/Facilities/Facility/Details/Clackamette-Cove-Trail-River-Access-Trai-27",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/OSMB/forms-library/Documents/Publications/WillametteRiverGuide07.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/dsl/waterways/pages/public-use.aspx",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/odf/recreation/_api/web/GetList('/odf/recreation/Lists/guides')/items(27)?$select=Title,COVID_x002d_19_x0020_Updates,Modified&$format=json",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/RECREATION/HARMFULALGAEBLOOMS/Pages/Blue-GreenAlgaeAdvisories.aspx",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/HealthyEnvironments/Recreation/FishConsumption/Pages/FishAdvisories.aspx",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/HealthyEnvironments/Recreation/HarmfulAlgaeBlooms/Pages/Blue-GreenAlgaeAdvisories.aspx",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/oha/ph/HealthyEnvironments/Recreation/HarmfulAlgaeBlooms/Pages/faqs.aspx",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/oha/ph/healthyenvironments/recreation/fishconsumption/pages/fishadvisories.aspx",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/oha/ph/healthyenvironments/recreation/fishconsumption/pages/mid-columbia.aspx",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/oha/ph/healthyenvironments/recreation/harmfulalgaeblooms/pages/blue-greenalgaeadvisories.aspx",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregon.gov/osmb/boater-info/pages/opportunities-and-access.aspx",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregonfishreports.com/fish_reports/221381/odfw-will-no-longer-be-stocking-walling-pond.php",
+      "status": 200
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/Cedar_Island",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/Ice_House_Lake_Trailhead",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/Lower_East_Fork_Lewis_River_Greenway_Hike",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/Pioneer_Cemetery_Trailhead",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/Punchbowl_Falls_Park_Hike",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/Punchbowl_Falls_Trailhead",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/Salish_Ponds_Accessibility_Information",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/Scaponia_Park_Trailhead",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/South_Yamhill_River_Bend",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonhikers.org/field_guide/Wapato_Greenway_Accessibility_Information",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonmetro.gov/parks-and-cemeteries/boat-ramps",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonmetro.gov/places/blue-lake-regional-park",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonmetro.gov/places/broughton-beach",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonmetro.gov/places/chinook-landing-marine-park",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonmetro.gov/places/m-james-gleason-memorial-boat-ramp",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonmetro.gov/places/oxbow-regional-park",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonmetro.gov/places/sauvie-island-boat-ramp",
+      "status": 403
+    },
+    {
+      "url": "https://www.oregonmetro.gov/places/smith-and-bybee-wetlands-natural-area",
+      "status": 403
+    },
+    {
+      "url": "https://www.pacificorp.com/community/recreation/washington.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.pacificorp.com/content/dam/pcorp/documents/en/pacificorp/energy/hydro/lewis-river/license-implementation/smp/LR-Wildlife-Conservation-Plan_Final.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://www.portland.gov/bes/environmental-services-excess-and-surplus-properties/3737-n-emerson-and-adjacent-boat-ramp",
+      "status": 200
+    },
+    {
+      "url": "https://www.portland.gov/bes/protecting-rivers-streams/documents/paddlers-access-guide-columbia-slough/download",
+      "status": 200
+    },
+    {
+      "url": "https://www.portland.gov/parks/cathedral-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.portland.gov/parks/columbia-slough-natural-area",
+      "status": 200
+    },
+    {
+      "url": "https://www.portland.gov/parks/eastbank-esplanade",
+      "status": 200
+    },
+    {
+      "url": "https://www.portland.gov/parks/fishing-portland-parks",
+      "status": 200
+    },
+    {
+      "url": "https://www.portland.gov/parks/kelley-point-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.portland.gov/parks/powers-marine-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.portland.gov/parks/sellwood-riverfront-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.portland.gov/water/visit-dodge-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofcascadelocks.gov/business-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofcascadelocks.gov/fall-2023-ordinance-regulating-conduct-on-port-property-and-repealing-and-replacing-ordinance-no-2021-1",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofcascadelocks.gov/marine-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofcascadelocks.gov/pay-to-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofhoodriver.com/waterfront",
+      "status": 403
+    },
+    {
+      "url": "https://www.portofhoodriver.com/waterfront-parking",
+      "status": 403
+    },
+    {
+      "url": "https://www.portofklickitat.com/boat-launch-parks",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofklickitat.com/conservation",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofklickitat.com/marina-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofklickitat.com/sailboard-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofskamania.org/bob-s-beach",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofskamania.org/leaven-s-point",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofskamania.org/pebble-beach",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofskamania.org/rules-and-regulations",
+      "status": 200
+    },
+    {
+      "url": "https://www.portofskamania.org/stevenson-boat-launch",
+      "status": 200
+    },
+    {
+      "url": "https://www.recreation.gov/activitypass/554be6a2-a5a0-11ec-9100-228a5ed15ebb",
+      "status": 200
+    },
+    {
+      "url": "https://www.recreation.gov/camping/campgrounds/232799",
+      "status": 200
+    },
+    {
+      "url": "https://www.recreation.gov/camping/campgrounds/232848",
+      "status": 200
+    },
+    {
+      "url": "https://www.recreation.gov/camping/poi/252416",
+      "status": 200
+    },
+    {
+      "url": "https://www.riverbendcampgroundwa.com/about-5-2",
+      "status": 200
+    },
+    {
+      "url": "https://www.roaminglog.com/snowshoes/froglake.php",
+      "status": 403
+    },
+    {
+      "url": "https://www.roverpass.com/c/big-cedars-campground-willard-wa/",
+      "status": 403
+    },
+    {
+      "url": "https://www.rvinnstyleresorts.com/properties/silver-cove-rv-resort/",
+      "status": 200
+    },
+    {
+      "url": "https://www.sauvieisland.org/hunting-fishing",
+      "status": 200
+    },
+    {
+      "url": "https://www.silverton.or.us/publicworks/page/silverton-reservoir-marine-park",
+      "status": 403
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/Home/Components/FacilityDirectory/FacilityDirectory/10/258",
+      "status": 403
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/Home/Components/FacilityDirectory/FacilityDirectory/52/258",
+      "status": 403
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/Home/Components/News/News/1366/256",
+      "status": 403
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/Home/Components/News/News/2428/15",
+      "status": 403
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/departments-offices/public-works/boat-launches",
+      "status": 403
+    },
+    {
+      "url": "https://www.skamaniacounty.gov/services/list-detail-pages/news-list",
+      "status": 403
+    },
+    {
+      "url": "https://www.streeters-resort.com/",
+      "status": 200
+    },
+    {
+      "url": "https://www.theguidesforecast.com/free/coho-and-trout-lead-fall-action/286831/",
+      "status": 403
+    },
+    {
+      "url": "https://www.theguidesforecast.com/free/salmon-action-is-shifting/287194/",
+      "status": 403
+    },
+    {
+      "url": "https://www.theswimguide.org/beach/7789",
+      "status": 200
+    },
+    {
+      "url": "https://www.theswimguide.org/beach/7795",
+      "status": 200
+    },
+    {
+      "url": "https://www.thurstoncountywa.gov/algae-advisories",
+      "status": 200
+    },
+    {
+      "url": "https://www.tigard-or.gov/your-government/departments/public-works/parks-recreation/reserve-a-park-facility",
+      "status": 403
+    },
+    {
+      "url": "https://www.toledowa.us/1367/Boat-Launch-Details",
+      "status": 403
+    },
+    {
+      "url": "https://www.troutdaleoregon.gov/publicworks/page/glenn-otto-community-park",
+      "status": 403
+    },
+    {
+      "url": "https://www.vernonia-or.gov/departments/parks/",
+      "status": 200
+    },
+    {
+      "url": "https://www.waheagle.com/home/customer_files/specialpubs/focus_2021.pdf",
+      "status": 403
+    },
+    {
+      "url": "https://www.washcoparks.org/eagle-landing-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.washcoparks.org/node/28",
+      "status": 200
+    },
+    {
+      "url": "https://www.washcoparks.org/sites/default/files/docs/Hagg%20Lake%20map%203_2022.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://www.whitewaterguidebook.com/washington/washougal-river/",
+      "status": 403
+    },
+    {
+      "url": "https://www.willowgrovepark.com/343/Boat-Launch",
+      "status": 200
+    },
+    {
+      "url": "https://www.wilsonvillelibrary.org/parksrec/page/memorial-park",
+      "status": 200
+    },
+    {
+      "url": "https://www.wta.org/go-hiking/hikes/gillette-lake-and-greenleaf-overlook",
+      "status": 403
+    },
+    {
+      "url": "https://www.yamhillcounty.gov/facilities/facility/details/Ediger-Landing-14",
+      "status": 403
+    },
+    {
+      "url": "https://yamhillcounty.gov/Facilities/Facility/Details/Rogers-Landing-15",
+      "status": 403
+    }
+  ]
+}

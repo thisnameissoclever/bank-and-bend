@@ -1874,7 +1874,8 @@
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
       "2026-11-06: Rechecked lake-specific state results, county park listing and health notices. Latest published pond sample remains July 20, 2010. No current named advisory was found, and no clearance or fresh test is claimed.",
       "2026-11-13: Rechecked the specific monitoring records and linked county/park notices. Existing advisory findings and historical sample/posting dates are unchanged.",
-      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Wallace Pond / South Lewis County Park Pond. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md."
+      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Wallace Pond / South Lewis County Park Pond. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md.",
+      "2026-11-20: Water-quality review: No current pond-specific algae advisory or closure was found in Lewis County health news or the park listing. The county still lists South County Regional Park as open year-round."
     ],
     "generalAreaName": "Wallace Pond",
     "seasonalCheckedAt": "2026-10-26",
@@ -1907,8 +1908,8 @@
       "status": "none-found",
       "summary": "No current pond-specific algae advisory or closure was found in Lewis County health news or the park listing. The county still lists South County Regional Park as open year-round.",
       "limitation": "The lake-specific state record still ends July 20, 2010. Current toxin levels and notices posted only at the pond remain unknown.",
-      "checkedAt": "2026-11-13",
-      "nextReviewAt": "2026-11-20",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-11-27",
       "nextReviewAction": "Recheck the pond-specific state results and Lewis County health and park notices, including newer Ecology preliminary-result bulletins. Do not substitute another Wallace Pond or the Lewis County-wide sample date.",
       "sourceIds": [
         "wallace-pond-toledo-review-20261113-43",
@@ -5790,6 +5791,22 @@
         "kind": "agency",
         "checkedAt": "2026-11-05",
         "supports": "Washington statewide mercury guidance limits bass to two meals per month for children and people who are or may become pregnant or nursing. Do not eat northern pikeminnow."
+      },
+      {
+        "id": "haapa-boat-launch-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "haapa-boat-launch-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -5866,7 +5883,8 @@
       "2026-10-30: Applied the newer same-river bank survey with a November 3 review window. Retained annual scores and firsthand history. Released fish and boat catches are excluded from the bank keeper rate.",
       "2026-10-31 privacy review: Judgment: an angler's repeated visits support low encounter rates and comfortable spacing with a few anglers. Trees provide partial side screening, while the selected dry bank remains beside the central waterfront path and visible from parts of the parking approach and river. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
-      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route."
+      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
+      "2026-11-20: The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "generalAreaName": "Haapa Boat Launch",
     "waterSpeedNote": "Expect a slow drift along the selected gravel bank's near edge. This is an assessment from the bank layout and prior visits. Faster seams are farther out, and changing river levels can alter the edge.",
@@ -5899,14 +5917,15 @@
       "reviewedAt": "2026-10-26"
     },
     "seasonalOverride": {
-      "score": 5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 6,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "haapa-boat-launch-1120-7d405fb5",
+        "haapa-boat-launch-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "checkedAt": "2026-10-28",
     "accessAudit": {
@@ -6726,6 +6745,14 @@
         "supports": "November 13 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed.",
         "kind": "agency",
         "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "battle-ground-lake-1120-c6f1240f",
+        "title": "Clark County regional monitoring record",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Regional_Water_Alerts_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "supports": "Clark County explicitly reports no current water advisory. Its regional and bacteria records agree; routine E. coli monitoring resumes in May 2027.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -6805,7 +6832,8 @@
       "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
       "2026-11-06: County regional and E. coli data explicitly continue to report no advisory. September 25 remains the posting date, not a new sample. Water-quality status and fishing scores are unchanged.",
       "2026-11-13: Rechecked the specific monitoring records and linked county/park notices. Existing advisory findings and historical sample/posting dates are unchanged.",
-      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Battle Ground Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md."
+      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Battle Ground Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md.",
+      "2026-11-20: Water-quality review: Clark County explicitly reports no current water advisory. Its regional and bacteria records agree; routine E. coli monitoring resumes in May 2027."
     ],
     "generalAreaName": "Battle Ground Lake",
     "seasonalCheckedAt": "2026-10-27",
@@ -6838,12 +6866,13 @@
       "status": "none-reported",
       "summary": "Clark County explicitly reports no current water advisory. Its regional and bacteria records agree; routine E. coli monitoring resumes in May 2027.",
       "limitation": "Routine sampling has ended for the season. September 25 is the posting update date; current water conditions have no fresh sample in these records.",
-      "checkedAt": "2026-11-13",
-      "nextReviewAt": "2026-11-20",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-11-27",
       "nextReviewAction": "Read the county regional and E. coli records and check the park manager for a new restriction. Retain the September 25 posting date unless the source changes.",
       "sourceIds": [
         "battle-ground-lake-review-20261113-33",
-        "battle-ground-lake-review-20261113-34"
+        "battle-ground-lake-review-20261113-34",
+        "battle-ground-lake-1120-c6f1240f"
       ],
       "sourceUpdatedAt": "2026-09-25"
     },
@@ -7274,6 +7303,22 @@
         "kind": "agency",
         "checkedAt": "2026-11-05",
         "supports": "Washington statewide mercury guidance limits bass to two meals per month for children and people who are or may become pregnant or nursing. Do not eat northern pikeminnow."
+      },
+      {
+        "id": "haydu-park-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "haydu-park-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -7346,7 +7391,8 @@
       "2026-10-30: Rechecked the latest primary bank sample. Its four anglers give limited evidence about the present week. General keeper potential and annual run timing remain unchanged.",
       "2026-10-31 privacy review: Judgment: A substantial belt of trees and brush separates the selected gravel bar from the sports fields, and the longer approach reduces incidental encounters. The bar has ample room to spread out, although people on the same bar or across the river can still see an angler. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank.",
-      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route."
+      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
+      "2026-11-20: The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "generalAreaName": "Haydu Park",
     "waterSpeedNote": "Expect slower water along the inside-bend beach. This is an inference from the inspected bank layout. The opposite riffle is a different casting position; higher water can cover the gravel and speed up the near-bank drift.",
@@ -7406,14 +7452,15 @@
       "nextReviewAt": "2026-11-12"
     },
     "seasonalOverride": {
-      "score": 6.5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 5,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "haydu-park-1120-7d405fb5",
+        "haydu-park-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "privacyReview": {
       "checkedAt": "2026-10-31",
@@ -8051,6 +8098,14 @@
         "supports": "November 13 retrieval explicitly reports no current advisory for this lake. Posting remains September 25, 2026; routine E. coli monitoring has ended and resumes May 2027. No new sample is claimed.",
         "kind": "agency",
         "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "klineline-pond-1120-c6f1240f",
+        "title": "Clark County regional monitoring record",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Regional_Water_Alerts_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "supports": "Clark County reports a bloom at Klineline. Its November 19 posting says toxins were below recreational guidance and there is no advisory. Routine E. coli monitoring resumes May 2027.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -8133,7 +8188,8 @@
       "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
       "2026-11-06: County regional and E. coli data explicitly continue to report no advisory. September 25 remains the posting date, not a new sample. Water-quality status and fishing scores are unchanged.",
       "2026-11-13: Rechecked the specific monitoring records and linked county/park notices. Existing advisory findings and historical sample/posting dates are unchanged.",
-      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Klineline Pond (main pond). No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md."
+      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Klineline Pond (main pond). No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md.",
+      "2026-11-20: Water-quality review: Clark County reports a bloom at Klineline. Its November 19 posting says toxins were below recreational guidance and there is no advisory. Routine E. coli monitoring resumes May 2027."
     ],
     "generalAreaName": "Klineline Pond",
     "seasonalCheckedAt": "2026-10-27",
@@ -8164,16 +8220,17 @@
     "checkedAt": "2026-10-28",
     "waterQuality": {
       "status": "none-reported",
-      "summary": "Clark County explicitly reports no current water advisory. Its regional and bacteria records agree; routine E. coli monitoring resumes in May 2027.",
-      "limitation": "Routine sampling has ended for the season. September 25 is the posting update date; current water conditions have no fresh sample in these records.",
-      "checkedAt": "2026-11-13",
-      "nextReviewAt": "2026-11-20",
-      "nextReviewAction": "Read the county regional and E. coli records and check the park manager for a new restriction. Retain the September 25 posting date unless the source changes.",
+      "summary": "Clark County reports a bloom at Klineline. Its November 19 posting says toxins were below recreational guidance and there is no advisory. Routine E. coli monitoring resumes May 2027.",
+      "limitation": "November 19 is the county posting date. The regional alert gives no sample date or toxin concentration.",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-11-27",
+      "nextReviewAction": "Check the regional bloom notice and pond-specific toxin results for new samples or restrictions.",
       "sourceIds": [
         "klineline-pond-review-20261113-32",
-        "klineline-pond-review-20261113-33"
+        "klineline-pond-review-20261113-33",
+        "klineline-pond-1120-c6f1240f"
       ],
-      "sourceUpdatedAt": "2026-09-25"
+      "sourceUpdatedAt": "2026-11-19"
     },
     "seasonalOverride": {
       "score": 8,
@@ -9305,7 +9362,8 @@
       "2026-11-05: The park’s lake day-use area and lake fishery are closed November-March. The September toxin results do not override the seasonal closure.",
       "2026-11-06: Lake-specific toxin table, county monitoring page and park notices rechecked. September 22 remains the newest sample. Seasonal closure remains separate and unchanged; below-guideline samples are not a formal reopening notice.",
       "2026-11-13: Rechecked the specific monitoring records and linked county/park notices. Existing advisory findings and historical sample/posting dates are unchanged.",
-      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Horsethief Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md."
+      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Horsethief Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md.",
+      "2026-11-20: Water-quality review: No active algae advisory was found in the current park and Klickitat County notices. Published samples from September 1, 8 and 22 were below recreational guidelines."
     ],
     "overallReason": "Spring rainbow stocking and broad usable park banks support good seasonal keeper prospects. Warmwater targets offer additional possibilities during the lake's open season. The day-use peninsula offers multiple separated bank positions. Busy recreation periods and wind can reduce usable choices.",
     "availability": {
@@ -9350,8 +9408,8 @@
       "status": "none-found",
       "summary": "No active algae advisory was found in the current park and Klickitat County notices. Published samples from September 1, 8 and 22 were below recreational guidelines.",
       "limitation": "September 22 remains the latest published sample. Current shoreline conditions and a formal advisory-lifting decision remain unconfirmed. The November 1 seasonal closure still applies.",
-      "checkedAt": "2026-11-13",
-      "nextReviewAt": "2026-11-20",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-11-27",
       "nextReviewAction": "Recheck lake-specific toxin records, Klickitat County health notices and the State Parks alert listing. Preserve the separate November 1 seasonal closure.",
       "sourceIds": [
         "horsethief-lake-day-use-bank-review-20261113-31",
@@ -10182,6 +10240,14 @@
         "supports": "Direct state table retrieved November 13 lists a November 9 boat-ramp microcystin sample of 0.700 micrograms/L, marked below the recreational guideline. November 2 lists microcystin 7.900 and anatoxin-a below detection. The web reader served an older October version; the direct public table supplied the newer rows.",
         "kind": "agency",
         "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "lacamas-lake-heritage-park-1120-b730501f",
+        "title": "Clark County lake-specific algae postings",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Harmful_Algal_Blooms_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "supports": "The November 9 boat-ramp sample measured microcystin at 0.700 µg/L, below guidance, with anatoxin-a below detection. The county lake layer reports no advisory; its entry is dated October 29.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -10250,7 +10316,8 @@
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
       "2026-11-05: Public parking and the established shore approach remain documented. The city’s drawdown notice ties refill to completed repairs and rainfall; it does not establish the present waterline or firm footing within casting reach. No whole-park closure is claimed. The selected fishing position remains paused pending current ground/waterline evidence.",
       "2026-11-13: Direct state table retrieved November 13 lists a November 9 boat-ramp microcystin sample of 0.700 micrograms/L, marked below the recreational guideline. November 2 lists microcystin 7.900 and anatoxin-a below detection. The web reader served an older October version; the direct public table supplied the newer rows. Access status is unchanged.",
-      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Lacamas Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md."
+      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Lacamas Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md.",
+      "2026-11-20: Water-quality review: The November 9 boat-ramp sample measured microcystin at 0.700 µg/L, below guidance, with anatoxin-a below detection. The county lake layer reports no advisory; its entry is dated October 29."
     ],
     "overallReason": "Access is paused for the specific issue in the access audit. Fishery potential does not establish a usable bank. Stocked trout support a reasonable seasonal bank opportunity when the lake is filled and usable shore is available. The current drawdown requires the inactive status to remain in place. Practical casting access is concentrated at a few openings. Much of the trail follows wooded or shallow shore, with additional limitations during drawdown.",
     "availability": {
@@ -10337,14 +10404,15 @@
     "waterQuality": {
       "category": "cyanobacteria",
       "status": "none-reported",
-      "summary": "The November 9 boat-ramp sample measured microcystin at 0.700 micrograms/L, below the state recreational guideline.",
+      "summary": "The November 9 boat-ramp sample measured microcystin at 0.700 µg/L, below guidance, with anatoxin-a below detection. The county lake layer reports no advisory; its entry is dated October 29.",
       "limitation": "A sample describes its location and date. It does not establish a formal advisory clearance or resolve drawdown footing, cove restrictions or construction closures.",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-20",
       "sourceUpdatedAt": "2026-10-29",
-      "nextReviewAt": "2026-11-20",
+      "nextReviewAt": "2026-11-27",
       "nextReviewAction": "Recheck the county record and city notices. Separately obtain the current low-water bank approach from Camas Public Works.",
       "sourceIds": [
-        "lacamas-lake-heritage-park-review-20261113-32"
+        "lacamas-lake-heritage-park-review-20261113-32",
+        "lacamas-lake-heritage-park-1120-b730501f"
       ],
       "lastSampleDate": "2026-11-09"
     },
@@ -29178,6 +29246,14 @@
         "checkedAt": "2026-11-19",
         "kind": "agency",
         "supports": "No 2026 Round Lake delivery appears. The latest Round Lake-coded state entry is April 11, 2003. Lacamas received 4,000 rainbow October 27, 2026, but that plant must not be represented as delivery at Round Lake or proof fish reached this bank."
+      },
+      {
+        "id": "round-lake-west-bank-1120-b730501f",
+        "title": "Clark County lake-specific algae postings",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Harmful_Algal_Blooms_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "supports": "Clark County reports no current advisory while monitoring an algal bloom. The October 26 north-trail sample measured microcystin at 5.2 micrograms per liter, below the 8-microgram guideline; anatoxin-a was below detection.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -29239,7 +29315,8 @@
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
       "2026-11-05: Drawdown and dam-area construction affect this approach. A dry bank position reached on an open public trail has not been established. The former normal-water pin remains removed.",
-      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Round Lake (Camas). No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md."
+      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Round Lake (Camas). No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md.",
+      "2026-11-20: Water-quality review: Clark County reports no current advisory while monitoring an algal bloom. The October 26 north-trail sample measured microcystin at 5.2 micrograms per liter, below the 8-microgram guideline; anatoxin-a was below detection."
     ],
     "overallReason": "Access is paused for the specific issue in the access audit. Fishery potential does not establish a usable bank. A separate bank fishery from Lacamas Heritage Park, with trout and perch in still water. Current drawdown and trail work limit an otherwise useful local lake option.",
     "availability": {
@@ -29282,13 +29359,14 @@
       "status": "none-reported",
       "summary": "Clark County reports no current advisory while monitoring an algal bloom. The October 26 north-trail sample measured microcystin at 5.2 micrograms per liter, below the 8-microgram guideline; anatoxin-a was below detection.",
       "limitation": "The county posting was updated October 29. Results describe the sampled area and date; a visible bloom remains under monitoring. Access restrictions remain separate.",
-      "checkedAt": "2026-11-05",
+      "checkedAt": "2026-11-20",
       "sourceUpdatedAt": "2026-10-29",
-      "nextReviewAt": "2026-11-12",
+      "nextReviewAt": "2026-11-27",
       "nextReviewAction": "Requery the public algae layer for Round Lake and review the latest dated samples and shore notices.",
       "sourceIds": [
         "round-public-layer-20261030",
-        "round-toxins-20261030"
+        "round-toxins-20261030",
+        "round-lake-west-bank-1120-b730501f"
       ],
       "category": "cyanobacteria",
       "lastSampleDate": "2026-10-26"
@@ -32068,6 +32146,14 @@
         "checkedAt": "2026-11-19",
         "kind": "agency",
         "supports": "No matching Vancouver Lake release appears in the six-county historical inventory or 2026 plan. WDFW describes an abundant resident warmwater fishery, including crappie and perch."
+      },
+      {
+        "id": "vancouver-lake-regional-park-bank-1120-b730501f",
+        "title": "Clark County lake-specific algae postings",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Harmful_Algal_Blooms_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "supports": "Clark County explicitly reports no current Vancouver Lake advisories and no reported harmful algal bloom in its October 29, 2026 alert entry.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -32153,7 +32239,8 @@
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
       "2026-11-05: Updated the older October 7 alert reference to the current October 29 county entry.",
       "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
-      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Vancouver Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md."
+      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Vancouver Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md.",
+      "2026-11-20: Water-quality review: Clark County explicitly reports no current Vancouver Lake advisories and no reported harmful algal bloom in its October 29, 2026 alert entry."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -32186,11 +32273,12 @@
       "status": "none-reported",
       "summary": "Clark County explicitly reports no current Vancouver Lake advisories and no reported harmful algal bloom in its October 29, 2026 alert entry.",
       "limitation": "October 29 is the alert-record update date, not a new sample date. Routine bacterial sampling has ended for the season.",
-      "checkedAt": "2026-11-05",
-      "nextReviewAt": "2026-11-12",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-11-27",
       "nextReviewAction": "Recheck Clark County water alerts and lake signs before fishing.",
       "sourceIds": [
-        "clark-water-alerts"
+        "clark-water-alerts",
+        "vancouver-lake-regional-park-bank-1120-b730501f"
       ],
       "sourceUpdatedAt": "2026-10-29"
     },
@@ -32508,6 +32596,14 @@
         "checkedAt": "2026-11-19",
         "kind": "agency",
         "supports": "No matching Vancouver Lake release appears in the six-county historical inventory or 2026 plan. WDFW describes an abundant resident warmwater fishery, including crappie and perch."
+      },
+      {
+        "id": "vancouver-lake-wdfw-south-bank-1120-b730501f",
+        "title": "Clark County lake-specific algae postings",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Harmful_Algal_Blooms_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "supports": "Clark County explicitly reports no current Vancouver Lake advisories and no reported harmful algal bloom in its October 29, 2026 alert entry.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -32589,7 +32685,8 @@
       "2026-11-05 stocking review: Rechecked WDFW Fish Plants, the catchable-plant report and the current 2026 annual plan for the grouped waterbody. No newer confirmed keeper-size delivery or material plan correction was found. Scheduled weeks remain plans. Current-season prospects, access, advisories and availability are unchanged. See docs/research/2026-11-05-stocking.md.",
       "2026-11-05: Full refresh rechecked the linked stocking delivery queries, schedules and regional reports. Existing confirmed deliveries are retained; a scheduled week is not delivery confirmation. No unsupported quantities remaining are inferred.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Vancouver Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md."
+      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Vancouver Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md.",
+      "2026-11-20: Water-quality review: Clark County explicitly reports no current Vancouver Lake advisories and no reported harmful algal bloom in its October 29, 2026 alert entry."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -32619,12 +32716,13 @@
       "status": "none-reported",
       "summary": "Clark County explicitly reports no current Vancouver Lake advisories and no reported harmful algal bloom in its October 29, 2026 alert entry.",
       "limitation": "This is the county's lake advisory entry, not a recent sample collected at the south launch. No sample date was supplied.",
-      "checkedAt": "2026-11-05",
+      "checkedAt": "2026-11-20",
       "sourceUpdatedAt": "2026-10-29",
-      "nextReviewAt": "2026-11-12",
+      "nextReviewAt": "2026-11-27",
       "nextReviewAction": "Recheck the county lake alert and any posted launch notices.",
       "sourceIds": [
-        "vancouver-water-20261101"
+        "vancouver-water-20261101",
+        "vancouver-lake-wdfw-south-bank-1120-b730501f"
       ]
     },
     "availability": {
@@ -34072,6 +34170,22 @@
         "kind": "agency",
         "supports": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
         "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "lewis-martin-pekin-wdfw-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "lewis-martin-pekin-wdfw-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -34143,7 +34257,8 @@
       "2026-10-31 privacy review: Judgment: The supported dry bank lies directly east of the concrete ramp and close to the WDFW lot. Anglers can spread somewhat along the frontage, but launch users and river boats retain clear views of the fishing position. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route."
+      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
+      "2026-11-20: The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -34212,14 +34327,15 @@
       "coordinateMethod": "Returned ArcGIS export extent in EPSG:4326, visual pixel selection, rounded to five decimal places; retained supported original points and explicit manager coordinates where noted."
     },
     "seasonalOverride": {
-      "score": 5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 6,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "lewis-martin-pekin-wdfw-bank-1120-7d405fb5",
+        "lewis-martin-pekin-wdfw-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "privacyReview": {
       "checkedAt": "2026-10-31",
@@ -34376,6 +34492,22 @@
         "checkedAt": "2026-11-06",
         "kind": "operator",
         "supports": "Private visitor access and host registration; confirm current fishing access charge."
+      },
+      {
+        "id": "lewis-pekin-ferry-private-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "lewis-pekin-ferry-private-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -34446,7 +34578,8 @@
       "2026-11-05: Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
       "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
-      "2026-11-06: Paid fishing classification and fee evidence added. Existing access, advisory and stocking dates are preserved unless specifically revised."
+      "2026-11-06: Paid fishing classification and fee evidence added. Existing access, advisory and stocking dates are preserved unless specifically revised.",
+      "2026-11-20: The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -34514,14 +34647,15 @@
       "coordinateMethod": "Returned ArcGIS export extent in EPSG:4326, visual pixel selection, rounded to five decimal places; retained supported original points and explicit manager coordinates where noted."
     },
     "seasonalOverride": {
-      "score": 5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 6,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "lewis-pekin-ferry-private-bank-1120-7d405fb5",
+        "lewis-pekin-ferry-private-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "privacyReview": {
       "checkedAt": "2026-10-31",
@@ -35310,6 +35444,22 @@
         "kind": "agency",
         "supports": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
         "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "lewis-goerig-hayes-bridge-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "lewis-goerig-hayes-bridge-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -35381,7 +35531,8 @@
       "2026-10-31 privacy review: Judgment: The small bank opening sits beside the Hayes Road bridge and its shared gravel access. People on the approach, at the bridge or on the river can see the position, and another group leaves little separation. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route."
+      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
+      "2026-11-20: The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -35451,14 +35602,15 @@
       "coordinateMethod": "Returned ArcGIS export extent in EPSG:4326, visual pixel selection, rounded to five decimal places; retained supported original points and explicit manager coordinates where noted."
     },
     "seasonalOverride": {
-      "score": 5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 6,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "lewis-goerig-hayes-bridge-bank-1120-7d405fb5",
+        "lewis-goerig-hayes-bridge-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "privacyReview": {
       "checkedAt": "2026-10-31",
@@ -40525,6 +40677,22 @@
         "kind": "agency",
         "supports": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
         "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "lewis-island-ramp-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "lewis-island-ramp-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -40594,7 +40762,8 @@
       "2026-10-31 privacy review: Judgment: The short mainland bank opening is close to the launch lot and concrete apron. Some separation is possible away from the ramp, but arriving boaters and other anglers can readily see the open margin. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route."
+      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
+      "2026-11-20: The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "overallReason": "An easy public launch beside a slower river channel, with some bank space away from boats. The large gravel island across the water requires a boat.",
     "checkedAt": "2026-10-28",
@@ -40667,14 +40836,15 @@
       "coordinateMethod": "Returned ArcGIS export extent in EPSG:4326, visual pixel selection, rounded to five decimal places; retained supported original points and explicit manager coordinates where noted."
     },
     "seasonalOverride": {
-      "score": 5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 6,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "lewis-island-ramp-bank-1120-7d405fb5",
+        "lewis-island-ramp-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "privacyReview": {
       "checkedAt": "2026-10-31",
@@ -40854,6 +41024,22 @@
         "kind": "agency",
         "supports": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
         "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "lewis-cedar-creek-launch-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "lewis-cedar-creek-launch-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -40925,7 +41111,8 @@
       "2026-10-31 privacy review: Judgment: The published fishing position is beside the ramp and visible gravel lot. Boat crews, bank anglers and people at the hatchery across the river have potential sightlines, with little screening on the open launch edge. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route."
+      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
+      "2026-11-20: The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "overallReason": "A main-river bank at the Cedar Creek confluence, across from the hatchery. Launch traffic can be busy, but the adjacent gravel bank is a real fishing option.",
     "checkedAt": "2026-10-28",
@@ -40998,14 +41185,15 @@
       "coordinateMethod": "Returned ArcGIS export extent in EPSG:4326, visual pixel selection, rounded to five decimal places; retained supported original points and explicit manager coordinates where noted."
     },
     "seasonalOverride": {
-      "score": 5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 6,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "lewis-cedar-creek-launch-bank-1120-7d405fb5",
+        "lewis-cedar-creek-launch-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "privacyReview": {
       "checkedAt": "2026-10-31",
@@ -41185,6 +41373,22 @@
         "kind": "agency",
         "supports": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
         "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "lewis-hatchery-walk-in-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "lewis-hatchery-walk-in-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -41245,7 +41449,8 @@
       "2026-11-01: Reinspected area imagery for roads, shoreline, vegetation and physical obstacles. Pin-gap explanations distinguish closures, missing legal routes and unresolved coordinates. This image review alone does not refresh fishing rules or advisory dates.",
       "2026-11-05: Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route."
+      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
+      "2026-11-20: The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "overallReason": "A practical walk-in bank for hatchery salmon and steelhead. Fishing potential is strong; room to spread out is the main compromise.",
     "checkedAt": "2026-10-28",
@@ -41316,14 +41521,15 @@
       "coordinateMethod": "Returned ArcGIS export extent in EPSG:4326, visual pixel selection, rounded to five decimal places; retained supported original points and explicit manager coordinates where noted."
     },
     "seasonalOverride": {
-      "score": 5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 6,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "lewis-hatchery-walk-in-bank-1120-7d405fb5",
+        "lewis-hatchery-walk-in-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "privacyReview": {
       "checkedAt": "2026-10-31",
@@ -41515,6 +41721,22 @@
         "kind": "agency",
         "supports": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
         "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "lewis-johnson-creek-walk-in-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "lewis-johnson-creek-walk-in-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -41584,7 +41806,8 @@
       "2026-10-31 privacy review: Judgment: The forested walk-in route and substantial wooded buffer separate the creek-mouth bank from the road, parking and launch activity. Distinct bank pockets offer good landward screening and workable separation; other anglers using the same trail and river boats remain possible observers. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route."
+      "2026-11-05: Access/status review: The current access source still documents public use at this location. The previously audited parking-to-shore route is retained; this review found no notice closing that specific route.",
+      "2026-11-20: The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "overallReason": "A short forest walk reaches a public bank near Johnson Creek. The signed route avoids the neighboring private driveways.",
     "checkedAt": "2026-10-28",
@@ -41657,14 +41880,15 @@
       "coordinateMethod": "Returned ArcGIS export extent in EPSG:4326, visual pixel selection, rounded to five decimal places; retained supported original points and explicit manager coordinates where noted."
     },
     "seasonalOverride": {
-      "score": 5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 6,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "lewis-johnson-creek-walk-in-bank-1120-7d405fb5",
+        "lewis-johnson-creek-walk-in-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Lewis survey recorded 13 salmon or steelhead kept by 93 bank anglers, 0.14 keeper per surveyed angler. Adult keeper opportunity remains, but bank success was modest. Preserve the firsthand tiny-trout and unsuccessful-session observations; visible salmon alone do not improve this score."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Lewis bank samples recorded 13 salmon kept by 78 surveyed anglers (0.17 each): nine adult coho, three coho jacks and one Chinook. Coho were kept in both weeks. Moderate prospects for a keeper. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "privacyReview": {
       "checkedAt": "2026-10-31",
@@ -43064,6 +43288,14 @@
         "supports": "Direct state table retrieved November 13 lists a November 9 boat-ramp microcystin sample of 0.700 micrograms/L, marked below the recreational guideline. November 2 lists microcystin 7.900 and anatoxin-a below detection. The web reader served an older October version; the direct public table supplied the newer rows.",
         "kind": "agency",
         "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "lacamas-leadbetter-launch-bank-1120-b730501f",
+        "title": "Clark County lake-specific algae postings",
+        "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/Hosted/Harmful_Algal_Blooms_RO/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+        "supports": "The November 9 boat-ramp sample measured microcystin at 0.700 µg/L, below guidance, with anatoxin-a below detection. The county lake layer reports no advisory; its entry is dated October 29.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -43133,7 +43365,8 @@
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
       "2026-11-05: Public parking and the established shore approach remain documented. The city’s drawdown notice ties refill to completed repairs and rainfall; it does not establish the present waterline or firm footing within casting reach. No whole-park closure is claimed. The selected fishing position remains paused pending current ground/waterline evidence.",
       "2026-11-13: Direct state table retrieved November 13 lists a November 9 boat-ramp microcystin sample of 0.700 micrograms/L, marked below the recreational guideline. November 2 lists microcystin 7.900 and anatoxin-a below detection. The web reader served an older October version; the direct public table supplied the newer rows. Access status is unchanged.",
-      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Lacamas Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md."
+      "2026-11-19 stocking review: Rechecked the complete 2026 WDFW Fish Plants dataset, catchable report and current annual-plan evidence for Lacamas Lake. No later matching release was found beyond the retained events. Missing records do not prove fish are absent. Access, advisory and availability dates are unchanged. See docs/research/2026-11-19-stocking.md.",
+      "2026-11-20: Water-quality review: The November 9 boat-ramp sample measured microcystin at 0.700 µg/L, below guidance, with anatoxin-a below detection. The county lake layer reports no advisory; its entry is dated October 29."
     ],
     "overallReason": "Access is paused for the specific issue in the access audit. Fishery potential does not establish a usable bank. A small north-side launch opening with close parking. Useful as a short bank attempt, with limited room and seasonal low-water mud.",
     "checkedAt": "2026-10-28",
@@ -43176,14 +43409,15 @@
     "waterQuality": {
       "category": "cyanobacteria",
       "status": "none-reported",
-      "summary": "The November 9 boat-ramp sample measured microcystin at 0.700 micrograms/L, below the state recreational guideline.",
+      "summary": "The November 9 boat-ramp sample measured microcystin at 0.700 µg/L, below guidance, with anatoxin-a below detection. The county lake layer reports no advisory; its entry is dated October 29.",
       "limitation": "A sample describes its location and date. It does not establish a formal advisory clearance or resolve drawdown footing, cove restrictions or construction closures.",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-20",
       "sourceUpdatedAt": "2026-10-29",
-      "nextReviewAt": "2026-11-20",
+      "nextReviewAt": "2026-11-27",
       "nextReviewAction": "Recheck the county record and city notices. Separately obtain the current low-water bank approach from Camas Public Works.",
       "sourceIds": [
-        "lacamas-leadbetter-launch-bank-review-20261113-32"
+        "lacamas-leadbetter-launch-bank-review-20261113-32",
+        "lacamas-leadbetter-launch-bank-1120-b730501f"
       ],
       "lastSampleDate": "2026-11-09"
     },
@@ -44939,6 +45173,22 @@
         "kind": "agency",
         "supports": "Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank.",
         "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "kalama-fishermans-loop-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "kalama-fishermans-loop-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -45005,7 +45255,8 @@
       "2026-10-30: Rechecked the latest primary bank sample. Its four anglers give limited evidence about the present week. General keeper potential and annual run timing remain unchanged.",
       "2026-10-31 privacy review: Judgment: Trees edge the modest bank clearing, but the supported position is only a short walk from the public lot and shares the launch approach. Other anglers and boaters can readily see anyone occupying the opening. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank.",
-      "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance."
+      "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
+      "2026-11-20: The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -45056,14 +45307,15 @@
     },
     "checkedAt": "2026-10-28",
     "seasonalOverride": {
-      "score": 6.5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 5,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "kalama-fishermans-loop-bank-1120-7d405fb5",
+        "kalama-fishermans-loop-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "overallReason": "Hatchery steelhead, Chinook and coho provide worthwhile fish during their runs. The small river can be fished with floats and conventional lures; clear low water can make fish reluctant. A few anglers can share the clearing, but 50-100 feet of separation becomes difficult once several people arrive.",
     "accessAudit": {
@@ -45247,6 +45499,22 @@
         "kind": "agency",
         "supports": "Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank.",
         "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "kalama-sportsmans-club-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "kalama-sportsmans-club-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -45313,7 +45581,8 @@
       "2026-10-30: Rechecked the latest primary bank sample. Its four anglers give limited evidence about the present week. General keeper potential and annual run timing remain unchanged.",
       "2026-10-31 privacy review: Judgment: The supported public corner is beside the launch and privately operated riverfront grounds. It leaves very little room to move out of other users' view, even though a much wider bar is visible beyond the verified parcel. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank.",
-      "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance."
+      "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
+      "2026-11-20: The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -45364,14 +45633,15 @@
     },
     "checkedAt": "2026-10-28",
     "seasonalOverride": {
-      "score": 6.5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 5,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "kalama-sportsmans-club-bank-1120-7d405fb5",
+        "kalama-sportsmans-club-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "overallReason": "Hatchery steelhead, Chinook and coho provide worthwhile fish during their runs. The small river can be fished with floats and conventional lures; clear low water can make fish reluctant. The verified public corner provides few separate casting positions and shares the approach with boats.",
     "accessAudit": {
@@ -45579,6 +45849,22 @@
         "kind": "agency",
         "supports": "Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank.",
         "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "kalama-modrow-bridge-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "kalama-modrow-bridge-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": null,
@@ -45640,7 +45926,8 @@
       "2026-10-31 privacy review: Judgment: The wooded descent provides some screening from parking and the wider road corridor. The bank still lies close to the bridge and launch approach, so passing access users and other anglers can see the limited shared position. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-01: Reinspected area imagery for roads, shoreline, vegetation and physical obstacles. Pin-gap explanations distinguish closures, missing legal routes and unresolved coordinates. This image review alone does not refresh fishing rules or advisory dates.",
       "2026-11-05: Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank.",
-      "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance."
+      "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
+      "2026-11-20: The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -45691,14 +45978,15 @@
     },
     "checkedAt": "2026-10-28",
     "seasonalOverride": {
-      "score": 6.5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 5,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "kalama-modrow-bridge-bank-1120-7d405fb5",
+        "kalama-modrow-bridge-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "overallReason": "Hatchery steelhead, Chinook and coho provide worthwhile fish during their runs. The small river can be fished with floats and conventional lures; clear low water can make fish reluctant. Room is concentrated around the launch. A quiet visit can provide space, while a few groups can fill the practical casting positions.",
     "accessAudit": {
@@ -45951,6 +46239,22 @@
         "checkedAt": "2026-11-05",
         "kind": "agency",
         "supports": "WDFW continues to list year-round public access and parking at Beginners’ Hole. The pipeline-to-lower-hatchery fly-only period ended October 31; current rules allow conventional tackle in November. The previously audited lot-to-bank route remains supported. Keep the narrow launch-side bank clear for other users."
+      },
+      {
+        "id": "kalama-beginners-hole-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "kalama-beginners-hole-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -46019,7 +46323,8 @@
       "2026-10-31 privacy review: Judgment: The useful pool and short bank entry concentrate anglers within one shared clearing near parking. Even when room remains for casting, the position offers little concealment from others arriving to fish. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank.",
       "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
-      "2026-11-05: WDFW continues to list year-round public access and parking at Beginners’ Hole. The pipeline-to-lower-hatchery fly-only period ended October 31; current rules allow conventional tackle in November. The previously audited lot-to-bank route remains supported. Keep the narrow launch-side bank clear for other users."
+      "2026-11-05: WDFW continues to list year-round public access and parking at Beginners’ Hole. The pipeline-to-lower-hatchery fly-only period ended October 31; current rules allow conventional tackle in November. The previously audited lot-to-bank route remains supported. Keep the narrow launch-side bank clear for other users.",
+      "2026-11-20: The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -46103,14 +46408,15 @@
     },
     "fishingBackground": "Hatchery steelhead, Chinook and coho provide worthwhile fish during their runs. The small river can be fished with floats and conventional lures; clear low water can make fish reluctant.",
     "seasonalOverride": {
-      "score": 6.5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 5,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "kalama-beginners-hole-bank-1120-7d405fb5",
+        "kalama-beginners-hole-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     }
   },
   {
@@ -46262,6 +46568,22 @@
         "kind": "agency",
         "supports": "Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank.",
         "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "kalama-hand-bank-1120-7d405fb5",
+        "title": "WDFW tributary interviews, November 2–8",
+        "url": "https://nwsportsmanmag.com/sw-wa-fishing-report-11-10-26/",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "report"
+      },
+      {
+        "id": "kalama-hand-bank-1120-37df5b08",
+        "title": "WDFW tributary interviews, November 9–15",
+        "url": "https://wdfw.wa.gov/sites/default/files/2026-11/swwa-fishing-reports-nov-9-15-2026.pdf",
+        "supports": "river-wide salmon and steelhead counts. Other species and catches at this bank were not reported.",
+        "checkedAt": "2026-11-20",
+        "kind": "agency"
       }
     ],
     "parking": {
@@ -46328,7 +46650,8 @@
       "2026-10-30: Rechecked the latest primary bank sample. Its four anglers give limited evidence about the present week. General keeper potential and annual run timing remain unchanged.",
       "2026-10-31 privacy review: Judgment: The small gravel opening is close to its parking approach and neighboring homes. A few anglers can spread out when lightly used, but arriving visitors share clear views of the same bank. This updates the privacy judgment only. The earlier physical-room assessment is retained separately for existing space constraints. Access, fishing and advisory dates are unchanged.",
       "2026-11-05: Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank.",
-      "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance."
+      "2026-11-05: Rechecked the linked public monitoring/advisory and fish-consumption sources. Retained source posting and sample dates separately. Missing recent testing does not establish an active advisory or clearance.",
+      "2026-11-20: The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     ],
     "seasonality": {
       "monthlyScores": [
@@ -46379,14 +46702,15 @@
     },
     "checkedAt": "2026-10-28",
     "seasonalOverride": {
-      "score": 6.5,
-      "from": "2026-11-05",
-      "through": "2026-11-09",
-      "checkedAt": "2026-11-05",
+      "score": 5,
+      "from": "2026-11-20",
+      "through": "2026-11-23",
       "sourceIds": [
-        "swwa-creel-20261102"
+        "kalama-hand-bank-1120-7d405fb5",
+        "kalama-hand-bank-1120-37df5b08"
       ],
-      "reason": "Judgment: the October 26-November 1 Kalama survey recorded 1 coho and 2 steelhead kept by 9 bank anglers, 0.33 keeper per surveyed angler. That supports a worthwhile late-run attempt with conventional lures at open reaches. The sample is small and does not establish catches at this exact bank."
+      "checkedAt": "2026-11-20",
+      "reason": "The Nov 2-15 Kalama bank samples recorded one steelhead kept by 14 surveyed anglers (0.07 each); Chinook and coho were released. A keeper is plausible, but recent evidence for salmon and steelhead is modest. These are river-wide salmon and steelhead counts. Other species and catches at this bank were not reported."
     },
     "overallReason": "Hatchery steelhead, Chinook and coho provide worthwhile fish during their runs. The small river can be fished with floats and conventional lures; clear low water can make fish reluctant. Enough room for a few separated positions when lightly used, but a busy launch occupies most of the opening.",
     "accessAudit": {

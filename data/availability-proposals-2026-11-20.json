@@ -1,0 +1,469 @@
+{
+  "applied": false,
+  "checkedAt": "2026-11-20",
+  "baseGlobalRevision": 305,
+  "records": [
+    {
+      "spotId": "horsethief-lake-day-use-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: State Parks closes the lake area November through March. The WDFW lake season ended October 31. Neither lake parking nor a keeper fishery is available here.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2027-03-19",
+        "sourceUrls": [
+          "https://parks.wa.gov/find-parks/state-parks/columbia-hills-historical-state-park",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false
+    },
+    {
+      "spotId": "sandy-oxbow-coho-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Metro closes the entire park, including the launch and equestrian path, for water-system replacement. The usual parking and trails cannot be used. Reopening is expected in early 2027.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://www.oregonmetro.gov/places/oxbow-regional-park",
+          "https://myodfw.com/articles/regulation-updates",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "merwin-speelyai-bay-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: PacifiCorp closes the entire park to public use. Seawall work blocks the picnic shore and part of the lot; low water also closed the launch.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "merwin-cresap-bay-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Cresap Bay day use ended September 30. The selected parking and shore are inside the seasonal park.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2027-04-23",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "yale-saddle-dam-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: The lakeside park closed Labor Day. Only the equestrian trailhead is listed year-round; the manager does not identify a winter route from there to the selected bank.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2027-04-23",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "yale-park-south-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": true,
+        "reason": "2026-11-20: Yale Park remains open for other recreation during the November 8 boat-ramp closure. The mapped lawn and shore approach is south of the ramp. Present low-water footing at the beach is unknown.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-11-27",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "yale-cougar-park-peninsula-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Cougar Park day use ended Labor Day. Its launch is separately closed for low water. The shoreline portage notice does not open winter parking.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2027-04-23",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "yale-beaver-bay-day-use-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Beaver Bay day use ends September 30. The renovated parking and beach are inside the seasonal gate.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2027-04-23",
+        "sourceUrls": [
+          "https://www.pacificorp.com/community/recreation/washington.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "swift-power-canal-pier-bank",
+      "expectedRevision": 1,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: The canal fishery ended October 31 under WAC 220-312-030. The bank platform cannot provide a legal keeper trip during the closure.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2027-04-02",
+        "sourceUrls": [
+          "https://www.bestfishinginamerica.com/washington-swift-reservoir-and-swift-power-canal-fishing.html",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false
+    },
+    {
+      "spotId": "east-fork-lucia-upstream-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: The selected reach lies within the fishing closure between the lower Big Eddy markers and 100 feet above Lucia Falls. Public park trails do not provide a legal fishing position inside those boundaries.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2027-01-15",
+        "sourceUrls": [
+          "https://clark.wa.gov/public-works/lucia-falls-regional-park",
+          "https://clark.wa.gov/public-works/fishing",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "east-fork-moulton-upstream-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Fishing is closed within 400 feet above and below Moulton Falls. No confirmed public casting position outside that boundary is documented for this park route.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://clark.wa.gov/public-works/moulton-falls-regional-park",
+          "https://clark.wa.gov/public-works/fishing",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "gales-creek-day-bank",
+      "expectedRevision": 2,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Oregon Forestry still lists the campground, trailhead and day-use area closed for forest operations. Visitor parking and the trail to the bank are inside the closure.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-04",
+        "sourceUrls": [
+          "https://www.oregon.gov/odf/recreation/_api/web/GetList('/odf/recreation/Lists/guides')/items(27)?$select=Title,COVID_x002d_19_x0020_Updates,Modified&$format=json",
+          "https://www.newsinthegrove.com/most-seasonal-state-forest-campgrounds-close-some-camping-stays-open/",
+          "https://www.eregulations.com/oregon/fishing/willamette-zone",
+          "https://myodfw.com/articles/regulation-updates"
+        ],
+        "inactiveFrom": "2026-11-01"
+      },
+      "applied": false
+    },
+    {
+      "spotId": "hicks-lake-wanschers-bank",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: The lake fishing season ended October 31. Park entry or an open launch cannot provide a legal keeper trip before the fourth Saturday in April.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2027-04-02",
+        "sourceUrls": [
+          "https://laceyparks.org/parks_trails/wanschers-community-park/",
+          "https://www.eregulations.com/washington/fishing/westside-lakes-special-rules-f-p"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "hicks-lake-wdfw-bank",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: The WDFW lot leads to the launch-side bank, but the lake season ended October 31 and resumes the fourth Saturday in April.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2027-04-02",
+        "sourceUrls": [
+          "https://wdfw.wa.gov/fishing/locations/lowland-lakes/hicks-lake",
+          "https://www.eregulations.com/washington/fishing/westside-lakes-special-rules-f-p"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "lacamas-lake-heritage-park",
+      "expectedRevision": 6,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: The city describes a six-foot drawdown and rainfall-dependent refill. Neither the city notice nor the boat-ramp toxin sample establishes a firm dry casting stance below Heritage Park.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-11-27",
+        "sourceUrls": [
+          "https://www.cityofcamas.us/publicworks/page/lacamas-lake-drawdown-scheduled-sept-21",
+          "https://clark.wa.gov/public-works/trail-and-access-closures-begin-soon-lacamas-regional-park-bridge-replacement-project",
+          "https://clark.wa.gov/sites/all/files/environmental-services/legacy-lands/lacamasheritagetrail.pdf",
+          "https://engagecamas.com/lacamas-lake-management-plan"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "round-lake-west-bank",
+      "expectedRevision": 3,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: The city announced trail closures around the dam and a rainfall-dependent refill. The bridge project also affects some park trails. No dated confirmation establishes the complete west-bank route.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-11-27",
+        "sourceUrls": [
+          "https://clark.wa.gov/public-works/lacamas-regional-park",
+          "https://www.cityofcamas.us/publicworks/page/lacamas-lake-drawdown-scheduled-sept-21",
+          "https://app.leg.wa.gov/WAC/default.aspx?cite=220-312-030",
+          "https://wdfw.wa.gov/fishing/regulations/emergency-rules",
+          "https://wdfw.wa.gov/places-to-go/alerts",
+          "https://clark.wa.gov/public-works/trail-and-access-closures-begin-soon-lacamas-regional-park-bridge-replacement-project"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "lacamas-leadbetter-launch-bank",
+      "expectedRevision": 4,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Launch parking alone does not establish a usable bank at low water. The city published a refill estimate but no confirmation of dry footing within casting reach at Leadbetter.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-11-27",
+        "sourceUrls": [
+          "https://www.cityofcamas.us/publicworks/page/lacamas-lake-drawdown-scheduled-sept-21",
+          "https://clark.wa.gov/public-works/trail-and-access-closures-begin-soon-lacamas-regional-park-bridge-replacement-project",
+          "https://clark.wa.gov/sites/all/files/environmental-services/legacy-lands/lacamasheritagetrail.pdf",
+          "https://engagecamas.com/lacamas-lake-management-plan"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-howell-ponds",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Member parking is adjacent to South Pond near the launch. Walking is allowed around both ponds. The published property marker does not identify the authorized drive from the public road.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/howell-ponds/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-big-little-tree-lakes",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Both lakes are catch-and-release only. The club describes easy bank access, but neither lake offers a keeper.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/big-little-tree-lakes/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-hartland-lake",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: The club requires releasing every fish along the shoreline trail.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/hartland-lake/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-schmadeke-pond",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: All species must be released. The club recommends a float tube or boat for best access.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/schmadeke-pond/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-big-creek",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: A reservation through Big Creek Fishing Club is required, preferably seven days ahead, with a separate per-angler fee. The authorized member arrival point remains unidentified.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/big-creek/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-highland-ponds",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Boulder and Ondi allow limited trout harvest; Shauna requires release. A member entrance leading specifically to either keeper pond has not been established.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/highland-ponds/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-blue-den-lake-pond",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: The manager directs members to park downhill from the lake and prohibits parking at the launch. The public marker does not locate the designated downhill lot.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/blue-den-lake-pond/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-twin-oaks-pond",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Members may keep limited trout from three docks. The operator identifies an airport and an alpaca farm as neighbors but gives no designated visitor drive or parking point.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/twin-oaks-pond/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-burdick-pond",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: All species must be released. The perimeter trail does not provide a keeper fishery.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/burdick-pond/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-north-santiam-pond",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: All trout must be released. The accessible pond bank does not provide a keeper trip.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/north-santiam-pond/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-tom-molly-ponds",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: Both ponds require releasing every fish, even from the accessible grassy bank.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/tom-molly-ponds/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    },
+    {
+      "spotId": "ofc-pudding-river-at-pats-acres",
+      "expectedRevision": 0,
+      "availability": {
+        "active": false,
+        "reason": "2026-11-20: The club prohibits parking at the launch. Parking is at the downstream takeout, about a quarter-mile walk from the launch. The public map does not locate the designated lot. Winter flooding also closes the property.",
+        "checkedAt": "2026-11-20",
+        "nextReviewAt": "2026-12-18",
+        "sourceUrls": [
+          "https://oregonfishingclub.com/property/pudding-river-at-pats-acres/",
+          "https://oregonfishingclub.com/map/"
+        ]
+      },
+      "applied": false
+    }
+  ]
+}
